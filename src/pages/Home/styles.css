@@ -853,6 +853,190 @@
     }
 }
 
+@media (max-width: 375px) {
+    .first_container {
+        flex-direction: column;
+        text-align: center;
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .home_block_text {
+        font-size: 120% ;
+        padding: 3rem 0rem 0rem 0rem;
+    }
+    
+    .home_block_links {
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .home_first_btn button {
+        width: 150px;
+        height: 55px;
+    
+    }
+    
+    .home_second_btn button {
+        width: 150px;
+        height: 55px;
+    }
+
+    .photo img {
+        max-width: 260px;
+    }
+
+    .logowmk img {
+        width: 330px;
+    }
+
+    .container_img {
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .second_container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .second_home_block {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .second_block_text {
+        font-size: 120%;
+    }
+
+    .second_container_img img {
+        max-width: 300px;
+    }
+
+    .title_container {
+        font-size: 120%;
+        padding: 2rem;
+    }
+    
+    .list_box {
+        gap: 2rem;
+        padding: 1rem 0rem 0rem 2.5rem;   
+    }
+
+    .item_list {
+        max-width: 70%;
+    }
+
+    .fourth_container {
+        padding: 3rem 0rem 0rem 0rem;
+    }
+
+    .container_box {
+        gap: 3rem;
+    }
+
+    .item_box {
+        max-width: 320px;
+        max-height: 300px;
+    }
+
+    .item_box img {
+        object-fit: cover;
+    }
+
+    .logos_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fifth_container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title_fifthcontainer {
+        font-size: 100%;
+        padding: 0rem 0rem 3rem 0rem;
+    }
+
+    .container_imgft {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_imgft img {
+        max-width: 300px;
+    }
+
+    .signature_content_container {
+        font-size: 120%;
+        padding: 0rem 0rem 0rem 0rem;
+        line-height: 3rem;
+    }
+
+    .benefits_content {
+        font-size: 60% ;
+        text-align: center;
+    }
+
+    .container_benefits .benefits_content {
+        padding: 2rem;
+    }
+
+    .container_benefits .benefits_content .signature_content h3 {
+        font-size: 1rem; 
+    }
+
+    .container_benefits .benefits_content label div img {
+        width: 80px;
+        height: 35px;
+    }
+
+    .sixth_text {
+        font-size: 120%;
+        padding: 5rem 2rem 3rem 2rem;
+    }
+
+    .carousel_block {
+        max-width: 90vw;
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .carousel_block .carousel .item_carousel {
+        width: 200px;
+        margin: 2.3rem;
+    }
+    .carousel_block .carousel .item_carousel .text_item h1 {
+        font-weight: 300;
+        font-size: 1rem;
+        padding: 0.6rem 0rem 0.6rem 0.6rem;
+    }
+    
+    .footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer_icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 1rem;
+    }
+    
+    .footer_icon img {
+        width: 3rem;
+    }
+
+    .footer_logo img {
+        width: 10rem;
+    }
+
+    .footer_logo {
+        width: 220px;
+        height: 100px;
+        border-radius: 1.2rem;
+    }
+}
+
 
 
 
