@@ -1,0 +1,31 @@
+.first_contactcontainer {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(150deg,#e4c653 ,#fff  36%);
+}
+
+.title_contactcontainer {
+    padding: 8rem;
+    color: #e4c653;
+    font-size: 23px;
+    font-family: 'Montserrat';
+    max-width: 60rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container_inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    padding: 6rem;
+}
+
+.container_inputs input {
+    height: 48px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+}

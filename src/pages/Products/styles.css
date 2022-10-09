@@ -1,0 +1,323 @@
+.firstcontainer_products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(150deg,#e4c653 ,#fff  36%);
+    padding: 8rem;
+
+}
+
+.title_container_products {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #e4c653;
+    font-family: 'Montserrat';
+}
+
+.title_container_products h1 {
+    font-size: 48px;
+    max-width: 60rem;
+    text-align: center;
+}
+
+.title_container_products p {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 70rem;
+}
+
+.logo_container_products {
+    display: flex;
+    justify-content: center;
+
+}
+.logo_container_products img {
+    width: 16rem;
+
+}
+
+.productlayout {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    align-items: center;
+    background-image: linear-gradient(-12deg,#f3c7b8 ,#fff  46%);
+    padding: 10rem 0rem 0rem 0rem;
+}
+
+.text_blockproducts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Montserrat';
+    color: #d78aa9;
+    font-size: 23px;
+    padding: 0rem 0rem 0rem 6rem;
+}
+
+.button_product button {
+    background: linear-gradient(349.78deg, #f3c7b8 -17.21%, #d78aa9 116.61%);
+    color: #fff;
+    width: 180px;
+    height: 55px;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.product_img img {
+    width: 460px;
+}
+
+.product_img {
+    display: flex;
+    justify-content:center;
+}
+
+.productlayout_second {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    align-items: center;
+    background-image: linear-gradient(20deg,#4ab4ab ,#fff  46%);
+    padding: 16rem 0rem 0rem 0rem;
+}
+
+.text_blockproducts_second {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Montserrat';
+    color: #4ab4ab;
+    font-size: 23px;
+    padding: 0rem 6rem 0rem 3rem;
+}
+
+.button_product_second button {
+    background: linear-gradient(349.78deg, #82cfc9 -17.21%, #4ab4ab 116.61%);
+    color: #fff;
+    width: 180px;
+    height: 55px;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+
+.product2_img {
+    display: flex;
+    justify-content: center;
+}
+
+.product2_img img {
+    width: 800px;
+}
+
+.productlayout_third {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    align-items: center;
+    background-image: linear-gradient(-12deg,#a594b7 ,#fff  46%);
+    padding: 10rem 0rem 0rem 0rem;
+}
+
+.text_blockproducts_third {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Montserrat';
+    color: #8562a5;
+    font-size: 23px;
+    padding: 0rem 0rem 0rem 6rem;
+}
+
+.button_product_third button {
+    background: linear-gradient(349.78deg, #8562a5 -17.21%, #a594b7 116.61%);
+    color: #fff;
+    width: 180px;
+    height: 55px;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.product3_img {
+    display: flex;
+    justify-content: center;
+}
+
+.product3_img img {
+    width: 700px;
+}
+
+.productlayout_fifth {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    align-items: center;
+    background-image: linear-gradient(-12deg,#e4c653 ,#fff  36%);
+    padding: 18rem 0rem 6rem 0rem;
+}
+
+.text_blockproducts_fifth {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Montserrat';
+    color: #e4c653;
+    font-size: 23px;
+    padding: 0rem 8rem 0rem 0rem;
+}
+
+.product5_img {
+    display: flex;
+    justify-content: center;
+}
+
+.product5_img img {
+    width: 500px;
+}
+
+.button_product_fifth button {
+    background: linear-gradient(349.78deg, #f0e68b -17.21%, #e4c653 116.61%);
+    color: #fff;
+    width: 240px;
+    height: 55px;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.productlayout_fourth {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    align-items: center;
+    background-image: linear-gradient(-12deg,#4e4e4e ,#fff  46%);
+    padding: 10rem 0rem 0rem 0rem;
+}
+
+.text_blockproducts_fourth {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: 'Montserrat';
+    color: #333333;
+    font-size: 23px;
+    padding: 0rem 0rem 0rem 6rem;
+}
+
+.button_product_fourth button {
+    background: linear-gradient(349.78deg, #333333 -17.21%, #4e4e4e 116.61%);
+    color: #fff;
+    width: 180px;
+    height: 55px;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.product4_img {
+    display: flex;
+    justify-content: center;
+}
+
+.product4_img img {
+    width: 700px;
+}
+
+.logo_container_productsformen {
+    display: flex;
+    justify-content: center;
+    padding:5rem 0rem 0rem 0rem;
+
+}
+
+.logo_container_productsformen img {
+    width: 16rem;
+}
+
+@media (max-width: 768px) {
+    .productlayout {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .text_blockproducts {
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .product_img img {
+        width: 360px;
+    }
+
+    .productlayout_second {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 3rem;
+        padding: 6rem 0rem 0rem 0rem;
+    }
+    
+    .text_blockproducts_second {
+        padding: 0rem 3.6rem 0rem 3rem;
+    }
+
+    .product2_img img {
+        width: 560px;
+    }
+
+    .productlayout_third {
+        display: flex;
+        flex-direction: column;
+        padding: 6rem 0rem 0rem 0rem;
+        gap: 0rem;
+    }
+
+    .text_blockproducts_third {
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .product3_img img {
+        width: 560px;
+    }
+
+    .productlayout_fifth {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 6rem 0rem 2rem 0rem;
+        text-align: center;
+        gap: 3rem; 
+    }
+
+    .text_blockproducts_fifth {
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .productlayout_fourth {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap:6rem;
+    }
+
+    .text_blockproducts_fourth {
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .product4_img img {
+        width: 520px;
+        margin-bottom: 2rem;
+    }
+}

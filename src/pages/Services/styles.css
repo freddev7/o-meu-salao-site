@@ -1,0 +1,197 @@
+.title_container_services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(150deg,#e4c653 ,#fff  36%);
+    padding: 8rem 0rem 6rem 0rem;
+}
+
+.title_container_services h1 {
+    color: #e4c653;
+    font-size: 48px;
+    font-family: 'Montserrat';
+    text-align: center;
+    max-width: 60rem;
+}
+
+.title_container_services p {
+    color: #e4c653;
+    font-size: 1.6rem;
+    font-family: 'Montserrat';
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 60rem;
+
+}
+
+.second_container_services {
+    padding: 6rem 8rem 2rem 8rem;
+}
+
+.listservices_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.item_listservices {
+    background-image: linear-gradient(330deg,#e4c653 -3.21%,#fff  26%);
+    color: #e4c653;
+    font-family: 'Montserrat';
+    border-radius: 1rem;
+    padding: 1.6rem;
+    max-width: 230px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.item_listservices p {
+    margin-top: 1.3rem;
+    line-height: 1.6rem;
+}
+
+.item_listservices img {
+    max-width: 110px;
+    margin-top: 1rem;
+    
+}
+
+.benefitspackservices {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40px;
+    gap: 2rem;
+}
+
+.benefitspackservices .benefits_pack {
+    font-family: 'Montserrat';
+    color: #e4c653;
+    position: relative;
+    background-image: linear-gradient(330deg,#e4c653 -3.21%,#fff  26%);
+    padding: 1rem 3rem 2rem 3rem;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+
+.benefitspackservices .benefits_pack input {
+    appearance: none;
+}
+
+.benefitspackservices .benefits_pack label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.benefitspackservices .benefits_pack label::after {
+    content: '+';
+    position: relative;
+    left: 1rem;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.1);
+    transition: transform 1s;
+}
+
+.benefitspackservices .benefits_pack:hover label::after {
+    color: #e4c653;
+}
+
+.benefitspackservices .benefits_pack input:checked ~ label::after {
+    transform: rotate(135deg);
+    color: #e4c653;
+}
+
+.benefitspackservices .benefits_pack label div img {
+    width: 100px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-right: 25px;
+    padding: 0.6rem;
+    background-image: linear-gradient(330deg,#e4c653 -3.21%,#fff  26%);
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+}
+
+.benefitspackservices .benefits_pack input:checked ~ label div img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 59%;
+    height: 59%;
+    opacity: 0.35;
+    justify-content: flex-end;
+    background: none;
+    border: none;
+    
+}
+
+.benefitspackservices .benefits_pack input:checked ~ label div {
+    background-image: linear-gradient(30deg,#e4c653 -3.21%,#fff  26%);
+}
+
+.benefitspackservices .benefits_pack label h1 {
+    position: relative;
+    color: #e4c653;
+    z-index: 10;
+}
+
+.benefitspackservices .benefits_pack .signature_pack {
+    max-height: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.benefitspackservices .benefits_pack input:checked ~ .signature_pack {
+    max-height: 100vh;
+    
+}
+
+.benefitspackservices .benefits_pack .signature_pack h3 {
+    position: relative;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    padding: 0.6rem 0;
+    color: #e4c653;
+    z-index: 10;
+}
+
+.buttonscheduling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem 0 0 0;
+}
+
+.buttonscheduling button {
+    background: linear-gradient(349.78deg, #f0e68b -17.21%, #e4c653 116.61%);
+    color: #fff;
+    width: 260px;
+    height: 60px;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+} 
+
+@media (max-width: 768px) {
+    .title_container_services h1{
+        font-size: 44px;
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .title_container_services p {
+        font-size: 140%;
+        line-height: 2rem;
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+}
