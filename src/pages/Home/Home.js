@@ -1,5 +1,5 @@
 import './styles.css'
-import photo from '../../assets/img/photo.png'
+import photo from '../../assets/img/photo.jpg'
 import { Link } from 'react-router-dom'
 import { useRef, useEffect } from 'react'
 import logowmk from '../../assets/img/logowmk.png'
@@ -187,7 +187,7 @@ function Home() {
                         <button onClick={() => { window.scrollTo({ top: 0, }); }}>Produtos</button>
                     </Link>
                 </div>
-                <div className='container_imgft' data-aos="zoom-out-up">
+                <div className='container_imgft' data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <img src={photofunc} alt='photofunc' />
                 </div>
             </div>

@@ -1,3 +1,4 @@
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -105,7 +106,7 @@ nav {
 
     #navbar.active{
         right: 0px;
-        position: absolute;
+
     }
 
     #mobile {
