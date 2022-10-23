@@ -896,10 +896,12 @@
 
     .photo img {
         max-width: 260px;
+        max-height: 260px;
     }
 
     .logowmk img {
         max-width: 280px;
+        max-height: 280px;
         margin-left: 8rem;
     }
 
@@ -934,6 +936,7 @@
 
     .second_container_img img {
         max-width: 300px;
+        max-height: 300px;
     }
 
     .title_container {
@@ -990,6 +993,7 @@
 
     .container_imgft img {
         max-width: 300px;
+        max-height: 300px;
     }
 
     .home_signature_container {
