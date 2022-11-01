@@ -2,7 +2,6 @@ import './styles.css'
 import photo from '../../assets/img/photo.jpg'
 import { Link } from 'react-router-dom'
 import { useRef, useEffect } from 'react'
-import logowmk from '../../assets/img/logowmk.svg'
 import photoprocd from '../../assets/img/photoprocd.png'
 import photofunc from '../../assets/img/photofunc.png'
 import before from '../../assets/img/before.png'
@@ -26,7 +25,6 @@ import instagram_icon from '../../assets/img/instagram_icon.svg'
 import wpp_icon from '../../assets/img/wpp_icon.svg'
 import arrow from '../../assets/img/arrow.png'
 import mdlogo from '../../assets/img/mydream_logo.svg'
-import logo3 from '../../assets/img/logo3.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
@@ -79,9 +77,6 @@ function Home() {
                 <div className='container_img' data-aos="fade-left">
                     <div className='photo'>
                         <img src={photo} alt='photoa' />
-                    </div>
-                    <div className='logowmk'>
-                        <img src={logowmk} alt='logowmk' />
                     </div>
                 </div>
             </div>
@@ -172,8 +167,6 @@ function Home() {
                     </Link>
                 </div>
                 <div className='logos_container'>
-                    <img src={logo3} alt='logo3' />
-                    <div></div>
                     <img src={mdlogo} alt='mdlogo' />
                 </div>
             </div>
