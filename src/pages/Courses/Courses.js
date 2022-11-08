@@ -13,30 +13,30 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
 function Courses() {
-    
+
     useEffect(() => {
-        Aos.init({duration: 3000});
-    },[])
+        Aos.init({ duration: 3000 });
+    }, [])
 
     return (
         <div>
-            <div>
-                <div className='title_coursescontainer'>
-                    <h1>Confira os nossos cursos e especializações com métodos inovadores!</h1>
+
+            <div className='title_coursescontainer'>
+                <h1>Confira os nossos cursos e especializações com métodos inovadores!</h1>
+            </div>
+            <div className='course_container'>
+                <div className='block_course'>
+                    <h1>O curso Invisible Slim capacita o profissional executar a melhor técnica de alongamento do mercado.</h1>
+                    <p>Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade </p>
+                    <img src={invisibleslimlogobackground} alt='invisibleslimlogobackground' />
                 </div>
-                <div className='course_container'>
-                    <div className='block_course'>
-                        <h1>O curso Invisible Slim capacita o profissional executar a melhor técnica de alongamento do mercado.</h1>
-                        <p>Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade </p>
-                        <img src={invisibleslimlogobackground} alt='invisibleslimlogobackground' />
-                    </div>
-                    <div className='photocoursecont'>
-                        <img src={photocourse} alt='photocourse' data-aos="zoom-in-up"/>
-                    </div>
+                <div className='photocoursecont'>
+                    <img src={photocourse} alt='photocourse' data-aos="zoom-in-up" />
                 </div>
             </div>
+
             <div className='prodcourse_container'>
-                <img src={courseone} alt='courseone' data-aos="fade-zoom-in"/>
+                <img src={courseone} alt='courseone' data-aos="fade-zoom-in" />
                 <div className='block_prod'>
                     <h1>Aprenda na prática os métodos mais eficazes de alongamento</h1>
                     <p>Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade</p>
@@ -50,7 +50,7 @@ function Courses() {
                 <img src={coursetwo} alt='coursetwo' data-aos="fade-zoom-in" />
             </div>
             <div className='prodcourse_containerthree'>
-                <img src={certified} alt='courseone' data-aos="fade-zoom-out"/>
+                <img src={certified} alt='courseone' data-aos="fade-zoom-out" />
                 <div className='block_prod'>
                     <h1>Garanta o seu certificado e comece a transformar vidas através dos cabelos.</h1>
                     <p>Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade</p>

@@ -28,10 +28,23 @@
     gap: 2rem;
 }
 
-.home_first_btn button {
+.home_first_btn:first-child button {
     background: linear-gradient(349.78deg, #f0e68b -17.21%, #e4c653 116.61%);
     color: #fff;
     width: 180px;
+    height: 55px;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+
+.home_first_btn button {
+    background: linear-gradient(349.78deg, #f0e68b -17.21%, #e4c653 116.61%);
+    color: #fff;
+    width: 300px;
     height: 55px;
     border: none;
     font-family: 'Montserrat';
@@ -440,7 +453,7 @@
 .buttonservice button {
     background: linear-gradient(349.78deg, #f0e68b -17.21%, #e4c653 116.61%);
     color: #fff;
-    width: 180px;
+    width: 220px;
     height: 55px;
     border: none;
     font-family: 'Montserrat';
@@ -680,6 +693,11 @@
     .home_block_text {
         font-size: 120%;
         padding: 0rem 1rem 0rem 1rem;
+        line-height: 3rem;
+    }
+    .home_block_text p {
+        margin-top: 1rem;
+        line-height: 2rem;
     }
 
     .home_block_links {
@@ -731,7 +749,7 @@
 
     .list_box {
         gap: 2rem;
-        padding: 1rem 0rem 0rem 3rem;
+        padding: 1rem 0rem 0rem 3.3rem;
     }
 
     .item_list {
@@ -744,6 +762,7 @@
 
     .container_box {
         gap: 3rem;
+        padding: 0rem 2rem 4rem 2.3rem;
     }
 
     .item_box {
@@ -772,6 +791,16 @@
     .title_fifthcontainer {
         font-size: 120%;
         padding: 0rem;
+    }
+
+    .title_fifthcontainer h1 {
+        margin-bottom: 2rem;
+    }
+
+    .title_fifthcontainer p {
+        margin-top: 0.5rem;
+        line-height: 2.3rem;
+    
     }
 
     .container_imgft {
@@ -803,13 +832,25 @@
         padding: 2rem;
     }
 
+    .container_benefits .benefits_content:first-child input:checked~label h1 {
+        position: relative;
+        left: 0.8rem;
+    }
+
     .container_benefits .benefits_content input:checked~label h1 {
         position: relative;
-        left: 0.7rem;
+        left: 2rem;
+    }
+
+    .container_benefits .benefits_content:first-child .signature_content h3 {
+        font-size: 1rem;
+        line-height: 1rem;
     }
 
     .container_benefits .benefits_content .signature_content h3 {
         font-size: 1rem;
+        line-height: 1.6rem;
+        
     }
 
     .container_benefits .benefits_content label div img {

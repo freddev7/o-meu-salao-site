@@ -15,6 +15,7 @@ import logosign from '../../assets/img/logosign.svg'
 import instagram_icon from '../../assets/img/instagram_icon.svg'
 import wpp_icon from '../../assets/img/wpp_icon.svg'
 import Oslogo from '../../assets/img/logo.svg'
+import logoomsformen from '../../assets/img/logoomsformen.svg'
 
 function About() {
 
@@ -35,7 +36,6 @@ function About() {
                 <div className='title_about_container'>
                     <h1>O meu Salão</h1>
                     <p>O meu Salão fundado em 2016 por Camila Rodrigues no bairro buritis, foi criado para proporcionar uma experiência única e inesquecível de relaxamento, saúde e bem-estar. São serviços, ambientes e atendimento de altíssimo padrão, para contribuir com sua qualidade de vida e proporcionar maior equilíbrio entre corpo e mente.</p>
-                    <p>Acreditamos que a experiência O meu Salão deva ser valorizada como uma pausa na correria do dia a dia e reconhecida como um momento de prazer, auto cuidado e elevação da autoestima.</p>
                 </div>
             </div>
             <div className='second_about_container'>
@@ -48,10 +48,14 @@ function About() {
                     <h1>BURITIS</h1>
                     <p>A Unidade Buritis é nossa primeira unidade. São 500m² dividos entre área de atendimento e estacionamento. Tudo pensado para que sua experiência aqui seja excepcional. Venha nos fazer uma visita, aproveite e dê um tapa no seu visual! </p>
                     <div className='hour_phone'>
-                        <p><strong>TELEFONE</strong></p>
+                        <p><strong>TELEFONES</strong></p>
                         <div className='icon_phone'>
                             <div className='phone'><i className='fas fa-phone'></i></div>
-                            <h1>(31) 2516.0505</h1>
+                            <h1>(31) 3212-3002</h1>
+                        </div>
+                        <div className='icon_wpp'>
+                            <div className='wpp'><i className='fab fa-whatsapp'></i></div>
+                            <h1>(31) 9 9292-6179</h1>
                         </div>
                         <p><strong>SEGUNDA A SÁBADO</strong></p>
                         <div className='icon_clock'>
@@ -121,12 +125,15 @@ function About() {
             <div className='unit_one'>
                 <div className='unit_textblock'>
                     <h1>BETÂNIA</h1>
-                    <p>A Unidade Buritis é nossa primeira unidade. São 500m² dividos entre área de atendimento e estacionamento. Tudo pensado para que sua experiência aqui seja excepcional. Venha nos fazer uma visita, aproveite e dê um tapa no seu visual! </p>
+                    <p>Nossa segunda unidade, O meu Salão For Men é uma barbearia, exclusiva para eles.</p>
+                    <p>Um espaço super moderno e completo, que possui uma loja de roupas, acessórios e calçados integrada. Disponibilizamos de frigobar e TV, proporcionando a você um conforto maior enquanto você aguarda!</p>
+                    <p>Contamos com profissionais super qualificados que entregam um serviço de excelência, possuímos equipamentos de ponta, para garantir uma finalização com grande estilo.</p>
+                    <p>Venha nos fazer uma visita e desfrutar do conforto e qualidade que proporcionamos aos nossos clientes.</p>
                     <div className='hour_phone'>
                         <p><strong>TELEFONE</strong></p>
-                        <div className='icon_phone'>
-                            <div className='phone'><i className='fas fa-phone'></i></div>
-                            <h1>(31) 2516.0505</h1>
+                        <div className='icon_wpp'>
+                            <div className='wpp'><i className='fab fa-whatsapp'></i></div>
+                            <h1>(31) 9 9828-1212</h1>
                         </div>
                         <p><strong>SEGUNDA A SÁBADO</strong></p>
                         <div className='icon_clock'>
@@ -190,7 +197,7 @@ function About() {
 
                 </div>
                 <div className='logocontainer'>
-                    <img src={Oslogo} alt='logosign' />
+                    <img src={logoomsformen} alt='logoomsformen' />
                 </div>
             </div>
             <div className='footer'>

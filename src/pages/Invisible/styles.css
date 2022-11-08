@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(150deg,#e4c653 ,#fff  36%);
+    background-image: linear-gradient(150deg, #e4c653, #fff 36%);
     padding: 8rem;
 }
 
@@ -11,12 +11,11 @@
     font-size: 48px;
     font-family: 'Montserrat';
     text-align: center;
-    max-width: 60rem;
 }
 
 .firstblock_is {
     display: flex;
-    background-image: linear-gradient(12deg,#e4c653 , #fff 26%);
+    background-image: linear-gradient(12deg, #e4c653, #fff 26%);
     padding: 5rem 0rem 0rem 6rem;
 }
 
@@ -98,7 +97,7 @@
     font-size: 3rem;
     right: 20px;
     top: 3px;
-    color: rgba(0,0,0,0.2);
+    color: rgba(0, 0, 0, 0.2);
     transition: transform 1s;
 }
 
@@ -106,9 +105,9 @@
     color: #e4c653;
 }
 
-.questions .item_questions input:checked ~ label::after {
+.questions .item_questions input:checked~label::after {
     transform: rotate(135deg);
-    
+
 }
 
 .questions .item_questions label h2 {
@@ -130,7 +129,7 @@
     overflow: hidden;
 }
 
-.questions .item_questions input:checked ~ .content {
+.questions .item_questions input:checked~.content {
     max-height: 100vh;
 
 }
@@ -144,7 +143,7 @@
     padding: 1rem 2rem 1rem 1rem;
     z-index: 10;
     margin-top: 0.8rem;
-    
+
 }
 
 .third_containeris {
@@ -177,8 +176,6 @@
     font-size: 48px;
     font-family: 'Montserrat';
     text-align: center;
-    max-width: 80rem
-
 }
 
 .curly_container {
@@ -211,6 +208,7 @@
     max-width: 300px;
 
 }
+
 .curly_container img {
     display: flex;
 }
@@ -229,7 +227,7 @@
     color: #e4c653;
     font-family: 'Montserrat';
     padding: 8rem;
-    background-image: linear-gradient(190deg,#e4c653 ,#fff  26%);
+    background-image: linear-gradient(190deg, #e4c653, #fff 26%);
 }
 
 .titledreams_container h1 {
@@ -295,10 +293,22 @@
     border-radius: 20px;
 }
 
-@media (max-width: 768px)  {
-    .title_stretches h1{
+@media (max-width: 428px) {
+    .title_stretches {
+        padding: 4rem 0rem 0rem 0rem;
+    }
+
+    .title_stretches h1 {
+        padding: 0rem;
         font-size: 44px;
-        padding: 0;
+    }
+
+    .text_containeris {
+        padding: 4rem 1rem 0rem 1rem;
+    }
+
+    .text_containeris p {
+        font-size: 130%;
     }
 
     .firstblock_is {
@@ -308,22 +318,115 @@
     }
 
     .firstblock_is img {
-        padding: 3rem 0rem 0rem 6rem;
+        padding: 3rem 1rem 0rem 1rem;
         max-width: 400px;
     }
 
+    .block_title h1 {
+        font-size: 44px;
+        padding: 1rem;
+
+    }
+
+    .secondcontainer_is {
+        padding: 1rem;
+    }
+
     .item_questions {
-        font-size: 120%;
+        font-size: 130%;
     }
 
     .questions .item_questions label h2 {
+        color: #fff;
+        font-size: 2rem;
+        margin-right: 10px;
         background: none;
+    }
+
+    .box_questions {
         display: flex;
         justify-content: center;
+    }
+
+    .questions {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0rem 1rem 0rem;
+        gap: 3rem;
+    }
+
+    .questions .item_questions {
+        position: relative;
+        background: linear-gradient(349.78deg, #f5e76e -17.21%, #e4c653 116.61%);
+        padding: 0rem 1rem 2rem 1rem;
+        border-radius: 1rem;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .item_questions input {
+        appearance: none;
+    }
+
+    .questions .item_questions label {
+        display: flex;
         align-items: center;
+        cursor: pointer;
+    }
+
+    .questions .item_questions label::after {
+        content: '+';
+        position: absolute;
+        font-size: 3rem;
+        right: 20px;
+        top: 3px;
+        color: rgba(0, 0, 0, 0.2);
+        transition: transform 1s;
+    }
+
+    .questions .item_questions:hover label::after {
+        color: #e4c653;
+    }
+
+    .questions .item_questions input:checked~label::after {
+        transform: rotate(135deg);
+
+    }
+
+    .questions .item_questions .content {
+        max-height: 0;
+        transition: 1s;
+        overflow: hidden;
+    }
+
+    .questions .item_questions input:checked~.content {
+        max-height: 100vh;
+
+    }
+
+    .questions .item_questions .content p {
+        font-family: 'Montserrat';
         color: #fff;
-        font-size: 1.05em;
-        margin-right: 10px;
+        font-size: 90%;
+        line-height: 1.8rem;
+        position: relative;
+        padding: 1rem 1rem 0rem 1rem;
+        z-index: 10;
+        margin-top: 0.8rem;
+    }
+
+    .third_containeris {
+        padding: 4rem 0rem 3rem 0rem;
+    }
+    
+    .title_thirdcontainer {
+        padding: 0rem;
+    
+    }
+
+    .footeris {
+        padding: 2rem 1rem 0rem 1rem;
     }
 
     .curly_container {
@@ -331,11 +434,16 @@
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        padding: 1rem 3rem 0rem 3rem;
-    
+        padding: 3rem 0.8rem 0rem 0.8rem;
+
+    }
+
+    .block_curly {
+        padding: 0;
     }
 
     .block_curly h1 {
+
         font-size: 38px;
     }
 
@@ -346,35 +454,52 @@
     .block_curly img {
         max-width: 45%;
         position: relative;
-        left: 8.8rem;
+        left: 7rem;
         top: 3rem;
     }
 
-    .curlyimg img {
-        max-width: 400px;
-        padding: 0rem 0rem 0rem 3rem;
+    .curlyimg {
+        display: flex;
+        justify-content: center;
     }
 
+    .curlyimg img {
+        max-width: 380px;
+    }
+
+    .titledreams_container {
+        padding: 3rem;
+    }
 
     .dreams_container {
         display: flex;
         flex-direction: column-reverse;
-        padding: 0rem 0rem 0rem 6.2rem;
+        padding: 0rem 0rem 0rem 0rem;
         gap: 4rem;
         text-align: center;
     }
 
     .dreams_container img {
-        max-width: 400px;
-        position: relative;
-        right: 3rem;
-    } 
+        max-width: 380px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .block_dreams {
+        padding: 0rem;
+    }
+
+    .block_dreams p {
+        font-size: 120%;
+        padding: 0rem 1rem 0rem 1rem;
+    }
 
     .dreams_result {
         display: flex;
         flex-direction: column;
         gap: 4rem;
-        padding: 5rem 5rem 0rem 5rem;
+        padding: 5rem 1rem 0rem 1rem;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -384,13 +509,9 @@
         font-size: 46px;
     }
 
-    
+    .dreams_result img {
+        width: 380px;
+        border-radius: 20px;
+    }
+
 }
-
-
-
-
-
-
-
-

@@ -182,16 +182,53 @@
     cursor: pointer;
 } 
 
-@media (max-width: 768px) {
+@media (max-width: 428px) {
+    .title_container_services {
+        padding: 8rem 0rem 3rem 0rem;   
+    }
+
     .title_container_services h1{
         font-size: 44px;
-        padding: 0rem 3rem 0rem 3rem;
+        padding: 0rem 1rem 0rem 1rem;
     }
 
     .title_container_services p {
         font-size: 140%;
         line-height: 2rem;
-        padding: 0rem 3rem 0rem 3rem;
+        padding: 1rem 1rem 0rem 1rem;
     }
 
+    .benefitspackservices {
+        padding: 0rem,
+    }
+    
+
+    .benefits_pack {
+        font-size: 75%;
+        text-align: center;
+    }
+
+    .benefitspackservices .benefits_pack {
+        padding: 2rem;
+    }
+    
+
+    .benefitspackservices .benefits_pack input:checked~label h1 {
+        position: relative;
+        left: 0.7rem;
+    }
+
+    .benefitspackservices .benefits_pack .signature_pack h3 {
+        font-size: 1rem;
+    }
+
+    .benefitspackservices .benefits_pack label div img {
+        width: 80px;
+        height: 35px;
+    }
+
+    .second_container_services {
+        padding: 6rem 2rem 2rem 2rem;
+    }
+    
 }

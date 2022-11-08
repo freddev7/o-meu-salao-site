@@ -58,8 +58,11 @@ function Home() {
             <div className='first_container'>
                 <div className='home_block'>
                     <div className='home_block_text'>
-                        <h1>O meu salão</h1>
-                        <p>É referência em alongamentos e tratamentos de cabelos, unhas e estética, proporcionando aos clientes o que há de mais moderno na área da beleza. Oferecemos um leque de serviços completos para mulheres e homens.</p>
+                        <h1>Seja muito bem-vindo(a)! </h1>
+                        <p>É um prazer ter você aqui no O meu Salão</p>
+                        <p>Somos um dos melhores salões de Belo Horizonte. Referência em alongamento adesivado invisível e prótese capilar, levamos o que há de mais tecnológico e inovador para nossos clientes.</p>
+                        <p>Contamos com um espaço amplo e diversos profissionais para melhor atendê-los. Um leque de serviços completos para mulheres e homens.</p>
+                        <p>Venha viver essa experiência!</p>
                     </div>
                     <div className='home_block_links'>
                         <div className='home_first_btn'>
@@ -95,7 +98,7 @@ function Home() {
                         <br />
                     <div className='home_first_btn'>
                             <Link to='/Courses'>
-                                <button onClick={() => { window.scrollTo({ top: 0, }); }}>Cursos</button>
+                                <button onClick={() => { window.scrollTo({ top: 0, }); }}>Cursos Profissionalizantes</button>
                             </Link>
                         </div>
                 </div>
@@ -132,8 +135,8 @@ function Home() {
                 <div className='container_box'>
                     <div className='item_box' style={{ width: 475, height: 519 }}>
                         <ImageSlider
-                            image1={before}
-                            image2={after}
+                            image1={after}
+                            image2={before}
                             sliderWidth={1}
                             sliderColor="#e4c653"
                             handleColor="#fff"
@@ -142,8 +145,8 @@ function Home() {
                     </div>
                     <div className='item_box' style={{ width: 475, height: 519 }}>
                         <ImageSlider
-                            image1={randompht2}
-                            image2={randompht}
+                            image1={randompht}
+                            image2={randompht2}
                             sliderWidth={1}
                             sliderColor="#e4c653"
                             handleColor="#fff"
@@ -152,8 +155,8 @@ function Home() {
                     </div>
                     <div className='item_box' style={{ width: 475, height: 519 }}>
                         <ImageSlider
-                            image1={randomphoto2}
-                            image2={randomphoto}
+                            image1={randomphoto}
+                            image2={randomphoto2}
                             sliderWidth={1}
                             sliderColor="#e4c653"
                             handleColor="#fff"
@@ -163,7 +166,7 @@ function Home() {
                 </div>
                 <div className='buttoninvisible'>
                     <Link to='/Invisible'>
-                        <button onClick={() => { window.scrollTo({ top: 0, }); }}>Alongamentos</button>
+                        <button onClick={() => { window.scrollTo({ top: 0, }); }}>Saiba Mais</button>
                     </Link>
                 </div>
                 <div className='logos_container'>
@@ -172,10 +175,10 @@ function Home() {
             </div>
             <div className='fifth_container'>
                 <div className='title_fifthcontainer'>
-                    <h1>Aqui você encontra os melhores<br /> produtos e serviços</h1>
-                    <p>O Meu Salão foi criado para proporcionar uma experiência única e inesquecível de relaxamento, saúde e bem-estar. São serviços, ambientes e atendimento de altíssimo padrão, para contribuir com sua qualidade de vida e proporcionar maior equilíbrio entre corpo e mente.
-                        O meu Salão foi criado para proporcionar uma experiência única e inesquecível de relaxamento, saúde e bem-estar. São serviços, ambientes e atendimento de altíssimo padrão, para contribuir com sua qualidade de vida e proporcionar maior equilíbrio entre corpo e mente.
-                    </p>
+                    <h1>Confira a nossa linha de produtos completa e exclusiva</h1>
+                    <p>A My Dream Cosmetic foi desenvolvida com um único propósito, cuidar do cabelo colorido, loiro, oleoso, sem vida, ressecado, envelhecido e com química ou alisamento.</p>
+                    <p>Com ativos poderosos, revitaliza a saúde capilar e recupera a beleza, o brilho, a maciez e o movimento dos fios.</p>
+                    <p>Sinta a diferença dos produtos profissionais e tenha fios sempre mais bonitos.</p>
                     <Link to='/Products'>
                         <button onClick={() => { window.scrollTo({ top: 0, }); }}>Produtos</button>
                     </Link>
@@ -196,12 +199,14 @@ function Home() {
                         <div>
                             <img src={Oslogo} alt='logosign' />
                         </div>
-                        <h1>CLUBE DE VANTAGENS O meu Salão</h1>
+                        <h1>Clube de Vantagens</h1>
                     </label>
                     <div className='signature_content'>
-                        <h3>- Agendamento Ilimitado</h3>
                         <h3>- Procedimentos Ilimitados</h3>
-                        <h3>- 10%off em qualquer serviço</h3>
+                        <h3>- Agendamentos Ilimitados</h3>
+                        <h3>- Descontos Exclusivos</h3>
+                        <h3>- Acesso à Área de Membros</h3>
+                        <h3>- Sorteios</h3>
                     </div>
                 </div>
                 <div className='benefits_content'>
@@ -210,12 +215,11 @@ function Home() {
                         <div>
                             <img src={Oslogo} alt='logosign' />
                         </div>
-                        <h1>O meu Salão for men signature</h1>
+                        <h1>Cartão Presente</h1>
                     </label>
                     <div className='signature_content'>
-                        <h3>- Corte Ilimitado</h3>
-                        <h3>- Barba Ilimitada</h3>
-                        <h3>- Acesso ao clube de vantagens</h3>
+                        <h3>- O Vale-presente pode ser em qualquer valor que o cliente desejar.</h3>
+                        <h3>- Proporcione essa experiência única e inesquecível para quem você ama.</h3>
                     </div>
                 </div>
 
@@ -223,8 +227,7 @@ function Home() {
 
             <div className='sixth_container'>
                 <div className='sixth_text'>
-                    <h1>Agende um procedimento e prepare-se para viver uma experiência inesquecível</h1>
-                    <p>Experimente uma nova forma de cuidar de si: cada detalhe foi pensado em você. Estamos ansiosos para recebê-lo(a).</p>
+                    <h1>Venha viver uma experiência única e inesquecível</h1>
                 </div>
             </div>
             <div className='carousel_block'>
@@ -311,7 +314,7 @@ function Home() {
             </div>
             <div className='buttonservice'>
                 <Link to='/Services'>
-                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>Ver Serviços</button>
+                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>Ver todos Serviços</button>
                 </Link>
             </div>
             <div>

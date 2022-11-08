@@ -64,7 +64,6 @@ function Products() {
             <div className='productlayout_fifth'>
                 <div className='product5_img'>
                     <img src={product5} alt='product5' />
-
                 </div>
                 <div className='text_blockproducts_fifth'>
                     <h1>Máscara Invisible Slim</h1>
