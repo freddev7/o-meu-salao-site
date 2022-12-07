@@ -35,7 +35,7 @@ function About() {
             <div className='first_about_container'>
                 <div className='title_about_container'>
                     <h1>O meu Salão</h1>
-                    <p>O meu Salão fundado em 2016 por Camila Rodrigues no bairro buritis, foi criado para proporcionar uma experiência única e inesquecível de relaxamento, saúde e bem-estar. São serviços, ambientes e atendimento de altíssimo padrão, para contribuir com sua qualidade de vida e proporcionar maior equilíbrio entre corpo e mente.</p>
+                    <p>O meu Salão fundado em 2016 por Camila Rodrigues, com o objetivo de proporcionar uma experiência única e inesquecível de relaxamento, saúde e bem-estar. São serviços, ambientes e atendimento de altíssimo padrão, contribuindo com sua qualidade de vida e proporcionando maior equilíbrio entre o corpo e mente.</p>
                 </div>
             </div>
             <div className='second_about_container'>
@@ -46,7 +46,8 @@ function About() {
             <div className='unit_one'>
                 <div className='unit_textblock'>
                     <h1>BURITIS</h1>
-                    <p>A Unidade Buritis é nossa primeira unidade. São 500m² dividos entre área de atendimento e estacionamento. Tudo pensado para que sua experiência aqui seja excepcional. Venha nos fazer uma visita, aproveite e dê um tapa no seu visual! </p>
+                    <p>Um salão completo para toda a família com profissionais voltados para um atendimento totalmente humanizado e respeitando sempre a individualidade de cada cliente.</p>
+                    <p>Nossos profissionais passam por treinamentos periódicos em academias nacionais e internacionais para garantir a sua satisfação de acordo com a sua personalidade e também com as tendências do visagismo mundial.</p>
                     <div className='hour_phone'>
                         <p><strong>TELEFONES</strong></p>
                         <div className='icon_phone'>

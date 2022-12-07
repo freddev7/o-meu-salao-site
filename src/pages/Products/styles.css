@@ -41,7 +41,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
     align-items: center;
-    background-image: linear-gradient(-12deg,#f3c7b8 ,#fff  46%);
+    background-image: linear-gradient(-12deg,#e4c653 ,#fff  46%);
     padding: 10rem 0rem 0rem 0rem;
 }
 
@@ -50,13 +50,13 @@
     flex-direction: column;
     gap: 2rem;
     font-family: 'Montserrat';
-    color: #d78aa9;
+    color: #e4c653;
     font-size: 23px;
     padding: 0rem 0rem 0rem 6rem;
 }
 
 .button_product button {
-    background: linear-gradient(349.78deg, #f3c7b8 -17.21%, #d78aa9 116.61%);
+    background: linear-gradient(349.78deg, #f0e68b -17.21%, #e4c653 116.61%);
     color: #fff;
     width: 180px;
     height: 55px;
@@ -80,7 +80,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(250px, 1fr));
     align-items: center;
-    background-image: linear-gradient(20deg,#4ab4ab ,#fff  46%);
+    background-image: linear-gradient(20deg,#e4c653 ,#fff  46%);
     padding: 16rem 0rem 0rem 0rem;
 }
 
@@ -89,13 +89,13 @@
     flex-direction: column;
     gap: 2rem;
     font-family: 'Montserrat';
-    color: #4ab4ab;
+    color: #e4c653;
     font-size: 23px;
     padding: 0rem 6rem 0rem 3rem;
 }
 
 .button_product_second button {
-    background: linear-gradient(349.78deg, #82cfc9 -17.21%, #4ab4ab 116.61%);
+    background: linear-gradient(349.78deg, #f0e68b -17.21%, #e4c653 116.61%);
     color: #fff;
     width: 180px;
     height: 55px;
@@ -113,14 +113,14 @@
 }
 
 .product2_img img {
-    width: 800px;
+    width: 500px;
 }
 
 .productlayout_third {
     display: grid;
     grid-template-columns: repeat(2, minmax(250px, 1fr));
     align-items: center;
-    background-image: linear-gradient(-12deg,#a594b7 ,#fff  46%);
+    background-image: linear-gradient(-12deg,#e4c653 ,#fff  46%);
     padding: 10rem 0rem 0rem 0rem;
 }
 
@@ -129,13 +129,13 @@
     flex-direction: column;
     gap: 2rem;
     font-family: 'Montserrat';
-    color: #8562a5;
+    color: #e4c653;
     font-size: 23px;
     padding: 0rem 0rem 0rem 6rem;
 }
 
 .button_product_third button {
-    background: linear-gradient(349.78deg, #8562a5 -17.21%, #a594b7 116.61%);
+    background: linear-gradient(349.78deg, #f0e68b -17.21%, #e4c653 116.61%);
     color: #fff;
     width: 180px;
     height: 55px;
@@ -152,7 +152,7 @@
 }
 
 .product3_img img {
-    width: 700px;
+    width: 600px;
 }
 
 .productlayout_fifth {
@@ -160,7 +160,7 @@
     grid-template-columns: repeat(2, minmax(250px, 1fr));
     align-items: center;
     background-image: linear-gradient(-12deg,#e4c653 ,#fff  36%);
-    padding: 18rem 0rem 6rem 0rem;
+    padding: 18rem 0rem 0rem 0rem;
 }
 
 .text_blockproducts_fifth {
@@ -179,7 +179,7 @@
 }
 
 .product5_img img {
-    width: 500px;
+    width: 580px;
 }
 
 .button_product_fifth button {
@@ -198,7 +198,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(250px, 1fr));
     align-items: center;
-    background-image: linear-gradient(-12deg,#4e4e4e ,#fff  46%);
+    background-image: linear-gradient(-12deg,#211519 ,#fff  46%);
     padding: 10rem 0rem 0rem 0rem;
 }
 
@@ -207,13 +207,13 @@
     flex-direction: column;
     gap: 2rem;
     font-family: 'Montserrat';
-    color: #333333;
+    color: #211519;
     font-size: 23px;
     padding: 0rem 0rem 0rem 6rem;
 }
 
 .button_product_fourth button {
-    background: linear-gradient(349.78deg, #333333 -17.21%, #4e4e4e 116.61%);
+    background: linear-gradient(349.78deg, #333333 -17.21%, #211519 116.61%);
     color: #fff;
     width: 180px;
     height: 55px;
@@ -276,7 +276,7 @@
     }
 
     .product2_img img {
-        width: 360px;
+        width: 410px;
     }
 
     .productlayout_third {
@@ -318,8 +318,7 @@
     }
 
     .product4_img img {
-        width: 380px;
-        margin-bottom: 2rem;
+        width: 400px;
     }
 
     .text_blockproducts_fifth {

@@ -4,6 +4,10 @@ import product2 from '../../assets/img/product2.png'
 import product3 from '../../assets/img/product3.png'
 import product4 from '../../assets/img/product4.png'
 import product5 from '../../assets/img/product5.png'
+import product6 from '../../assets/img/product6.png'
+import product7 from '../../assets/img/product7.png'
+import product8 from '../../assets/img/product8.png'
+import product9 from '../../assets/img/product9.png'
 import mdlogogold from '../../assets/img/mydream_logogold.svg'
 import mydreamformenlogo from '../../assets/img/mydreamformenlogo.svg'
 
@@ -77,11 +81,29 @@ function Products() {
             </div>
             <div className='productlayout'>
                 <div className='text_blockproducts'>
-                    <h1>Linha Dream Gloss</h1>
+                    <h1>OX Descolorante</h1>
                     <p>Enriquecido com Ácido Hialurônico,Silsoft Ax e Lumini System. Previnem o frizz Doa brilho tridimensional, Maleabilidade superior,Cabelos mais leves e suaves.</p>
                 </div>
                 <div className='product_img'>
-                    <img src={product} alt='product' />
+                    <img src={product6} alt='product6' />
+                </div>
+            </div>
+            <div className='productlayout'>
+                <div className='text_blockproducts'>
+                    <h1>Primer</h1>
+                    <p>Enriquecido com Ácido Hialurônico,Silsoft Ax e Lumini System. Previnem o frizz Doa brilho tridimensional, Maleabilidade superior,Cabelos mais leves e suaves.</p>
+                </div>
+                <div className='product_img'>
+                    <img src={product7} alt='product7' />
+                </div>
+            </div>
+            <div className='productlayout'>
+                <div className='text_blockproducts'>
+                    <h1>Grow Up</h1>
+                    <p>Enriquecido com Ácido Hialurônico,Silsoft Ax e Lumini System. Previnem o frizz Doa brilho tridimensional, Maleabilidade superior,Cabelos mais leves e suaves.</p>
+                </div>
+                <div className='product_img'>
+                    <img src={product8} alt='product8' />
                 </div>
             </div>
             <div className='logo_container_productsformen'>
@@ -92,7 +114,21 @@ function Products() {
                     <img src={product4} alt='product4' />
                 </div>
                 <div className='text_blockproducts_fourth'>
-                    <h1>Linha Pós-Química</h1>
+                    <h1>Linha Shampoo for men</h1>
+                    <p>Enriquecido com Ácido Hialurônico,Silsoft Ax e Lumini System. Previnem o frizz Doa brilho tridimensional, Maleabilidade superior,Cabelos mais leves e suaves.</p>
+                    <div className='button_product_fourth'>
+                        <a href='https://www.mydreamcosmetic.com.br/linhas/pos-quimica' target="_blank" rel="noopener noreferrer">
+                            <button>Pós-Química</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div className='productlayout_fourth'>
+                <div className='product4_img'>
+                    <img src={product9} alt='product9' />
+                </div>
+                <div className='text_blockproducts_fourth'>
+                    <h1>Pomada Modeladora</h1>
                     <p>Enriquecido com Ácido Hialurônico,Silsoft Ax e Lumini System. Previnem o frizz Doa brilho tridimensional, Maleabilidade superior,Cabelos mais leves e suaves.</p>
                     <div className='button_product_fourth'>
                         <a href='https://www.mydreamcosmetic.com.br/linhas/pos-quimica' target="_blank" rel="noopener noreferrer">

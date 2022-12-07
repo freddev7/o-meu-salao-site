@@ -173,6 +173,7 @@
 
 .item_box img {
     border-radius: 1rem;
+    object-fit: cover;
 }
 
 .buttoninvisible {
@@ -941,6 +942,7 @@
 
     .photo img {
         max-width: 22rem;
+
     }
 
     .second_container {

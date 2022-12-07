@@ -60,8 +60,8 @@ function Home() {
                     <div className='home_block_text'>
                         <h1>Seja muito bem-vindo(a)! </h1>
                         <p>É um prazer ter você aqui no O meu Salão</p>
-                        <p>Somos um dos melhores salões de Belo Horizonte. Referência em alongamento adesivado invisível e prótese capilar, levamos o que há de mais tecnológico e inovador para nossos clientes.</p>
-                        <p>Contamos com um espaço amplo e diversos profissionais para melhor atendê-los. Um leque de serviços completos para mulheres e homens.</p>
+                        <p>Somos um dos melhores salões de Belo Horizonte. Referência em alongamento adesivado invisível e prótese capilar. Levamos o que há de mais tecnológico e inovador para nossos clientes.</p>
+                        <p>Contamos com um espaço amplo e diversos profissionais para melhor atendê-los. Um leque de serviços completos para mulheres, homens e crianças.</p>
                         <p>Venha viver essa experiência!</p>
                     </div>
                     <div className='home_block_links'>
@@ -91,7 +91,7 @@ function Home() {
                     <div className='second_block_text'>
                         <h1>Você já conhece o método Invisible Slim ?</h1>
                         <br />
-                        <p>Alongamento adesivado, totalmente indolor e imperceptível. Único método testado e aprovado por dermatologistas e tricologistas. Método exclusivo, desenvolvido pela expert em saúde capilar Camila Rodrigues, vem transformando vidas atráves dos cabelos.</p>
+                        <p>Alongamento adesivado, totalmente indolor e imperceptível. Único método testado e aprovado por dermatologistas e tricologistas. Método exclusivo, desenvolvido pela expert em saúde capilar Camila Rodrigues que a mais de 20 anos vem transformando vidas atráves dos cabelos.</p>
                     </div>
                         <br />
                         <br />
@@ -112,12 +112,12 @@ function Home() {
                 <div className='item_list' data-aos="flip-left">
                     <h2>1</h2>
                     <h3>AVALIAÇÃO</h3>
-                    <p>Na avaliação, nós fazemos uma melhor apresentação do método, auxiliamos na escolha do cabelo, cor, tipo e comprimento desejado. Somente mediante a avaliação presencial conseguimos passar o orçamento, lembrando que a primeira avaliação é gratuita.</p>
+                    <p>Na avaliação, nós fazemos uma melhor apresentação do método, auxiliamos na escolha do cabelo, cor, tipo e comprimento desejado. Somente mediante a avaliação presencial informar o valor. Lembrando que a primeira avaliação é gratuita.</p>
                 </div>
                 <div className='item_list' data-aos="flip-left">
                     <h2>2</h2>
                     <h3>ESCOLHA DO CABELO</h3>
-                    <p>Prezamos muito pela qualidade dos nossos cabelos. Trabalhamos hoje com cabelos brasileiros regionais. Entendemos a necessidade de cada cliente em relação ao tamanho, cor e textura, por isso contamos com uma grande variedade para melhor atendê-las.</p>
+                    <p>Prezamos muito pela qualidade dos nossos cabelos. Trabalhamos somente com cabelos brasileiros regionais. Entendemos a necessidade de cada cliente em relação ao tamanho, cor e textura, por isso contamos com uma grande variedade para melhor atendê-las.</p>
                 </div>
                 <div className='item_list' data-aos="flip-left">
                     <h2>3</h2>
@@ -127,7 +127,7 @@ function Home() {
                 <div className='item_list' data-aos="flip-left">
                     <h2>4</h2>
                     <h3>MANUTENÇÃO</h3>
-                    <p>A manutenção deve ser feita em um período de 30 a 60 dias, a depender do desenvolvimento do seu própio cabelo e os cuidados.</p>
+                    <p>A manutenção deve ser feita em um período de 90 dias, a depender do desenvolvimento do seu própio cabelo e os cuidados.</p>
                     <i className='fas fa-circle-check'></i>
                 </div>
             </div>
@@ -175,7 +175,7 @@ function Home() {
             </div>
             <div className='fifth_container'>
                 <div className='title_fifthcontainer'>
-                    <h1>Confira a nossa linha de produtos completa e exclusiva</h1>
+                    <h1>Confira nossa linha de cosméticos exclusiva para você!</h1>
                     <p>A My Dream Cosmetic foi desenvolvida com um único propósito, cuidar do cabelo colorido, loiro, oleoso, sem vida, ressecado, envelhecido e com química ou alisamento.</p>
                     <p>Com ativos poderosos, revitaliza a saúde capilar e recupera a beleza, o brilho, a maciez e o movimento dos fios.</p>
                     <p>Sinta a diferença dos produtos profissionais e tenha fios sempre mais bonitos.</p>
@@ -227,7 +227,7 @@ function Home() {
 
             <div className='sixth_container'>
                 <div className='sixth_text'>
-                    <h1>Venha viver uma experiência única e inesquecível</h1>
+                    <h1>Surpreenda-se com a variedade e qualidade de nossos serviços!</h1>
                 </div>
             </div>
             <div className='carousel_block'>
@@ -264,7 +264,7 @@ function Home() {
                             <img src={pht_fourth} alt='pht_fourth' />
                         </div>
                         <div className='text_item'>
-                            <h1>Limpeza de Pele</h1>
+                            <h1>Penteados</h1>
                         </div>
                     </div>
                     <div className='item_carousel'>
@@ -272,7 +272,7 @@ function Home() {
                             <img src={pht_fifth} alt='pht_fifth' />
                         </div>
                         <div className='text_item'>
-                            <h1>Baby liss</h1>
+                            <h1>Makeup</h1>
                         </div>
                     </div>
                     <div className='item_carousel'>
@@ -280,7 +280,7 @@ function Home() {
                             <img src={pht_sixth} alt='pht_sixth' />
                         </div>
                         <div className='text_item'>
-                            <h1>Escova</h1>
+                            <h1>Mechas</h1>
                         </div>
                     </div>
                     <div className='item_carousel'>
