@@ -1,4 +1,4 @@
-import Oslogo from '../../assets/img/logo.svg'
+import Oslogo from '../../assets/img/logo.png'
 import './styles.css'
 import { Component } from 'react';
 

@@ -17,13 +17,10 @@ import pht_fourth from '../../assets/img/pht_fourth.png'
 import pht_fifth from '../../assets/img/pht_fifth.png'
 import pht_sixth from '../../assets/img/pht_sixth.png'
 import pht_seventh from '../../assets/img/pht_seventh.png'
-import pht_eighth from '../../assets/img/pht_eighth.png'
+import pht_tenth from '../../assets/img/pht_tenth.png'
 import pht_ninth from '../../assets/img/pht_ninth.png'
 import Oslogo from '../../assets/img/logo.svg'
 import ImageSlider from 'react-image-comparison-slider'
-import instagram_icon from '../../assets/img/instagram_icon.svg'
-import wpp_icon from '../../assets/img/wpp_icon.svg'
-import arrow from '../../assets/img/arrow.png'
 import mdlogo from '../../assets/img/mydream_logo.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -58,11 +55,11 @@ function Home() {
             <div className='first_container'>
                 <div className='home_block'>
                     <div className='home_block_text'>
-                        <h1>Seja muito bem-vindo(a)! </h1>
-                        <p>É um prazer ter você aqui no O meu Salão</p>
-                        <p>Somos um dos melhores salões de Belo Horizonte. Referência em alongamento adesivado invisível e prótese capilar. Levamos o que há de mais tecnológico e inovador para nossos clientes.</p>
-                        <p>Contamos com um espaço amplo e diversos profissionais para melhor atendê-los. Um leque de serviços completos para mulheres, homens e crianças.</p>
-                        <p>Venha viver essa experiência!</p>
+                        <h1>Bem-vindo(a) ao O Meu Salão!</h1>
+                        <p>Somos um dos melhores salões de Belo Horizonte, referência em alongamento adesivado invisível e prótese capilar, oferecendo os mais avançados e inovadores procedimentos e tecnologias para nossos clientes.</p>
+                        <p>Dispomos de um amplo espaço e uma equipe de profissionais altamente capacitados, prontos para atender às suas necessidades e proporcionar uma experiência inesquecível.</p>
+                        <p>Oferecemos um leque completo de serviços para mulheres, homens e crianças.</p>
+                        <p>Venha vivenciar essa experiência conosco!</p>
                     </div>
                     <div className='home_block_links'>
                         <div className='home_first_btn'>
@@ -89,7 +86,7 @@ function Home() {
                 </div>
                 <div className='second_home_block'>
                     <div className='second_block_text'>
-                        <h1>Você já conhece o método Invisible Slim ?</h1>
+                        <h1>Você já conhece o método Invisible ?</h1>
                         <br />
                         <p>Alongamento adesivado, totalmente indolor e imperceptível. Único método testado e aprovado por dermatologistas e tricologistas. Método exclusivo, desenvolvido pela expert em saúde capilar Camila Rodrigues que a mais de 20 anos vem transformando vidas atráves dos cabelos.</p>
                     </div>
@@ -105,14 +102,14 @@ function Home() {
             </div>
             <div className='third_container'>
                 <div className='title_container'>
-                    <h1>Tenha o cabelo dos sonhos com o Invisible Slim!</h1>
+                    <h1>Tenha o cabelo dos sonhos com o Invisible!</h1>
                 </div>
             </div>
             <div className='list_box' >
                 <div className='item_list' data-aos="flip-left">
                     <h2>1</h2>
                     <h3>AVALIAÇÃO</h3>
-                    <p>Na avaliação, nós fazemos uma melhor apresentação do método, auxiliamos na escolha do cabelo, cor, tipo e comprimento desejado. Somente mediante a avaliação presencial informar o valor. Lembrando que a primeira avaliação é gratuita.</p>
+                    <p>Na avaliação, fazemos uma melhor apresentação do método, auxiliamos na escolha do cabelo, cor, tipo e comprimento desejado. Somente atráves da avaliação presencial informamos o valor. Lembrando que a primeira avaliação é gratuita.</p>
                 </div>
                 <div className='item_list' data-aos="flip-left">
                     <h2>2</h2>
@@ -127,8 +124,7 @@ function Home() {
                 <div className='item_list' data-aos="flip-left">
                     <h2>4</h2>
                     <h3>MANUTENÇÃO</h3>
-                    <p>A manutenção deve ser feita em um período de 90 dias, a depender do desenvolvimento do seu própio cabelo e os cuidados.</p>
-                    <i className='fas fa-circle-check'></i>
+                    <p>A manutenção do Mega Hair é importante para garantir a durabilidade e a qualidade do alongamento. É recomendado agendar a manutenção até 90 dias, dependendo do crescimento do seu cabelo e dos cuidados que devemos ter com ele.</p>
                 </div>
             </div>
             <div className='fourth_container'>
@@ -138,9 +134,9 @@ function Home() {
                             image1={after}
                             image2={before}
                             sliderWidth={1}
-                            sliderColor="#e4c653"
+                            sliderColor="#e4c66a"
                             handleColor="#fff"
-                            handleBackgroundColor="#e4c653"
+                            handleBackgroundColor="#e4c66a"
                         />
                     </div>
                     <div className='item_box' style={{ width: 475, height: 519 }}>
@@ -148,9 +144,9 @@ function Home() {
                             image1={randompht}
                             image2={randompht2}
                             sliderWidth={1}
-                            sliderColor="#e4c653"
+                            sliderColor="#e4c66a"
                             handleColor="#fff"
-                            handleBackgroundColor="#e4c653"
+                            handleBackgroundColor="#e4c66a"
                         />
                     </div>
                     <div className='item_box' style={{ width: 475, height: 519 }}>
@@ -158,9 +154,9 @@ function Home() {
                             image1={randomphoto}
                             image2={randomphoto2}
                             sliderWidth={1}
-                            sliderColor="#e4c653"
+                            sliderColor="#e4c66a"
                             handleColor="#fff"
-                            handleBackgroundColor="#e4c653"
+                            handleBackgroundColor="#e4c66a"
                         />
                     </div>
                 </div>
@@ -175,10 +171,10 @@ function Home() {
             </div>
             <div className='fifth_container'>
                 <div className='title_fifthcontainer'>
-                    <h1>Confira nossa linha de cosméticos exclusiva para você!</h1>
-                    <p>A My Dream Cosmetic foi desenvolvida com um único propósito, cuidar do cabelo colorido, loiro, oleoso, sem vida, ressecado, envelhecido e com química ou alisamento.</p>
-                    <p>Com ativos poderosos, revitaliza a saúde capilar e recupera a beleza, o brilho, a maciez e o movimento dos fios.</p>
-                    <p>Sinta a diferença dos produtos profissionais e tenha fios sempre mais bonitos.</p>
+                    <h1>Confira nossa linha de cosméticos exclusiva para você !</h1>
+                    <p>A My Dream Cosmetic foi criada para atender às necessidades de proporcionar cuidados especiais aos cabelos danificados por coloração, alisamento ou química.</p>
+                    <p>Com ativos poderosos e tecnológicos, nossas linhas revitalizam a saúde capilar e devolvem a beleza, o brilho, a maciez e o movimento aos fios.</p>
+                    <p>Experimente os nossos produtos profissionais e sinta a diferença com cabelos sempre mais bonitos e saudáveis</p>
                     <Link to='/Products'>
                         <button onClick={() => { window.scrollTo({ top: 0, }); }}>Produtos</button>
                     </Link>
@@ -189,7 +185,7 @@ function Home() {
             </div>
             <div className='home_signature_container'>
                 <div className='signature_content_container'>
-                    <h1>Conheça os nossos planos e benefícios para o seu bem-estar !</h1>
+                    <h1>Conheça os nossos planos e benefícios para o seu bem-estar</h1>
                 </div>
             </div>
             <div className='container_benefits'>
@@ -218,53 +214,35 @@ function Home() {
                         <h1>Cartão Presente</h1>
                     </label>
                     <div className='signature_content'>
-                        <h3>- O Vale-presente pode ser em qualquer valor que o cliente desejar.</h3>
-                        <h3>- Proporcione essa experiência única e inesquecível para quem você ama.</h3>
+                        <h3>- O Vale-presente pode ser em qualquer<br/>   valor que o cliente desejar.</h3>
+                        <h3>- Proporcione essa experiência única <br/>   e inesquecível para quem você ama.</h3>
                     </div>
                 </div>
-
             </div>
-
             <div className='sixth_container'>
                 <div className='sixth_text'>
-                    <h1>Surpreenda-se com a variedade e qualidade de nossos serviços!</h1>
+                    <h1>Surpreenda-se com a variedade e qualidade de nossos serviços !</h1>
                 </div>
             </div>
             <div className='carousel_block'>
                 <button onClick={handleLeftClick}>
-                    <img src={arrow} alt='scroll left' />
+                <i className='fas fa-arrow-alt-circle-left'></i>
                 </button>
                 <div className="carousel" ref={carousel}>
                     <div className='item_carousel'>
                         <div className='img_item'>
-                            <img src={pht_one} alt='pht_one' />
+                            <img src={pht_tenth} alt='pht_tenth' />
                         </div>
                         <div className='text_item'>
-                            <h1>Sobrancelha</h1>
+                            <h1>Mechas</h1>
                         </div>
                     </div>
                     <div className='item_carousel'>
                         <div className='img_item'>
-                            <img src={pht_two} alt='pht_two' />
+                            <img src={pht_seventh} alt='pht_seventh' />
                         </div>
                         <div className='text_item'>
-                            <h1>Micropigmentação Labial</h1>
-                        </div>
-                    </div>
-                    <div className='item_carousel'>
-                        <div className='img_item'>
-                            <img src={pht_third} alt='pht_third' />
-                        </div>
-                        <div className='text_item'>
-                            <h1>Esmalteria</h1>
-                        </div>
-                    </div>
-                    <div className='item_carousel'>
-                        <div className='img_item'>
-                            <img src={pht_fourth} alt='pht_fourth' />
-                        </div>
-                        <div className='text_item'>
-                            <h1>Penteados</h1>
+                            <h1>Dream Gloss</h1>
                         </div>
                     </div>
                     <div className='item_carousel'>
@@ -277,26 +255,42 @@ function Home() {
                     </div>
                     <div className='item_carousel'>
                         <div className='img_item'>
+                            <img src={pht_third} alt='pht_third' />
+                        </div>
+                        <div className='text_item'>
+                            <h1>Esmalteria</h1>
+                        </div>
+                    </div>
+                    <div className='item_carousel'>
+                        <div className='img_item'>
+                            <img src={pht_two} alt='pht_two' />
+                        </div>
+                        <div className='text_item'>
+                            <h1>Micropigmentação Labial</h1>
+                        </div>
+                    </div>
+                    <div className='item_carousel'>
+                        <div className='img_item'>
+                            <img src={pht_one} alt='pht_one' />
+                        </div>
+                        <div className='text_item'>
+                            <h1>Sobrancelha</h1>
+                        </div>
+                    </div>
+                    <div className='item_carousel'>
+                        <div className='img_item'>
+                            <img src={pht_fourth} alt='pht_fourth' />
+                        </div>
+                        <div className='text_item'>
+                            <h1>Penteados</h1>
+                        </div>
+                    </div>
+                    <div className='item_carousel'>
+                        <div className='img_item'>
                             <img src={pht_sixth} alt='pht_sixth' />
                         </div>
                         <div className='text_item'>
-                            <h1>Mechas</h1>
-                        </div>
-                    </div>
-                    <div className='item_carousel'>
-                        <div className='img_item'>
-                            <img src={pht_seventh} alt='pht_seventh' />
-                        </div>
-                        <div className='text_item'>
                             <h1>Massagem</h1>
-                        </div>
-                    </div>
-                    <div className='item_carousel'>
-                        <div className='img_item'>
-                            <img src={pht_eighth} alt='pht_eighth' />
-                        </div>
-                        <div className='text_item'>
-                            <h1>Reflexologia</h1>
                         </div>
                     </div>
                     <div className='item_carousel'>
@@ -309,7 +303,7 @@ function Home() {
                     </div>
                 </div>
                 <button onClick={handleRightClick}>
-                    <img src={arrow} alt='scroll right' />
+                <i className='fas fa-arrow-alt-circle-right'></i>
                 </button>
             </div>
             <div className='buttonservice'>
@@ -321,7 +315,7 @@ function Home() {
                 <div className='footer'>
                     <div className='footer_icon'>
                         <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
-                            <img src={instagram_icon} alt='instagram_icon' />
+                        <i className='fab fa-instagram'></i>
                         </a>
                     </div>
                     <div className='footer_logo'>
@@ -329,7 +323,7 @@ function Home() {
                     </div>
                     <div className='footer_icon'>
                         <a href="https://web.whatsapp.com/send?phone=5531992926179" target="_blank" rel="noopener noreferrer">
-                        <img src={wpp_icon} alt='wpp_icon' />
+                        <i className='fab fa-whatsapp'></i>
                         </a>
                     </div>
                 </div>

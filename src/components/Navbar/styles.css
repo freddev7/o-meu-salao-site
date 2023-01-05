@@ -3,8 +3,12 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.1px solid #f0e9a4;
+    border-bottom: 0.1px solid #e6d7ab;
     padding: 1.4rem 0rem 1.4rem 0rem;
+}
+
+nav a img {
+    max-width: 11rem;
 }
 
 #navbar {
@@ -24,7 +28,7 @@ nav {
     font-size: 0.9rem;
     font-weight: 550;
     font-family: 'Montserrat';
-    color: #e4c653;
+    color: #e4c66a;
 }
 
 #navbar li a:hover::after,
@@ -32,7 +36,7 @@ nav {
     content: "";
     width: 36%;
     height: 2px;
-    background: #e4c653;
+    background: #e4c66a;
     position: absolute;
     bottom: -4px;
     left: 32px;
@@ -43,7 +47,7 @@ nav {
 }
 
 #mobile i {
-    color: #e4c653;
+    color: #e4c66a;
 }
 
 @media screen and (max-width:768px){

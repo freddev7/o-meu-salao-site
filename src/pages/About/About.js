@@ -12,8 +12,6 @@ import carouselimgfour from '../../assets/img/carouselimgfour.jpg'
 import carouselimgfive from '../../assets/img/carouselimgfive.jpg'
 import carouselimgsix from '../../assets/img/carouselimgsix.jpg'
 import logosign from '../../assets/img/logosign.svg'
-import instagram_icon from '../../assets/img/instagram_icon.svg'
-import wpp_icon from '../../assets/img/wpp_icon.svg'
 import Oslogo from '../../assets/img/logo.svg'
 import logoomsformen from '../../assets/img/logoomsformen.svg'
 
@@ -35,7 +33,12 @@ function About() {
             <div className='first_about_container'>
                 <div className='title_about_container'>
                     <h1>O meu Salão</h1>
-                    <p>O meu Salão fundado em 2016 por Camila Rodrigues, com o objetivo de proporcionar uma experiência única e inesquecível de relaxamento, saúde e bem-estar. São serviços, ambientes e atendimento de altíssimo padrão, contribuindo com sua qualidade de vida e proporcionando maior equilíbrio entre o corpo e mente.</p>
+                    <p>Fundado em 2019 por Camila Rodrigues, profissional atuante no mercado desde 2003. Sempre buscando por inovações, tecnologias e contribuições diretas com o mercado da beleza.
+                        Vinda de uma tradicional e consagrada família de cabeleireiros e artistas do meio. Sempre com muita paixão pelo aprendizado concebeu o inédito método de mega hair denominado Invisible, técnica esta que obteve destaque em premiações internacionais no ano de 2022 em países da América e Oriente Médio.
+                        Sempre buscando oferecer os melhores serviços de beleza e bem-estar para nossos clientes, com uma sofisticação ímpar, elegância singular
+                        e muito glamour.
+                        Contamos com uma equipe de profissionais altamente qualificadas, que está sempre pronta para atender às suas necessidades e desejos, proporcionando um elegante, sutil e perspicaz ambiente para que você possa relaxar e cuidar de si.
+                    </p>
                 </div>
             </div>
             <div className='second_about_container'>
@@ -66,7 +69,7 @@ function About() {
                     </div>
                 </div>
                 <div className='map'>
-                <iframe width="600" height="500" id="gmap_canvas" title="buritismap" src="https://maps.google.com/maps?q=o%20meu%20salao%20por%20camila%20rodrigues&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <iframe width="600" height="500" id="gmap_canvas" title="buritismap" src="https://maps.google.com/maps?q=o%20meu%20salao%20por%20camila%20rodrigues&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
             </div>
             <div className='container_slider'>
@@ -125,7 +128,7 @@ function About() {
             </div>
             <div className='unit_one'>
                 <div className='unit_textblock'>
-                    <h1>BETÂNIA</h1>
+                    <h1>CENTRAL PARK - BETÂNIA</h1>
                     <p>Nossa segunda unidade, O meu Salão For Men é uma barbearia, exclusiva para eles.</p>
                     <p>Um espaço super moderno e completo, que possui uma loja de roupas, acessórios e calçados integrada. Disponibilizamos de frigobar e TV, proporcionando a você um conforto maior enquanto você aguarda!</p>
                     <p>Contamos com profissionais super qualificados que entregam um serviço de excelência, possuímos equipamentos de ponta, para garantir uma finalização com grande estilo.</p>
@@ -144,8 +147,8 @@ function About() {
                     </div>
                 </div>
                 <div className='map'>
-                 <iframe width="600" height="500" id="gmap_canvas" title='mapcentralpark' src="https://maps.google.com/maps?q=o%20meu%20salao%20for%20men&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                 </div>
+                    <iframe width="600" height="500" id="gmap_canvas" title='mapcentralpark' src="https://maps.google.com/maps?q=o%20meu%20salao%20for%20men&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
             </div>
             <div className='container_slidertwo'>
                 <div className='slider'>
@@ -202,20 +205,20 @@ function About() {
                 </div>
             </div>
             <div className='footer'>
-                    <div className='footer_icon'>
-                        <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
-                            <img src={instagram_icon} alt='instagram_icon' />
-                        </a>
-                    </div>
-                    <div className='footer_logo'>
-                        <img onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} src={Oslogo} alt='Oslogo' />
-                    </div>
-                    <div className='footer_icon'>
-                        <a href="https://web.whatsapp.com/send?phone=5531992926179" target="_blank" rel="noopener noreferrer">
-                        <img src={wpp_icon} alt='wpp_icon' />
-                        </a>
-                    </div>
+                <div className='footer_icon'>
+                    <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
+                    <i className='fab fa-instagram'></i>
+                    </a>
                 </div>
+                <div className='footer_logo'>
+                    <img onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} src={Oslogo} alt='Oslogo' />
+                </div>
+                <div className='footer_icon'>
+                    <a href="https://web.whatsapp.com/send?phone=5531992926179" target="_blank" rel="noopener noreferrer">
+                    <i className='fab fa-whatsapp'></i>
+                    </a>
+                </div>
+            </div>
         </div>
 
     );

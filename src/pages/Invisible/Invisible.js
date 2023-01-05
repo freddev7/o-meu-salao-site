@@ -35,7 +35,7 @@ function Invisible() {
                 <div className='firstblock_is'>
                     <img src={layer} alt='layer' data-aos="fade-right"/>
                     <div className='text_containeris'>
-                        <h1>O método Invisible Slim é tudo o que você precisa!</h1>
+                        <h1>O método Invisible é tudo o que você precisa!</h1>
                         <p>O megahair pode ser colocado em qualquer tipo de cabelo e em qualquer mulher que queira ficar ainda mais bela e melhorar sua autoestima. A única restrição que existe é quanto ao tamanho do cabelo, que precisa ter mais de 2 dedos de comprimento para permitir a sustentação da fita!</p>
                         <p>Quanto ao tempo entre as manutenções, vai depender muito do crescimento do cabelo, dos cuidados e até mesmo do clima. Em média, faz-se a manutenção entre 45 a 60 dias. Apenas alertamos para não deixar passar dos 60 dias, assim seu mega continuará impecável!</p>
                         <p>Na manutenção, as faixas são cuidadosamente retiradas, sem provocar danos ou perda de cabelos e, após lavagem para eliminação de resíduos, são recolocadas.</p>
@@ -52,7 +52,7 @@ function Invisible() {
                             <input type="radio" name="acc" id="acc1" />
                             <label for="acc1">
                                 <h2>1</h2>
-                                <h3>Posso prender meu cabelo com o Invisible Slim?</h3>
+                                <h3>Posso prender meu cabelo com o Invisible?</h3>
                             </label>
                             <div className='content'>
                                 <p>Sim! Independente se você está pensando em um simples rabo de cavalo para o dia a dia, uma trança ou até mesmo um penteado para festa, o megahair não te restringe em nada! Com a nossa técnica da fita invisível, ele fica imperceptível!</p>
@@ -62,7 +62,7 @@ function Invisible() {
                             <input type="radio" name="acc" id="acc2" />
                             <label for="acc2">
                                 <h2>2</h2>
-                                <h3>Quando meu cabelo estiver molhado, o Invisible Slim ficará visível?</h3>
+                                <h3>Quando meu cabelo estiver molhado, o Invisible ficará visível?</h3>
                             </label>
                             <div className='content'>
                                 <p>Não! Pode ficar tranquila que ninguém vai conseguir perceber o megahair. A fita fica invisível e, mesmo com o cabelo molhado, o aspecto é super natural! Até difícil de acreditar, né?! Corre lá no nosso Instagram e veja em nossos stories!</p>
@@ -82,7 +82,7 @@ function Invisible() {
                             <input type="radio" name="acc" id="acc4" />
                             <label for="acc4">
                                 <h2>4</h2>
-                                <h3>Qualquer mulher pode colocar o Invisible Slim?</h3>
+                                <h3>Qualquer mulher pode colocar o Invisible?</h3>
                             </label>
                             <div className='content'>
                                 <p>O Invisible Slim pode ser colocado em qualquer tipo de cabelo e em qualquer mulher que queira ficar ainda mais bela e melhorar sua autoestima. A única restrição que existe é quanto ao tamanho do cabelo, que precisa ter mais de 2 dedos de comprimento para permitir a sustentação da fita!</p>
@@ -92,7 +92,7 @@ function Invisible() {
                             <input type="radio" name="acc" id="acc5" />
                             <label for="acc5">
                                 <h2>5</h2>
-                                <h3>Como funciona a manutenção do Invisible Slim?</h3>
+                                <h3>Como funciona a manutenção do Invisible?</h3>
                             </label>
                             <div className='content'>
                                 <p>Na manutenção, as faixas são cuidadosamente retiradas, sem provocar danos ou perda de cabelos e, após a lavagem para eliminação de resíduos, são recolocadas. O processo é rápido, totalmente indolor e muito seguro.</p>
@@ -151,7 +151,7 @@ function Invisible() {
             </div>
             <div className='curly_container'>
                 <div className='block_curly'>
-                    <h1>O método Invisible Slim permite o uso de cachos devido a sua técnica de aplicação. </h1>
+                    <h1>O método Invisible permite o uso de cachos devido a sua técnica de aplicação. </h1>
                     <p>Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade </p>
                     <img src={invisibleslimlogobackground} alt='invisibleslimlogobackground' />
                 </div>
