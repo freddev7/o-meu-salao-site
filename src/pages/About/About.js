@@ -32,7 +32,7 @@ function About() {
         <div>
             <div className='first_about_container'>
                 <div className='title_about_container'>
-                    <h1>O meu Salão</h1>
+                    <h1>O Meu Salão</h1>
                     <p>Fundado em 2019 por Camila Rodrigues, profissional atuante no mercado desde 2003. Sempre buscando por inovações, tecnologias e contribuições diretas com o mercado da beleza.
                         Vinda de uma tradicional e consagrada família de cabeleireiros e artistas do meio. Sempre com muita paixão pelo aprendizado concebeu o inédito método de mega hair denominado Invisible, técnica esta que obteve destaque em premiações internacionais no ano de 2022 em países da América e Oriente Médio.
                         Sempre buscando oferecer os melhores serviços de beleza e bem-estar para nossos clientes, com uma sofisticação ímpar, elegância singular
