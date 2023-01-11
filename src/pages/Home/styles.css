@@ -130,7 +130,7 @@
     color: #fff;
     font-family: 'Montserrat';
     text-align: center;
-    background: linear-gradient(349.78deg, #e5ca77 -17.21%, #e4c66a 116.61%);
+    background: linear-gradient(349.78deg, #d8b360 -17.21%, #e4c66a 116.61%);
     border-radius: 1rem;
     padding: 0rem 1.6rem 1rem 1.6rem;
     max-width: 16rem;
@@ -198,13 +198,13 @@
 
 .logos_container img {
     max-width: 14rem;
-    margin: 2rem 3rem 2rem 3rem;
+    margin: 2rem 3rem 0rem 3rem;
 }
 
 
 .fifth_container {
     background-color: #e4c66a;
-    padding: 4rem 3rem 0rem 3rem;
+    padding: 0rem 3rem 0rem 3rem;
     display: grid;
     grid-template-areas:
         "title_fifthcontainer container_imgft"
@@ -874,8 +874,8 @@
     }
 
     .carousel_block {
-        max-width: 89vw;
-        padding: 0rem 0rem 0rem 0.4rem;
+        max-width: 90vw;
+        padding: 0rem 0rem 0rem 1rem;
     }
 
     .carousel_block .carousel .item_carousel {
@@ -883,9 +883,15 @@
         margin: 1rem;
     }
 
+    .carousel_block .carousel .item_carousel .text_item h1 {
+        font-weight: 300;
+        font-size: 1.3rem;
+        padding: 0.8rem;
+    }
+
     .carousel_block button:nth-of-type(2) i {
         position: relative;
-        left: 0.6rem;
+        left: 0.4rem;
     }
 
     .footer {
@@ -929,12 +935,12 @@
 
     .home_block_text {
         font-size: 120%;
-        padding: 3rem 0rem 0rem 0rem;
+        padding: 3rem 1rem 0rem 1rem;
 
     }
 
     .home_block_links {
-        gap: 2rem;
+        gap: 1rem;
         justify-content: center;
 
     }
@@ -955,8 +961,8 @@
     }
 
     .photo img {
-        max-width: 22rem;
-
+        max-width: 21rem;
+        max-height: 31rem;
     }
 
     .second_container {
@@ -969,21 +975,19 @@
         padding: 0rem 0rem 0rem 0rem;
     }
 
-    .second_home_block .home_first_btn {
-        position: relative;
-        left: 2rem;
+    .second_home_block .home_first_btn button {
+        width: 300px;
+        height: 55px;
     }
 
     .second_block_text {
-        position: relative;
-        left: 2rem;
         font-size: 120%;
 
     }
 
     .second_container_img img {
-        max-width: 360px;
-        max-height: 360px;
+        max-width: 22rem;
+        max-height: 40rem;
     }
 
     .title_container {
@@ -1005,7 +1009,7 @@
     }
 
     .container_box {
-        gap: 2rem;
+        gap: 4rem;
     }
 
     .item_box {
@@ -1040,6 +1044,7 @@
 
     .container_imgft img {
         max-width: 20rem;
+        max-height: 33rem;
     }
 
     .home_signature_container {
