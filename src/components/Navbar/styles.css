@@ -42,6 +42,7 @@ nav a img {
     left: 32px;
 }
 
+
 #mobile {
     display: none;
 }
@@ -57,7 +58,7 @@ nav a img {
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top: 149px;
+        top: 120px;
         right: -330px;
         width: 300px;
         height: 100vh;
@@ -89,7 +90,6 @@ nav a img {
 @media screen and (max-width:428px) {
     nav {
         padding: 1.4rem 2.3rem;
-        
     }
     
     #navbar {
@@ -98,11 +98,11 @@ nav a img {
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top: 149px;
+        top: 120px;
         right: -330px;
-        width: 300px;
-        height: 100vh;
-        background: #fff;
+        width: 280px;
+        height: 420px;
+        background-image: linear-gradient(330deg,#e4c66a -3.21%,#fff  36%);
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 40px 0 0 10px;
         transition: 0.3s ease-in-out;
@@ -139,7 +139,7 @@ nav a img {
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top: 149px;
+        top: 120px;
         right: -330px;
         width: 300px;
         height: 100vh;
