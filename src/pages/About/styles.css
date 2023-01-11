@@ -2,7 +2,7 @@
     background-image: linear-gradient(150deg,#e4c66a ,#fff  26%);
     display: flex;
     justify-content: center;
-    padding: 8rem 3rem 6rem 3rem;
+    padding: 8rem 2rem 3rem 2rem;
 }
 
 .title_about_container {
@@ -14,7 +14,7 @@
 }
 
 .title_about_container p {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .second_about_container {
@@ -90,7 +90,7 @@
 
 .logocontainer img {
     position: relative;
-    bottom: 1.3rem;
+    bottom: 1.2rem;
 }
     
 
@@ -246,7 +246,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0 1rem 0;
+    padding: 3rem 0 0rem 0;
 }
 
 .slidertwo {
@@ -440,7 +440,7 @@
 
 @media (max-width: 428px) {
     .first_about_container {
-        padding: 5rem 1rem 3rem 1rem;
+        padding: 5rem 1rem 5rem 1rem;
     }
 
     .title_about_container {

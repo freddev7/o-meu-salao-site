@@ -97,7 +97,7 @@ function Home() {
                             <Link to='/Courses'>
                                 <button onClick={() => { window.scrollTo({ top: 0, }); }}>Cursos Profissionalizantes</button>
                             </Link>
-                    </div>
+                        </div>
                 </div>
             </div>
             <div className='third_container'>
