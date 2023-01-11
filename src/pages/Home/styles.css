@@ -874,8 +874,8 @@
     }
 
     .carousel_block {
-        max-width: 89vw;
-        padding: 0rem 0rem 0rem 0.4rem;
+        max-width: 90vw;
+        padding: 0rem 0rem 0rem 1rem;
     }
 
     .carousel_block .carousel .item_carousel {
@@ -885,7 +885,7 @@
 
     .carousel_block button:nth-of-type(2) i {
         position: relative;
-        left: 0.6rem;
+        left: 0.4rem;
     }
 
     .footer {
@@ -923,7 +923,7 @@
     .first_container {
         flex-direction: column;
         text-align: center;
-        padding: 0rem 0rem 0rem 0rem;
+        padding: 0rem 1rem 0rem 1rem;
         gap: 5rem;
     }
 
@@ -934,9 +934,8 @@
     }
 
     .home_block_links {
-        gap: 2rem;
+        gap: 3rem;
         justify-content: center;
-
     }
 
     .home_first_btn button {
@@ -956,34 +955,28 @@
 
     .photo img {
         max-width: 22rem;
+        max-height: 32rem;
 
     }
 
     .second_container {
         flex-direction: column-reverse;
         text-align: center;
-        padding: 5rem 0.3rem 0rem 0.3rem;
+        padding: 5rem 0rem 0rem 0rem;
     }
 
     .second_home_block {
         padding: 0rem 0rem 0rem 0rem;
     }
 
-    .second_home_block .home_first_btn {
-        position: relative;
-        left: 2rem;
-    }
-
-    .second_block_text {
-        position: relative;
-        left: 2rem;
-        font-size: 120%;
-
+    .second_home_block .home_first_btn button {
+        width: 285px;
+        height: 55px;
     }
 
     .second_container_img img {
-        max-width: 360px;
-        max-height: 360px;
+        max-width: 28rem;
+        max-height: 32rem;
     }
 
     .title_container {
@@ -992,8 +985,8 @@
     }
 
     .list_box {
-        gap: 2rem;
-        padding: 1rem 0rem 0rem 3rem;
+        gap: 3rem;
+        padding: 1rem 0rem 0rem 3.2rem;
     }
 
     .item_list {
@@ -1040,6 +1033,7 @@
 
     .container_imgft img {
         max-width: 20rem;
+        max-height: 40rem;
     }
 
     .home_signature_container {
@@ -1061,6 +1055,10 @@
         padding: 2rem;
     }
 
+    .container_benefits .benefits_content input {
+        appearance: none;
+    }
+
     .container_benefits .benefits_content input:checked~label h1 {
         position: relative;
         left: 0.6rem;
@@ -1077,16 +1075,16 @@
 
     .sixth_text {
         font-size: 120%;
-        padding: 5rem 1em 3rem 1rem;
+        padding: 5rem 1rem 3rem 1rem;
     }
 
     .carousel_block {
-        max-width: 92vw;
+        max-width: 96vw;
         padding: 0rem 0.5rem 0rem 0.5rem;
     }
 
     .carousel_block .carousel .item_carousel {
-        width: 220px;
+        width: 240px;
         margin: 0rem 2rem 0rem 1.4rem;
     }
 
@@ -1098,7 +1096,7 @@
 
     .footer {
         flex-direction: column;
-        gap: 1rem;
+        gap: 3rem;
     }
 
     .footer_icon {
