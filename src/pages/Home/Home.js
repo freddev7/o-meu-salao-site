@@ -86,7 +86,7 @@ function Home() {
                 </div>
                 <div className='second_home_block'>
                     <div className='second_block_text'>
-                        <h1>Você já conhece o método Invisible ?</h1>
+                        <h1>Você já conhece o método Invisible?</h1>
                         <br />
                         <p>Alongamento adesivado, totalmente indolor e imperceptível. Único método testado e aprovado por dermatologistas e tricologistas. Método exclusivo, desenvolvido pela expert em saúde capilar Camila Rodrigues que a mais de 20 anos vem transformando vidas atráves dos cabelos.</p>
                     </div>
@@ -171,7 +171,7 @@ function Home() {
             </div>
             <div className='fifth_container'>
                 <div className='title_fifthcontainer'>
-                    <h1>Confira nossa linha de cosméticos exclusiva para você !</h1>
+                    <h1>Confira nossa linha de cosméticos exclusiva para você!</h1>
                     <p>A My Dream Cosmetic foi criada para atender às necessidades de proporcionar cuidados especiais aos cabelos danificados por coloração, alisamento ou química.</p>
                     <p>Com ativos poderosos e tecnológicos, nossas linhas revitalizam a saúde capilar e devolvem a beleza, o brilho, a maciez e o movimento aos fios.</p>
                     <p>Experimente os nossos produtos profissionais e sinta a diferença com cabelos sempre mais bonitos e saudáveis</p>
@@ -185,7 +185,7 @@ function Home() {
             </div>
             <div className='home_signature_container'>
                 <div className='signature_content_container'>
-                    <h1>Conheça os nossos planos e benefícios para o seu bem-estar</h1>
+                    <h1>Conheça os nossos planos e benefícios para o seu bem-estar.</h1>
                 </div>
             </div>
             <div className='container_benefits'>
@@ -221,7 +221,7 @@ function Home() {
             </div>
             <div className='sixth_container'>
                 <div className='sixth_text'>
-                    <h1>Surpreenda-se com a variedade e qualidade de nossos serviços !</h1>
+                    <h1>Surpreenda-se com a variedade e qualidade de nossos serviços!</h1>
                 </div>
             </div>
             <div className='carousel_block'>
