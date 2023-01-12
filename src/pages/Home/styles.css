@@ -75,7 +75,7 @@
     display: flex;
     align-items: center;
     gap: 6rem;
-    padding: 5rem 2rem 0rem 6rem;
+    padding: 0rem 2rem 0rem 6rem;
     background-image: linear-gradient(to top, #e4c66a, #fff 25%);
 }
 
@@ -436,7 +436,7 @@
 .carousel_block button i {
     color: #e4c66a;
     font-size: 3rem;
-    
+
 }
 
 .buttonservice {
@@ -503,7 +503,7 @@
 
 .footer_icon i {
     font-size: 4rem;
-    color:#e4c66a;
+    color: #e4c66a;
 }
 
 .footer_icon img {
@@ -672,7 +672,6 @@
     }
 }
 
-
 @media (max-width: 428px) {
     .home {
         padding: 0;
@@ -691,6 +690,7 @@
         padding: 0rem 1rem 0rem 1rem;
         line-height: 3rem;
     }
+
     .home_block_text p {
         margin-top: 1rem;
         line-height: 2rem;
@@ -714,7 +714,7 @@
     .second_container {
         flex-direction: column-reverse;
         text-align: center;
-        gap: 6rem;
+        gap: 0rem;
         padding: 5rem 0rem 0rem 0rem;
     }
 
@@ -731,12 +731,11 @@
     }
 
     .second_container_img {
-        padding: 0;
+        padding: 0rem;
     }
 
     .second_container_img img {
-        max-width: 36rem;
-        max-height: 36rem;
+        max-width: 400px;
     }
 
     .title_container {
@@ -746,7 +745,12 @@
 
     .list_box {
         gap: 2rem;
-        padding: 1rem 0rem 0rem 3.3rem;
+        background-color: #e4c66a;
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 0rem 0rem 0rem;
+        justify-content: center;
+        align-items: center;
     }
 
     .item_list {
@@ -760,7 +764,7 @@
     }
 
     .item_list p {
-        font-size: 1rem;   
+        font-size: 1rem;
     }
 
     .fourth_container {
@@ -807,7 +811,7 @@
     .title_fifthcontainer p {
         margin-top: 0.5rem;
         line-height: 2.3rem;
-    
+
     }
 
     .container_imgft {
@@ -816,7 +820,7 @@
     }
 
     .container_imgft img {
-        max-width: 22rem;
+        max-width: 20rem;
     }
 
     .home_signature_container {
@@ -876,7 +880,7 @@
 
     .carousel_block {
         max-width: 90vw;
-        padding: 0rem 0rem 0rem 1rem;
+        padding: 0rem 0rem 0rem 0.8rem;
     }
 
     .carousel_block .carousel .item_carousel {
@@ -1034,7 +1038,6 @@
 
     .container_imgft img {
         max-width: 20rem;
-        max-height: 40rem;
     }
 
     .home_signature_container {

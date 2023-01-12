@@ -74,8 +74,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className='container_img' data-aos="fade-left">
-                    <div className='photo'>
+                <div className='container_img'>
+                    <div className='photo' data-aos="fade-left">
                         <img src={photo} alt='photoa' />
                     </div>
                 </div>
