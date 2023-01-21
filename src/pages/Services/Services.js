@@ -16,7 +16,7 @@ function Services() {
         <div>
             <div className='first_container_services'>
                 <div className='title_container_services'>
-                    <h1>Todas as possibilidades reunidos em um só lugar</h1>
+                    <h1>Todas as possibilidades reunidas em um só lugar</h1>
                     <p>Faça parte do nosso clube de vantagens, aproveite os benefícios e tenha acesso a todos os serviços com condições especiais para assinantes.</p>
                 </div>
             </div>

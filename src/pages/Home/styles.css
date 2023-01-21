@@ -14,13 +14,18 @@
 
 .home_block_text {
     color: #e4c66a;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     font-size: 1.6rem;
     line-height: 2.3rem;
 }
 
+.home_block_text h1 {
+    font-weight: 500;
+}
+
 .home_block_text p {
     margin-top: 2rem;
+    font-weight: 200;
 }
 
 .home_block_links {
@@ -34,23 +39,25 @@
     width: 11rem;
     height: 3.4rem;
     border: none;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     font-size: 1.2rem;
     border-radius: 1rem;
     cursor: pointer;
+    font-weight: 300;
 
 }
 
 .home_first_btn button {
     background: linear-gradient(349.78deg, #e5ca77 -17.21%, #e4c66a 116.61%);
     color: #fff;
-    width: 19rem;
+    width: 18rem;
     height: 3.4rem;
     border: none;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     font-size: 1.2rem;
     border-radius: 1rem;
     cursor: pointer;
+    font-weight: 300;
 
 }
 
@@ -60,10 +67,11 @@
     border-color: #e4c66a;
     width: 11rem;
     height: 3.4rem;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     font-size: 1.2rem;
     border-radius: 1rem;
     cursor: pointer;
+    font-weight: 300;
 }
 
 .photo img {
@@ -86,16 +94,18 @@
 
 .second_block_text {
     color: #e4c66a;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     font-size: 1.6rem;
     line-height: 2.3rem;
+    font-weight: 300;
 
 }
 
 .second_block_text h1 {
     color: #e4c66a;
-    font-family: 'Montserrat';
-    line-height: 3.6rem;
+    font-family: 'arboria';
+    line-height: 3.2rem;
+    font-weight: 500;
 }
 
 .second_container_img {
@@ -111,11 +121,16 @@
 .title_container {
     color: #fff;
     font-size: 1.6rem;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     display: flex;
     justify-content: center;
     padding: 6rem 8rem 6rem 8rem;
     text-align: center;
+}
+
+.title_container h1 {
+    font-weight: 500;
+    line-height: 2.6rem;
 }
 
 .list_box {
@@ -128,7 +143,7 @@
 
 .item_list {
     color: #fff;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     text-align: center;
     background: linear-gradient(349.78deg, #ffe374 -17.21%, #e4c66a 116.61%);
     border-radius: 1rem;
@@ -142,6 +157,7 @@
     margin-top: 1rem;
     line-height: 1.6rem;
     font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .item_list h2 {
@@ -154,6 +170,7 @@
     color: #fff;
     font-size: 1.5rem;
     letter-spacing: 0.03rem;
+    font-weight: 500;
 }
 
 .fourth_container {
@@ -184,10 +201,11 @@
     border: none;
     width: 11rem;
     height: 3.4rem;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     font-size: 1.2rem;
     border-radius: 1rem;
     cursor: pointer;
+    font-weight: 300;
 }
 
 .logos_container {
@@ -218,44 +236,49 @@
 .title_fifthcontainer {
     color: #fff;
     font-size: 1.6rem;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     grid-area: "title_fifthcontainer";
     padding: 4rem;
+}
 
+.title_fifthcontainer h1 {
+    font-weight: 500;
 }
 
 .title_fifthcontainer p {
     color: #fff;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     grid-area: "title_fifthcontainer";
     margin-top: 2rem;
     line-height: 2.3rem;
+    font-weight: 300;
 
 }
 
 .fifth_container button {
     background: linear-gradient(349.78deg, #f0eab6 -17.21%, #fff 116.61%);
-    color: #e4c653;
+    color: #e4c66a;
     border: none;
     width: 11rem;
     height: 3.4rem;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     font-size: 1.2rem;
     border-radius: 1rem;
     cursor: pointer;
     margin-top: 3rem;
+    font-weight: 300;
 }
 
 .sixth_text {
     color: #e4c66a;
     font-size: 1.6rem;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     text-align: center;
     padding: 6rem;
 }
 
-.sixth_text p {
-    margin-top: 3rem;
+.sixth_text h1 {
+    font-weight: 500;
 }
 
 .home_signature_container {
@@ -272,9 +295,13 @@
     text-align: center;
     color: #e4c66a;
     font-size: 1.6rem;
-    line-height: 3rem;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     margin-top: 2rem;
+}
+
+.signature_content_container h1 {
+    font-weight: 500;
+    line-height: 2.6rem;
 }
 
 .container_benefits {
@@ -283,10 +310,11 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    font-weight: 400;
 }
 
 .container_benefits .benefits_content {
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     position: relative;
     background-image: linear-gradient(330deg, #e4c66a -3.21%, #fff 26%);
     padding: 0.2rem 3rem 1rem 3rem;
@@ -294,6 +322,10 @@
     border-radius: 1rem;
     border: 0.1rem solid rgba(255, 255, 255, 0.2);
     overflow: hidden;
+}
+
+.container_benefits .benefits_content h1 {
+    font-weight: 500;
 }
 
 .container_benefits .benefits_content input {
@@ -418,7 +450,7 @@
 .carousel_block .carousel .item_carousel .text_item {
     display: flex;
     color: #e4c66a;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
 }
 
 .carousel_block .carousel .item_carousel .text_item h1 {
@@ -452,10 +484,11 @@
     width: 15rem;
     height: 3.4rem;
     border: none;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     font-size: 1.2rem;
     border-radius: 1rem;
     cursor: pointer;
+    font-weight: 300;
 }
 
 .footer {
@@ -504,11 +537,6 @@
 .footer_icon i {
     font-size: 4rem;
     color: #e4c66a;
-}
-
-.footer_icon img {
-    width: 4rem;
-
 }
 
 @media (max-width: 768px) {

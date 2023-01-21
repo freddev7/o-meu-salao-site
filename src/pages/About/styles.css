@@ -10,11 +10,16 @@
     color: #e4c66a;
     font-size: 1.6rem;
     line-height: 2.3rem;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
+}
+
+.title_about_container h1 {
+    font-weight: 500;
 }
 
 .title_about_container p {
     margin-top: 3rem;
+    font-weight: 300;
 }
 
 .second_about_container {
@@ -25,10 +30,13 @@
 .title_second_container {
     color: #e4c66a;
     font-size: 1.6rem;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     text-align: center;
     line-height: 3.6rem;
+}
 
+.title_second_container h1 {
+    font-weight: 500;
 }
 
 .unit_one {
@@ -38,15 +46,26 @@
     color: #e4c66a;
     font-size: 1.3rem;
     line-height: 2rem;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     padding: 6rem;
     gap: 14rem;
-    
 }
 
 .unit_one p {
     margin-top: 1.6rem;
     width: 50rem;
+}
+
+.unit_textblock h1 {
+    font-weight: 500;
+}
+
+.unit_textblock p {
+    font-weight: 300;
+}
+
+.hour_phone h1 {
+    font-weight: 700;
 }
 
 .icon_phone {

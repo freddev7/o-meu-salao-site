@@ -55,7 +55,7 @@ function Home() {
             <div className='first_container'>
                 <div className='home_block'>
                     <div className='home_block_text'>
-                        <h1>Bem-vindo(a) ao O Meu Salão!</h1>
+                        <h1>Bem-vindo(a) ao <br/> O Meu Salão!</h1>
                         <p>Somos um dos melhores salões de Belo Horizonte, referência em alongamento adesivado invisível e prótese capilar, oferecendo os mais avançados e inovadores procedimentos e tecnologias para nossos clientes.</p>
                         <p>Dispomos de um amplo espaço e uma equipe de profissionais altamente capacitados, prontos para atender às suas necessidades e proporcionar uma experiência inesquecível.</p>
                         <p>Oferecemos um leque completo de serviços para mulheres, homens e crianças.</p>

@@ -28,7 +28,7 @@ class Navbar extends Component {
               <Link to='/Services'>SERVIÇOS</Link>
             </li>
             <li>
-              <Link to='/Invisible'>INVISIBLE</Link>
+              <Link to='/Invisible'>ALONGAMENTOS</Link>
             </li>
             <li>
               <Link to='/Courses'>CURSOS</Link>

@@ -3,8 +3,6 @@ import photocourse from '../../assets/img/photocourse.png'
 import courseone from '../../assets/img/courseone.png'
 import coursetwo from '../../assets/img/coursetwo.png'
 import certified from '../../assets/img/certified.png'
-import instagram_icon from '../../assets/img/instagram_icon.svg'
-import wpp_icon from '../../assets/img/wpp_icon.svg'
 import Oslogo from '../../assets/img/logo.svg'
 import { Link } from 'react-router-dom'
 import './styles.css'
@@ -64,7 +62,7 @@ function Courses() {
             <div className='footer'>
                 <div className='footer_icon'>
                     <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
-                        <img src={instagram_icon} alt='instagram_icon' />
+                        <i className='fab fa-instagram'></i>
                     </a>
                 </div>
                 <div className='footer_logo'>
@@ -72,7 +70,7 @@ function Courses() {
                 </div>
                 <div className='footer_icon'>
                     <a href="https://web.whatsapp.com/send?phone=5531992926179" target="_blank" rel="noopener noreferrer">
-                        <img src={wpp_icon} alt='wpp_icon' />
+                    <i className='fab fa-whatsapp'></i>
                     </a>
                 </div>
             </div>

@@ -26,9 +26,10 @@ nav a img {
 #navbar li a {
     text-decoration: none;
     font-size: 0.9rem;
-    font-weight: 550;
-    font-family: 'Montserrat';
+    font-weight: 300;
+    font-family: 'arboria';
     color: #e4c66a;
+    font-weight: 500;
 }
 
 #navbar li a:hover::after,

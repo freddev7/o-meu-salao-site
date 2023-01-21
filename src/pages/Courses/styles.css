@@ -2,16 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(150deg,#e4c653 ,#fff  36%);
+    background-image: linear-gradient(150deg,#e4c66a ,#fff  36%);
     padding: 8rem;
 }
 
 .title_coursescontainer h1 {
-    font-family: 'Montserrat';
-    color: #e4c653;
+    font-family: 'arboria';
+    color: #e4c66a;
     font-size: 48px;
     max-width: 70rem;
     text-align: center;
+    font-weight: 500;
 }
 
 .course_container {
@@ -24,17 +25,19 @@
 }
 
 .block_course h1 {
-    color: #e4c653;
+    color: #e4c66a;
     font-size: 42px;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
+    font-weight: 500;
 }
 
 .block_course p {
-    color: #e4c653;
+    color: #e4c66a;
     font-size: 22px;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     line-height: 2.3rem;
     margin-top: 2rem;
+    font-weight: 300;
 
 }
 
@@ -54,7 +57,7 @@
     align-items: center;
     justify-content: center;
     padding: 0rem 2rem 3rem 2rem;
-    background-color: #e4c653;
+    background-color: #e4c66a;
 }
 
 .prodcourse_container {
@@ -63,7 +66,7 @@
     justify-content: center;
     padding: 5rem 0rem 0rem 8rem;
     gap: 6rem;
-    background-image: linear-gradient(200deg,#e4c653 ,#fff  26%);
+    background-image: linear-gradient(200deg,#e4c66a ,#fff  26%);
 }
 
 .prodcourse_container img {
@@ -73,18 +76,20 @@
 
 .block_prod {
     padding: 0rem 8rem 0rem 0rem;
-    color: #e4c653;
-    font-family: 'Montserrat';
+    color: #e4c66a;
+    font-family: 'arboria';
 }
 
 .block_prod h1 {
     font-size: 42px;
+    font-weight: 500;
 }
 
 .block_prod p {
     font-size: 22px;
     line-height: 2.3rem;
     margin-top: 2rem;
+    font-weight: 300;
 }
 
 .prodcourse_containertwo {
@@ -101,18 +106,20 @@
 }
 
 .blocktwo_prod {
-    font-family: 'Montserrat';
-    color: #e4c653;
+    font-family: 'arboria';
+    color: #e4c66a;
 }
 
 .blocktwo_prod h1 {
     font-size: 42px;
+    font-weight: 500;
 }
 
 .blocktwo_prod p {
     font-size: 22px;
     line-height: 2.3rem;
     margin-top: 2rem;
+    font-weight: 300;
 }
 
 .prodcourse_containerthree {

@@ -15,30 +15,26 @@ import layer from '../../assets/img/layer.png'
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import Oslogo from '../../assets/img/logo.svg'
-import instagram_icon from '../../assets/img/instagram_icon.svg'
-import wpp_icon from '../../assets/img/wpp_icon.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 function Invisible() {
 
     useEffect(() => {
-        Aos.init({duration: 3000});
-    },[])
+        Aos.init({ duration: 3000 });
+    }, [])
 
     return (
         <div>
             <div className='title_stretches'>
-                <h1>Conheça os métodos mais seguros e éficazes do mercado!</h1>
+                <h1>Conheça os métodos de alongamento mais seguros e éficazes do mercado!</h1>
             </div>
             <div className="firstcontainer_is">
                 <div className='firstblock_is'>
-                    <img src={layer} alt='layer' data-aos="fade-right"/>
+                    <img src={layer} alt='layer' data-aos="fade-right" />
                     <div className='text_containeris'>
-                        <h1>O método Invisible é tudo o que você precisa!</h1>
-                        <p>O megahair pode ser colocado em qualquer tipo de cabelo e em qualquer mulher que queira ficar ainda mais bela e melhorar sua autoestima. A única restrição que existe é quanto ao tamanho do cabelo, que precisa ter mais de 2 dedos de comprimento para permitir a sustentação da fita!</p>
-                        <p>Quanto ao tempo entre as manutenções, vai depender muito do crescimento do cabelo, dos cuidados e até mesmo do clima. Em média, faz-se a manutenção entre 45 a 60 dias. Apenas alertamos para não deixar passar dos 60 dias, assim seu mega continuará impecável!</p>
-                        <p>Na manutenção, as faixas são cuidadosamente retiradas, sem provocar danos ou perda de cabelos e, após lavagem para eliminação de resíduos, são recolocadas.</p>
+                        <p>O mega-hair é uma opção para qualquer mulher que deseja aumentar sua beleza e autoestima. Ele pode ser colocado em qualquer tipo de cabelo, desde que tenha pelo menos 2 dedos de comprimento para sustentar a fita.</p>
+                        <p>Além disso, o mega-hair é uma ótima opção para mulheres que desejam aumentar o volume e comprimento do cabelo, sem precisar esperar anos para crescer naturalmente. Ele é feito de fios de cabelo humano, o que garante uma aparência natural e saúdavel.</p>
                     </div>
                 </div>
             </div>
@@ -101,7 +97,7 @@ function Invisible() {
                     </div>
                 </div>
             </div>
-            <div className='logoinvisibleslim'>
+            <div className='logoinvisible'>
                 <img src={invisibleslimlogo} alt='invisibleslimlogo' />
             </div>
             <div className='third_containeris'>
@@ -116,7 +112,7 @@ function Invisible() {
                         image2={after}
                         sliderWidth={1}
                         sliderColor="#fff"
-                        handleColor="#e4c653"
+                        handleColor="#e4c66a"
                         handleBackgroundColor="white"
                     />
                 </div>
@@ -126,7 +122,7 @@ function Invisible() {
                         image2={randompht}
                         sliderWidth={1}
                         sliderColor="#fff"
-                        handleColor="#e4c653"
+                        handleColor="#e4c66a"
                         handleBackgroundColor="white"
                     />
                 </div>
@@ -136,7 +132,7 @@ function Invisible() {
                         image2={randomphoto}
                         sliderWidth={1}
                         sliderColor="#fff"
-                        handleColor="#e4c653"
+                        handleColor="#e4c66a"
                         handleBackgroundColor="white"
                     />
                 </div>
@@ -156,14 +152,14 @@ function Invisible() {
                     <img src={invisibleslimlogobackground} alt='invisibleslimlogobackground' />
                 </div>
                 <div className='curlyimg'>
-                    <img src={cacheado} alt='cacheado' data-aos="fade-up" data-aos-anchor-placement="top-bottom"/>
+                    <img src={cacheado} alt='cacheado' data-aos="fade-up" data-aos-anchor-placement="top-bottom" />
                 </div>
             </div>
             <div className='titledreams_container'>
                 <h1>- Dreams -</h1>
             </div>
             <div className='dreams_container'>
-                <img src={dreams} alt='dreams' data-aos="zoom-in"/>
+                <img src={dreams} alt='dreams' data-aos="zoom-in" />
                 <div className='block_dreams'>
                     <h1>Conheça o Dreams uma técnica inovadora de alongamento invisível assim como o Invisible Slim.</h1>
                     <p>A técnica consiste em um alongamento com uma quantidade pequena de cabelo, possibilitando então a colocação de mechas no cabelo sem a necessidade de química. Um alongamento totalmente indolor e imperceptível, metodo inivisivel com cobertura de cabelos totalmente imperceptivel e natural.</p>
@@ -175,7 +171,7 @@ function Invisible() {
                     <h1>Resultados incríveis e surpreendentes para todos os tipos de cabelo.</h1>
                     <p>A técnica consiste em um alongamento com uma quantidade pequena de cabelo, possibilitando então a colocação de mechas no cabelo sem a necessidade de química. Um alongamento totalmente indolor e imperceptível, metodo inivisivel com cobertura de cabelos totalmente imperceptivel e natural. Não possui ponto de tração sendo assim não danifica o cabelo pode ser utilizado para finalidades diferentes sendo elas alongar ou preencher material testado e aprovado por dermatologistas. Clientes que possuem alopecia adrogenica, corte químico pós covid com perca assentuada de cabelo na regiao frontal ou até mesmo para acabamentos</p>
                 </div>
-                <img src={dreamsresult} alt='dreamsresult' data-aos="zoom-in"/>
+                <img src={dreamsresult} alt='dreamsresult' data-aos="zoom-in" />
             </div>
             <div className='buttonscheduling'>
                 <Link to='/Contact'>
@@ -185,7 +181,7 @@ function Invisible() {
             <div className='footer'>
                 <div className='footer_icon'>
                     <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
-                        <img src={instagram_icon} alt='instagram_icon' />
+                        <i className='fab fa-instagram'></i>
                     </a>
                 </div>
                 <div className='footer_logo'>
@@ -193,7 +189,7 @@ function Invisible() {
                 </div>
                 <div className='footer_icon'>
                     <a href="https://web.whatsapp.com/send?phone=5531992926179" target="_blank" rel="noopener noreferrer">
-                        <img src={wpp_icon} alt='wpp_icon' />
+                        <i className='fab fa-whatsapp'></i>
                     </a>
                 </div>
             </div>

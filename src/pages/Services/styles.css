@@ -10,19 +10,20 @@
 .title_container_services h1 {
     color: #e4c66a;
     font-size: 48px;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     text-align: center;
     max-width: 60rem;
+    font-weight: 500;
 }
 
 .title_container_services p {
     color: #e4c66a;
     font-size: 1.6rem;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     margin-top: 2rem;
     text-align: center;
     max-width: 60rem;
-
+    font-weight: 300;
 }
 
 .second_container_services {
@@ -39,11 +40,15 @@
 .item_listservices {
     background-image: linear-gradient(330deg,#e4c66a -3.21%,#fff  26%);
     color: #e4c66a;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     border-radius: 1rem;
     padding: 1.6rem;
     max-width: 230px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.item_listservices h1 {
+    font-weight: 500;
 }
 
 .item_listservices img {
@@ -62,7 +67,7 @@
 }
 
 .benefitspackservices .benefits_pack {
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     color: #e4c66a;
     position: relative;
     background-image: linear-gradient(330deg,#e4c66a -3.21%,#fff  26%);
@@ -71,6 +76,10 @@
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
     overflow: hidden;
+}
+
+.benefitspackservices .benefits_pack h1 {
+    font-weight: 500;
 }
 
 .benefitspackservices .benefits_pack input {
@@ -171,10 +180,11 @@
     width: 260px;
     height: 60px;
     border: none;
-    font-family: 'Montserrat';
+    font-family: 'arboria';
     font-size: 1.2rem;
     border-radius: 1rem;
     cursor: pointer;
+    font-weight: 300;
 } 
 
 @media (max-width: 428px) {
