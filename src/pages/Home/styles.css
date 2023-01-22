@@ -535,6 +535,115 @@
     color: #cda582;
 }
 
+@media (max-width: 1376px) {
+    .home_block_text {
+        font-size: 120%;
+    }
+
+    .home_block_text p {
+        line-height: 1.6rem;
+    }
+
+    .home_first_btn:first-child button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .home_second_btn button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .container_img img {
+        max-width: 23rem;
+    }
+
+    .second_block_text {
+        font-size: 120%;
+    }
+
+    .second_block_text p {
+        line-height: 1.6rem;
+    }
+
+    .second_container_img img {
+        max-width: 32rem;
+    }
+
+    .home_first_btn button {
+        width: 16rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .list_box {
+        gap: 1rem;
+    }
+
+    .title_container {
+        font-size:120% ;
+    }
+
+    .item_list h2 {
+        font-size: 3rem;
+    }
+
+    .item_list p {
+        font-size: 90%;
+    }
+
+    .item_list h3 {
+        font-size: 110%;
+    }
+
+    .item_box {
+        max-width: 360px;
+        max-height: 420px;
+    }
+
+    .buttoninvisible button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .title_fifthcontainer {
+        font-size: 120%;
+    }
+
+    .title_fifthcontainer p {
+        line-height: 1.6rem;
+    }
+
+    .container_imgft img {
+        max-width: 23rem;
+    }
+
+    .fifth_container button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+
+    .signature_content_container {
+        font-size: 120%;
+    }
+
+    .benefits_content {
+        font-size: 90%;
+    }
+
+    .sixth_text {
+        font-size:120%;
+    }
+    
+    .carousel_block .carousel .item_carousel {
+        width: 22.3rem;
+    }
+}
+
 @media (max-width: 768px) {
     .first_container {
         flex-direction: column;

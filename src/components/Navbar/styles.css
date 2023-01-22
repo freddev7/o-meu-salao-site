@@ -3,7 +3,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.1px solid #e6d7ab;
+    border-bottom: 0.1px solid #e6c2ab;
     padding: 1.4rem 0rem 1.4rem 0rem;
 }
 
@@ -28,7 +28,7 @@ nav a img {
     font-size: 0.9rem;
     font-weight: 300;
     font-family: 'arboria';
-    color: #e4c66a;
+    color: #cda582;
     font-weight: 500;
 }
 
@@ -37,7 +37,7 @@ nav a img {
     content: "";
     width: 36%;
     height: 2px;
-    background: #e4c66a;
+    background: #cda582;
     position: absolute;
     bottom: -4px;
     left: 32px;
@@ -48,7 +48,7 @@ nav a img {
 }
 
 #mobile i {
-    color: #e4c66a;
+    color: #cda582;
 }
 
 @media screen and (max-width:768px) {
@@ -103,7 +103,7 @@ nav a img {
         right: -330px;
         width: 300px;
         height: 100vh;
-        background-image: linear-gradient(330deg,#e4c66a -3.21%,#fff  26%);
+        background-image: linear-gradient(330deg,#cda582 -3.21%,#fff  26%);
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 40px 0 0 10px;
         transition: 0.3s ease-in-out;
@@ -144,7 +144,7 @@ nav a img {
         right: -330px;
         width: 300px;
         height: 420px;
-        background-image: linear-gradient(330deg,#e4c66a -3.21%,#fff  26%);
+        background-image: linear-gradient(330deg,#cda582 -3.21%,#fff  26%);
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 40px 0 0 10px;
         transition: 0.3s ease-in-out;

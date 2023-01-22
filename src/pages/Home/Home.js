@@ -134,9 +134,9 @@ function Home() {
                             image1={after}
                             image2={before}
                             sliderWidth={1}
-                            sliderColor="#e4c66a"
+                            sliderColor="#cda582"
                             handleColor="#fff"
-                            handleBackgroundColor="#e4c66a"
+                            handleBackgroundColor="#cda582"
                         />
                     </div>
                     <div className='item_box' style={{ width: 475, height: 519 }}>
@@ -144,9 +144,9 @@ function Home() {
                             image1={randompht}
                             image2={randompht2}
                             sliderWidth={1}
-                            sliderColor="#e4c66a"
+                            sliderColor="#cda582"
                             handleColor="#fff"
-                            handleBackgroundColor="#e4c66a"
+                            handleBackgroundColor="#cda582"
                         />
                     </div>
                     <div className='item_box' style={{ width: 475, height: 519 }}>
@@ -154,9 +154,9 @@ function Home() {
                             image1={randomphoto}
                             image2={randomphoto2}
                             sliderWidth={1}
-                            sliderColor="#e4c66a"
+                            sliderColor="#cda582"
                             handleColor="#fff"
-                            handleBackgroundColor="#e4c66a"
+                            handleBackgroundColor="#cda582"
                         />
                     </div>
                 </div>
