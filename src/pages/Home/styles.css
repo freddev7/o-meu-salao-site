@@ -13,7 +13,7 @@
 }
 
 .home_block_text {
-    color: #e4c66a;
+    color: #cda582;
     font-family: 'arboria';
     font-size: 1.6rem;
     line-height: 2.3rem;
@@ -34,7 +34,7 @@
 }
 
 .home_first_btn:first-child button {
-    background: linear-gradient(349.78deg, #e5ca77 -17.21%, #e4c66a 116.61%);
+    background: linear-gradient(349.78deg, #bb8f72 -17.21%, #cda582 116.61%);
     color: #fff;
     width: 11rem;
     height: 3.4rem;
@@ -44,11 +44,10 @@
     border-radius: 1rem;
     cursor: pointer;
     font-weight: 300;
-
 }
 
 .home_first_btn button {
-    background: linear-gradient(349.78deg, #e5ca77 -17.21%, #e4c66a 116.61%);
+    background: linear-gradient(349.78deg, #bb8f72 -17.21%, #cda582 116.61%);
     color: #fff;
     width: 18rem;
     height: 3.4rem;
@@ -58,13 +57,12 @@
     border-radius: 1rem;
     cursor: pointer;
     font-weight: 300;
-
 }
 
 .home_second_btn button {
     background-color: #fff;
-    color: #e4c66a;
-    border-color: #e4c66a;
+    color: #cda582;
+    border-color: #cda582;
     width: 11rem;
     height: 3.4rem;
     font-family: 'arboria';
@@ -84,7 +82,7 @@
     align-items: center;
     gap: 6rem;
     padding: 0rem 2rem 0rem 6rem;
-    background-image: linear-gradient(to top, #e4c66a, #fff 25%);
+    background-image: linear-gradient(to top, #cda582, #fff 25%);
 }
 
 .second_home_block {
@@ -93,16 +91,15 @@
 }
 
 .second_block_text {
-    color: #e4c66a;
+    color: #cda582;
     font-family: 'arboria';
     font-size: 1.6rem;
     line-height: 2.3rem;
     font-weight: 300;
-
 }
 
 .second_block_text h1 {
-    color: #e4c66a;
+    color: #cda582;
     font-family: 'arboria';
     line-height: 3.2rem;
     font-weight: 500;
@@ -114,7 +111,7 @@
 }
 
 .third_container {
-    background-color: #e4c66a;
+    background-color: #cda582;
     padding: 0rem 0rem 0rem 0rem;
 }
 
@@ -134,7 +131,7 @@
 }
 
 .list_box {
-    background-color: #e4c66a;
+    background-color: #cda582;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-content: space-around;
@@ -145,7 +142,7 @@
     color: #fff;
     font-family: 'arboria';
     text-align: center;
-    background: linear-gradient(349.78deg, #ffe374 -17.21%, #e4c66a 116.61%);
+    background: linear-gradient(349.78deg, #bb8f72 -17.21%, #cda582 116.61%);
     border-radius: 1rem;
     padding: 0rem 1.6rem 1rem 1.6rem;
     max-width: 16rem;
@@ -174,7 +171,7 @@
 }
 
 .fourth_container {
-    background-color: #e4c66a;
+    background-color: #cda582;
 }
 
 .container_box {
@@ -197,7 +194,7 @@
 
 .buttoninvisible button {
     background: linear-gradient(349.78deg, #f0eab6 -17.21%, #fff 116.61%);
-    color: #e4c66a;
+    color: #cda582;
     border: none;
     width: 11rem;
     height: 3.4rem;
@@ -221,7 +218,7 @@
 
 
 .fifth_container {
-    background-color: #e4c66a;
+    background-color: #cda582;
     padding: 2rem 3rem 0rem 3rem;
     display: grid;
     grid-template-areas:
@@ -257,7 +254,7 @@
 
 .fifth_container button {
     background: linear-gradient(349.78deg, #f0eab6 -17.21%, #fff 116.61%);
-    color: #e4c66a;
+    color: #cda582;
     border: none;
     width: 11rem;
     height: 3.4rem;
@@ -270,7 +267,7 @@
 }
 
 .sixth_text {
-    color: #e4c66a;
+    color: #cda582;
     font-size: 1.6rem;
     font-family: 'arboria';
     text-align: center;
@@ -288,12 +285,12 @@
     align-items: center;
     gap: 4rem;
     padding: 6rem 6rem 3rem 6rem;
-    background-image: linear-gradient(to bottom, #e4c66a, #fff 25%);
+    background-image: linear-gradient(to bottom, #cda582, #fff 25%);
 }
 
 .signature_content_container {
     text-align: center;
-    color: #e4c66a;
+    color: #cda582;
     font-size: 1.6rem;
     font-family: 'arboria';
     margin-top: 2rem;
@@ -316,7 +313,7 @@
 .container_benefits .benefits_content {
     font-family: 'arboria';
     position: relative;
-    background-image: linear-gradient(330deg, #e4c66a -3.21%, #fff 26%);
+    background-image: linear-gradient(330deg, #cda582 -3.21%, #fff 26%);
     padding: 0.2rem 3rem 1rem 3rem;
     box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
@@ -348,7 +345,7 @@
 }
 
 .container_benefits .benefits_content:hover label::after {
-    color: #e4c66a;
+    color: #cda582;
 }
 
 .container_benefits .benefits_content input:checked~label::after {
@@ -365,7 +362,7 @@
     border-radius: 1rem;
     margin-right: 2rem;
     padding: 0.6rem;
-    background-image: linear-gradient(330deg, #e4c66a -3.21%, #fff 26%);
+    background-image: linear-gradient(330deg, #cda582 -3.21%, #fff 26%);
     border: 0.1rem solid rgba(255, 255, 255, 0.2);
 }
 
@@ -384,7 +381,7 @@
 
 .container_benefits .benefits_content label h1 {
     position: relative;
-    color: #e4c66a;
+    color: #cda582;
     z-index: 10;
 }
 
@@ -408,7 +405,7 @@
     font-size: 1.3rem;
     margin-top: 1rem;
     padding: 0.6rem 0;
-    color: #e4c66a;
+    color: #cda582;
     z-index: 10;
 }
 
@@ -433,7 +430,7 @@
 }
 
 .carousel_block .carousel .item_carousel {
-    background-image: linear-gradient(330deg, #e4c66a -3.21%, #fff 26%);
+    background-image: linear-gradient(330deg, #cda582 -3.21%, #fff 26%);
     margin: 2rem;
     padding: 0rem;
     width: 22.3rem;
@@ -449,7 +446,7 @@
 
 .carousel_block .carousel .item_carousel .text_item {
     display: flex;
-    color: #e4c66a;
+    color: #cda582;
     font-family: 'arboria';
 }
 
@@ -466,7 +463,7 @@
 }
 
 .carousel_block button i {
-    color: #e4c66a;
+    color: #cda582;
     font-size: 3rem;
 
 }
@@ -479,7 +476,7 @@
 }
 
 .buttonservice button {
-    background: linear-gradient(349.78deg, #e5ca77 -17.21%, #e4c66a 116.61%);
+    background: linear-gradient(349.78deg, #bb8f72 -17.21%, #cda582 116.61%);
     color: #fff;
     width: 15rem;
     height: 3.4rem;
@@ -492,7 +489,7 @@
 }
 
 .footer {
-    background-image: linear-gradient(to top, #e4c66a, #fff 36%);
+    background-image: linear-gradient(to top, #cda582, #fff 36%);
     padding: 3rem 0 3rem 0;
     display: flex;
     flex-wrap: wrap;
@@ -512,8 +509,7 @@
     height: 8rem;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    background-image: linear-gradient(330deg, #e4c66a -3.21%, #fff 26%);
-
+    background-image: linear-gradient(330deg, #cda582 -3.21%, #fff 26%);
 }
 
 .footer img {
@@ -536,7 +532,7 @@
 
 .footer_icon i {
     font-size: 4rem;
-    color: #e4c66a;
+    color: #cda582;
 }
 
 @media (max-width: 768px) {

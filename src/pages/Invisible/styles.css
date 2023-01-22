@@ -2,12 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(150deg, #e4c66a, #fff 36%);
+    background-image: linear-gradient(150deg, #d5b170, #fff 36%);
     padding: 8rem;
 }
 
 .title_stretches h1 {
-    color: #e4c66a;
+    color: #d5b170;
     font-size: 48px;
     font-family: 'arboria';
     text-align: center;
@@ -16,12 +16,12 @@
 
 .firstblock_is {
     display: flex;
-    background-image: linear-gradient(12deg, #e4c66a, #fff 26%);
+    background-image: linear-gradient(12deg, #d5b170, #fff 26%);
     padding: 5rem 0rem 0rem 6rem;
 }
 
 .text_containeris {
-    color: #e4c66a;
+    color: #d5b170;
     font-family: 'arboria';
     padding: 3rem 4rem 0rem 4rem; 
 }
@@ -34,7 +34,7 @@
 }
 
 .secondcontainer_is {
-    background-color: #e4c66a;
+    background-color: #d5b170;
     padding: 3rem;
 }
 
@@ -69,7 +69,7 @@
 
 .questions .item_questions {
     position: relative;
-    background: linear-gradient(349.78deg, #f5e76e -17.21%, #e4c66a 116.61%);
+    background: linear-gradient(349.78deg, #edcb8d -17.21%, #d5b170 116.61%);
     padding: 0rem 3rem 2rem 2rem;
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -109,7 +109,7 @@
 }
 
 .questions .item_questions:hover label::after {
-    color: #e4c66a;
+    color: #d5b170;
 }
 
 .questions .item_questions input:checked~label::after {
@@ -119,7 +119,7 @@
 .questions .item_questions label h2 {
     width: 50px;
     height: 50px;
-    background: linear-gradient(349.78deg, #e4c66a -17.21%, #f0e68b 116.61%);
+    background: linear-gradient(349.78deg, #d5b170 -17.21%, #edcb8d 116.61%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +154,7 @@
 
 
 .third_containeris {
-    background-image: linear-gradient(to bottom, #e4c66a, #fff 46%);
+    background-image: linear-gradient(to bottom, #d5b170, #fff 46%);
     padding: 6rem;
 }
 
@@ -167,7 +167,7 @@
 
 .title_thirdcontainer h1 {
     font-family: 'arboria';
-    color: #e4c66a;
+    color: #d5b170;
     font-size: 44px;
     text-align: center;
     font-weight: 500;
@@ -180,7 +180,7 @@
 }
 
 .footeris h1 {
-    color: #e4c66a;
+    color: #d5b170;
     font-size: 48px;
     font-family: 'arboria';
     text-align: center;
@@ -197,14 +197,14 @@
 }
 
 .block_curly h1 {
-    color: #e4c66a;
+    color: #d5b170;
     font-size: 42px;
     font-family: 'arboria';
     font-weight: 500;
 }
 
 .block_curly p {
-    color: #e4c66a;
+    color: #d5b170;
     font-size: 22px;
     font-family: 'arboria';
     line-height: 2.3rem;
@@ -229,16 +229,16 @@
     align-items: center;
     justify-content: center;
     padding: 0rem 2rem 3rem 2rem;
-    background-color: #e4c66a;
+    background-color: #d5b170;
 }
 
 .titledreams_container {
     display: flex;
     justify-content: center;
-    color: #e4c66a;
+    color: #d5b170;
     font-family: 'arboria';
     padding: 8rem;
-    background-image: linear-gradient(190deg, #e4c66a, #fff 26%);
+    background-image: linear-gradient(190deg, #d5b170, #fff 26%);
 }
 
 .titledreams_container h1 {
@@ -254,14 +254,14 @@
 }
 
 .block_dreams h1 {
-    color: #e4c66a;
+    color: #d5b170;
     font-size: 42px;
     font-family: 'arboria';
     font-weight: 500;
 }
 
 .block_dreams p {
-    color: #e4c66a;
+    color: #d5b170;
     font-size: 22px;
     font-family: 'arboria';
     line-height: 2.3rem;
@@ -288,14 +288,14 @@
 }
 
 .dreamsresult_block h1 {
-    color: #e4c66a;
+    color: #d5b170;
     font-size: 42px;
     font-family: 'arboria';
     font-weight: 500;
 }
 
 .dreamsresult_block p {
-    color: #e4c66a;
+    color: #d5b170;
     font-size: 22px;
     font-family: 'arboria';
     line-height: 2.3rem;
@@ -372,7 +372,7 @@
 
     .questions .item_questions {
         position: relative;
-        background: linear-gradient(349.78deg, #f5e76e -17.21%, #e4c66a 116.61%);
+        background: linear-gradient(349.78deg, #edcb8d -17.21%, #d5b170 116.61%);
         padding: 0rem 1rem 2rem 1rem;
         border-radius: 1rem;
         border: 1px solid rgba(255, 255, 255, 0.2);
@@ -400,7 +400,7 @@
     }
 
     .questions .item_questions:hover label::after {
-        color: #e4c66a;
+        color: #d5b170;
     }
 
     .questions .item_questions input:checked~label::after {

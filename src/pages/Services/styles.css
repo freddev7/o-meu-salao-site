@@ -3,12 +3,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(150deg,#e4c66a ,#fff  36%);
+    background-image: linear-gradient(150deg,#cda582 ,#fff  36%);
     padding: 6rem 0rem 6rem 0rem;
 }
 
 .title_container_services h1 {
-    color: #e4c66a;
+    color: #cda582;
     font-size: 48px;
     font-family: 'arboria';
     text-align: center;
@@ -17,7 +17,7 @@
 }
 
 .title_container_services p {
-    color: #e4c66a;
+    color: #cda582;
     font-size: 1.6rem;
     font-family: 'arboria';
     margin-top: 2rem;
@@ -38,8 +38,8 @@
 }
 
 .item_listservices {
-    background-image: linear-gradient(330deg,#e4c66a -3.21%,#fff  26%);
-    color: #e4c66a;
+    background-image: linear-gradient(330deg,#cda582 -3.21%,#fff  26%);
+    color: #cda582;
     font-family: 'arboria';
     border-radius: 1rem;
     padding: 1.6rem;
@@ -68,9 +68,9 @@
 
 .benefitspackservices .benefits_pack {
     font-family: 'arboria';
-    color: #e4c66a;
+    color: #cda582;
     position: relative;
-    background-image: linear-gradient(330deg,#e4c66a -3.21%,#fff  26%);
+    background-image: linear-gradient(330deg,#cda582 -3.21%,#fff  26%);
     padding: 1rem 3rem 2rem 3rem;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
@@ -102,12 +102,12 @@
 }
 
 .benefitspackservices .benefits_pack:hover label::after {
-    color: #e4c66a;
+    color: #cda582;
 }
 
 .benefitspackservices .benefits_pack input:checked ~ label::after {
     transform: rotate(135deg);
-    color: #e4c66a;
+    color: #cda582;
 }
 
 .benefitspackservices .benefits_pack label div img {
@@ -119,7 +119,7 @@
     border-radius: 1rem;
     margin-right: 25px;
     padding: 0.6rem;
-    background-image: linear-gradient(330deg,#e4c66a -3.21%,#fff  26%);
+    background-image: linear-gradient(330deg,#cda582 -3.21%,#fff  26%);
     border: 0.5px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -137,12 +137,12 @@
 }
 
 .benefitspackservices .benefits_pack input:checked ~ label div {
-    background-image: linear-gradient(30deg,#e4c66a -3.21%,#fff  26%);
+    background-image: linear-gradient(30deg,#cda582 -3.21%,#fff  26%);
 }
 
 .benefitspackservices .benefits_pack label h1 {
     position: relative;
-    color: #e4c66a;
+    color: #cda582;
     z-index: 10;
 }
 
@@ -163,7 +163,7 @@
     font-size: 1.3rem;
     margin-top: 1rem;
     padding: 0.6rem 0;
-    color: #e4c66a;
+    color: #cda582;
     z-index: 10;
 }
 
@@ -175,7 +175,7 @@
 }
 
 .buttonscheduling button {
-    background: linear-gradient(349.78deg, #e5ca77 -17.21%, #e4c66a 116.61%);
+    background: linear-gradient(349.78deg, #bb8f72 -17.21%, #cda582 116.61%);
     color: #fff;
     width: 260px;
     height: 60px;
