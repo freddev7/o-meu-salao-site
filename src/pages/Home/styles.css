@@ -580,10 +580,15 @@
 
     .list_box {
         gap: 1rem;
+        padding: 0rem 6rem 6rem 6rem;
     }
 
     .title_container {
         font-size:120% ;
+    }
+
+    .item_list {
+        padding: 0rem 1.2rem 1rem 1.2rem;
     }
 
     .item_list h2 {
@@ -596,6 +601,10 @@
 
     .item_list h3 {
         font-size: 110%;
+    }
+
+    .container_box {
+        padding: 0rem 4rem 4rem 4rem;
     }
 
     .item_box {
@@ -878,7 +887,6 @@
 
     .list_box {
         gap: 2rem;
-        background-color: #e4c66a;
         display: flex;
         flex-direction: column;
         padding: 0rem 0rem 0rem 0rem;
