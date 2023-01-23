@@ -7,7 +7,7 @@ import randomphoto from '../../assets/img/randomphoto.png'
 import randomphoto2 from '../../assets/img/randomphoto2.png'
 import cacheado from '../../assets/img/cacheado.png'
 import invisibleslimlogo from '../../assets/img/invisibleslimlogo.svg'
-import invisibleslimlogobackground from '../../assets/img/invisibleslimlogobackground.svg'
+import newinvisiblelogo from '../../assets/img/newinvisiblelogo.svg'
 import dreams from '../../assets/img/dreams.png'
 import dreamsresult from '../../assets/img/dreamsresult.png'
 import './styles.css'
@@ -33,8 +33,10 @@ function Invisible() {
                 <div className='firstblock_is'>
                     <img src={layer} alt='layer' data-aos="fade-right" />
                     <div className='text_containeris'>
+                        <h1>O Invisible é tudo o que você precisa.</h1>
                         <p>O mega-hair é uma opção para qualquer mulher que deseja aumentar sua beleza e autoestima. Ele pode ser colocado em qualquer tipo de cabelo, desde que tenha pelo menos 2 dedos de comprimento para sustentar a fita.</p>
                         <p>Além disso, o mega-hair é uma ótima opção para mulheres que desejam aumentar o volume e comprimento do cabelo, sem precisar esperar anos para crescer naturalmente. Ele é feito de fios de cabelo humano, o que garante uma aparência natural e saúdavel.</p>
+                        <p>O mega-hair é uma opção para qualquer mulher que deseja aumentar sua beleza e autoestima. Ele pode ser colocado em qualquer tipo de cabelo, desde que tenha pelo menos 2 dedos de comprimento para sustentar a fita.</p>
                     </div>
                 </div>
             </div>
@@ -112,7 +114,7 @@ function Invisible() {
                         image2={after}
                         sliderWidth={1}
                         sliderColor="#fff"
-                        handleColor="#e4c66a"
+                        handleColor="#cda582"
                         handleBackgroundColor="white"
                     />
                 </div>
@@ -122,7 +124,7 @@ function Invisible() {
                         image2={randompht}
                         sliderWidth={1}
                         sliderColor="#fff"
-                        handleColor="#e4c66a"
+                        handleColor="#cda582"
                         handleBackgroundColor="white"
                     />
                 </div>
@@ -132,7 +134,7 @@ function Invisible() {
                         image2={randomphoto}
                         sliderWidth={1}
                         sliderColor="#fff"
-                        handleColor="#e4c66a"
+                        handleColor="#cda582"
                         handleBackgroundColor="white"
                     />
                 </div>
@@ -149,7 +151,7 @@ function Invisible() {
                 <div className='block_curly'>
                     <h1>O método Invisible permite o uso de cachos devido a sua técnica de aplicação. </h1>
                     <p>Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade </p>
-                    <img src={invisibleslimlogobackground} alt='invisibleslimlogobackground' />
+                    <img src={newinvisiblelogo} alt='newinvisiblelogo' />
                 </div>
                 <div className='curlyimg'>
                     <img src={cacheado} alt='cacheado' data-aos="fade-up" data-aos-anchor-placement="top-bottom" />

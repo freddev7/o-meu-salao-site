@@ -1,4 +1,4 @@
-import invisibleslimlogobackground from '../../assets/img/invisibleslimlogobackground.svg'
+import mcinvisible from '../../assets/img/mcinvisible.svg'
 import photocourse from '../../assets/img/photocourse.png'
 import courseone from '../../assets/img/courseone.png'
 import coursetwo from '../../assets/img/coursetwo.png'
@@ -26,7 +26,7 @@ function Courses() {
                 <div className='block_course'>
                     <h1>O curso Invisible Slim capacita o profissional executar a melhor técnica de alongamento do mercado.</h1>
                     <p>Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade </p>
-                    <img src={invisibleslimlogobackground} alt='invisibleslimlogobackground' />
+                    <img src={mcinvisible} alt='mcinvisible' />
                 </div>
                 <div className='photocoursecont'>
                     <img src={photocourse} alt='photocourse' data-aos="zoom-in-up" />

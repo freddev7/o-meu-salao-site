@@ -26,6 +26,11 @@
     padding: 3rem 4rem 0rem 4rem; 
 }
 
+.text_containeris h1 {
+    font-size: 44px;
+    font-weight: 500;
+}
+
 .text_containeris p {
     margin-top: 2rem;
     font-size: 22px;
@@ -152,6 +157,9 @@
 
 }
 
+.logoinvisible img {
+    max-width: 12rem;
+}
 
 .third_containeris {
     background-image: linear-gradient(to bottom, #cda582, #fff 46%);
@@ -322,8 +330,16 @@
         padding: 4rem 1rem 0rem 1rem;
     }
 
+    .text_containeris h1 {
+        display: none;
+    }
+
     .text_containeris p {
         font-size: 130%;
+    }
+
+    .text_containeris p:last-child {
+        display: none;
     }
 
     .firstblock_is {
@@ -449,7 +465,6 @@
         text-align: center;
         justify-content: center;
         padding: 3rem 0.8rem 0rem 0.8rem;
-
     }
 
     .block_curly {
@@ -457,7 +472,6 @@
     }
 
     .block_curly h1 {
-
         font-size: 38px;
     }
 
@@ -466,9 +480,9 @@
     }
 
     .block_curly img {
-        max-width: 45%;
+        max-width: 55%;
         position: relative;
-        left: 7rem;
+        left: 5rem;
         top: 3rem;
     }
 
