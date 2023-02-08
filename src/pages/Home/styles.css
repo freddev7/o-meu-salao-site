@@ -544,6 +544,10 @@
         line-height: 2.6rem;
     }
 
+    .home_block_text p {
+        line-height: 2rem;
+    }
+
     .container_img img {
         max-width: 26rem;
     }
@@ -552,8 +556,12 @@
         font-size: 1.4rem;
     }
 
+    .second_block_text p {
+        line-height: 2rem;
+    }
+
     .second_container_img img {
-        max-width: 32rem;
+        max-width: 34rem;
     }
 
     .title_container {
@@ -561,11 +569,23 @@
     }
 
     .list_box {
-        padding: 0rem 0rem 6rem 2rem;
+        padding: 0rem 0rem 6rem 3rem;
     }
 
     .item_list {
         padding: 0rem 1.2rem 1rem 1.2rem;
+    }
+
+    .item_list h2 {
+        font-size: 3rem;
+    }
+
+    .item_list p {
+        font-size: 1rem;
+    }
+
+    .item_list h3 {
+        font-size: 1.2rem;
     }
 
     .container_box {
@@ -581,6 +601,10 @@
         font-size: 1.4rem;
     }
 
+    .title_fifthcontainer p {
+        line-height: 2rem;
+    }
+
     .container_imgft img {
         max-width: 23rem;
     }
@@ -589,15 +613,14 @@
         font-size: 1.4rem;
     }
 
+    .benefits_content {
+        font-size: 1rem;
+    }
+
     .sixth_text {
         font-size:1.4rem;
     }
-    
-    .carousel_block .carousel .item_carousel {
-        width: 22.3rem;
-    }
 
-    
 }
 
 @media (max-width: 1376px) {
