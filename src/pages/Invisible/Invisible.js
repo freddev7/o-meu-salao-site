@@ -36,7 +36,7 @@ function Invisible() {
                         <h1>O Invisible é tudo o que você precisa.</h1>
                         <p>O mega-hair é uma opção para qualquer mulher que deseja aumentar sua beleza e autoestima. Ele pode ser colocado em qualquer tipo de cabelo, desde que tenha pelo menos 2 dedos de comprimento para sustentar a fita.</p>
                         <p>Além disso, o mega-hair é uma ótima opção para mulheres que desejam aumentar o volume e comprimento do cabelo, sem precisar esperar anos para crescer naturalmente. Ele é feito de fios de cabelo humano, o que garante uma aparência natural e saúdavel.</p>
-                        <p>O mega-hair é uma opção para qualquer mulher que deseja aumentar sua beleza e autoestima. Ele pode ser colocado em qualquer tipo de cabelo, desde que tenha pelo menos 2 dedos de comprimento para sustentar a fita.</p>
+                        <p>No entanto, é importante  escolher o mega-hair certo e fazer a aplicação corretamente para evitar danos ao cabelo natural. É recomdendável procurar um profissional capacitado para ajudar a escolher e aplicar o mega-hair corretamente.</p>
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@ function Invisible() {
             <div className='curly_container'>
                 <div className='block_curly'>
                     <h1>O método Invisible permite o uso de cachos devido a sua técnica de aplicação. </h1>
-                    <p>Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade, Com protocolos diferenciados, nossas equipes especialistas sempre têm para oferecer a você um tratamento especial de acordo com cada tipo de necessidade </p>
+                    <p>O Invisible pode ser feito em cabelos cacheados, mas é importante ter alguns cuidados específicios para preservar a saúde e o aspecto natural do cabelo. A primeira coisa a considerar é o tipo de fios de cabelos que serão utilizados. É importante escolher fios de cabelo que sejam compatíveis com o tipo de cacho e evitar aqueles que possuem um aspecto artificial e diferente da textura natural do cabelo. Após a aplicação do Invisible, é importante manter uma rotina de cuidados adequada para preservar a saúde do cabelo natural e dos fios adicionais. Isso inclui o uso de produtos específicos para cabelos cacheados e tratamentos regulares para evitar a perda de hidratação e a quebra dos fios.</p>
                     <img src={newinvisiblelogo} alt='newinvisiblelogo' />
                 </div>
                 <div className='curlyimg'>
@@ -158,12 +158,12 @@ function Invisible() {
                 </div>
             </div>
             <div className='titledreams_container'>
-                <h1>- Dreams -</h1>
+                <h1>Conheça o Dreams uma técnica inovadora de alongamento assim como o Invisible.</h1>
             </div>
             <div className='dreams_container'>
                 <img src={dreams} alt='dreams' data-aos="zoom-in" />
                 <div className='block_dreams'>
-                    <h1>Conheça o Dreams uma técnica inovadora de alongamento invisível assim como o Invisible Slim.</h1>
+                    <h1>Transforme o seu visual com o Dreams e desfrute de um cabelo longo, volumoso e saúdavel.</h1>
                     <p>A técnica consiste em um alongamento com uma quantidade pequena de cabelo, possibilitando então a colocação de mechas no cabelo sem a necessidade de química. Um alongamento totalmente indolor e imperceptível, metodo inivisivel com cobertura de cabelos totalmente imperceptivel e natural.</p>
                     <p>Não possui ponto de tração sendo assim não danifica o cabelo pode ser utilizado para finalidades diferentes sendo elas alongar ou preencher material testado e aprovado por dermatologistas. Clientes que possuem alopecia adrogenica, corte químico pós covid com perca assentuada de cabelo na regiao frontal ou até mesmo para acabamentos</p>
                 </div>
