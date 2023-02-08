@@ -535,6 +535,71 @@
     color: #cda582;
 }
 
+@media (max-width: 1440px) {
+    .home_block_text {
+        font-size: 1.4rem;
+    }
+
+    .home_block_text h1 {
+        line-height: 2.6rem;
+    }
+
+    .container_img img {
+        max-width: 26rem;
+    }
+
+    .second_block_text {
+        font-size: 1.4rem;
+    }
+
+    .second_container_img img {
+        max-width: 32rem;
+    }
+
+    .title_container {
+        font-size: 1.4rem;
+    }
+
+    .list_box {
+        padding: 0rem 0rem 6rem 2rem;
+    }
+
+    .item_list {
+        padding: 0rem 1.2rem 1rem 1.2rem;
+    }
+
+    .container_box {
+        padding: 0rem 4rem 4rem 4rem;
+    }
+
+    .item_box {
+        max-width: 400px;
+        max-height: 460px;
+    }
+
+    .title_fifthcontainer {
+        font-size: 1.4rem;
+    }
+
+    .container_imgft img {
+        max-width: 23rem;
+    }
+
+    .signature_content_container {
+        font-size: 1.4rem;
+    }
+
+    .sixth_text {
+        font-size:1.4rem;
+    }
+    
+    .carousel_block .carousel .item_carousel {
+        width: 22.3rem;
+    }
+
+    
+}
+
 @media (max-width: 1376px) {
     .home_block_text {
         font-size: 120%;
