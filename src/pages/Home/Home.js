@@ -33,7 +33,7 @@ function Home() {
         e.preventDefault();
         carousel.current.scrollLeft -= carousel.current.offsetWidth;
     }
-    
+
 
     const handleRightClick = (e) => {
         e.preventDefault();
@@ -41,12 +41,12 @@ function Home() {
     }
 
     useEffect(() => {
-       window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     }, [])
 
     useEffect(() => {
-        Aos.init({duration: 3000});
-    },[])
+        Aos.init({ duration: 3000 });
+    }, [])
 
 
 
@@ -55,7 +55,7 @@ function Home() {
             <div className='first_container'>
                 <div className='home_block'>
                     <div className='home_block_text'>
-                        <h1>Bem-vindo(a) ao <br/> O Meu Salão!</h1>
+                        <h1>Bem-vindo(a) ao <br /> O Meu Salão!</h1>
                         <p>Somos um dos melhores salões de Belo Horizonte, referência em alongamento adesivado invisível e prótese capilar, oferecendo os mais avançados e inovadores procedimentos e tecnologias para nossos clientes.</p>
                         <p>Dispomos de um amplo espaço e uma equipe de profissionais altamente capacitados, prontos para atender às suas necessidades e proporcionar uma experiência inesquecível.</p>
                         <p>Oferecemos um leque completo de serviços para mulheres, homens e crianças.</p>
@@ -90,14 +90,11 @@ function Home() {
                         <br />
                         <p>Alongamento adesivado, totalmente indolor e imperceptível. Único método testado e aprovado por dermatologistas e tricologistas. Método exclusivo, desenvolvido pela expert em saúde capilar Camila Rodrigues que a mais de 20 anos vem transformando vidas atráves dos cabelos.</p>
                     </div>
-                        <br />
-                        <br />
-                        <br />
                     <div className='home_first_btn'>
-                            <Link to='/Courses'>
-                                <button onClick={() => { window.scrollTo({ top: 0, }); }}>Cursos Profissionalizantes</button>
-                            </Link>
-                        </div>
+                        <Link to='/Courses'>
+                            <button onClick={() => { window.scrollTo({ top: 0, }); }}>Cursos Profissionalizantes</button>
+                        </Link>
+                    </div>
                 </div>
             </div>
             <div className='third_container'>
@@ -111,7 +108,7 @@ function Home() {
                     <h3>AVALIAÇÃO</h3>
                     <p>Na avaliação, fazemos uma melhor apresentação do método, auxiliamos na escolha do cabelo, cor, tipo e comprimento desejado. Somente atráves da avaliação presencial informamos o valor. Lembrando que a primeira avaliação é gratuita.</p>
                 </div>
-                <div className='item_list' data-aos="flip-left">
+                <div className='item_list' data-aos="flip-right">
                     <h2>2</h2>
                     <h3>ESCOLHA DO CABELO</h3>
                     <p>Prezamos muito pela qualidade dos nossos cabelos. Trabalhamos somente com cabelos brasileiros regionais. Entendemos a necessidade de cada cliente em relação ao tamanho, cor e textura, por isso contamos com uma grande variedade para melhor atendê-las.</p>
@@ -121,7 +118,7 @@ function Home() {
                     <h3>APLICAÇÃO</h3>
                     <p>O procedimento é totalmente indolor e imperceptível. A duração da colocação é de 40 minutos. Utilizamos uma película adesiva que é fabricada por nós e colocada em você de acordo com suas medidas. Não danifica em absolutamente nada o seu cabelo.</p>
                 </div>
-                <div className='item_list' data-aos="flip-left">
+                <div className='item_list' data-aos="flip-right">
                     <h2>4</h2>
                     <h3>MANUTENÇÃO</h3>
                     <p>A manutenção do Mega Hair é importante para garantir a durabilidade e a qualidade do alongamento. É recomendado agendar a manutenção até 90 dias, dependendo do crescimento do seu cabelo e dos cuidados que devemos ter com ele.</p>
@@ -170,17 +167,23 @@ function Home() {
                 </div>
             </div>
             <div className='fifth_container'>
-                <div className='title_fifthcontainer'>
-                    <h1>Confira nossa linha de cosméticos exclusiva para você!</h1>
-                    <p>A My Dream Cosmetic foi criada para atender às necessidades de proporcionar cuidados especiais aos cabelos danificados por coloração, alisamento ou química.</p>
-                    <p>Com ativos poderosos e tecnológicos, nossas linhas revitalizam a saúde capilar e devolvem a beleza, o brilho, a maciez e o movimento aos fios.</p>
-                    <p>Experimente os nossos produtos profissionais e sinta a diferença com cabelos sempre mais bonitos e saudáveis</p>
-                    <Link to='/Products'>
-                        <button onClick={() => { window.scrollTo({ top: 0, }); }}>Produtos</button>
-                    </Link>
+                <div className='fifth_block'>
+                    <div className='title_fifthcontainer'>
+                        <h1>Confira nossa linha de cosméticos exclusiva para você!</h1>
+                        <p>A My Dream Cosmetic foi criada para atender às necessidades de proporcionar cuidados especiais aos cabelos danificados por coloração, alisamento ou química.</p>
+                        <p>Com ativos poderosos e tecnológicos, nossas linhas revitalizam a saúde capilar e devolvem a beleza, o brilho, a maciez e o movimento aos fios.</p>
+                        <p>Experimente os nossos produtos profissionais e sinta a diferença com cabelos sempre mais bonitos e saudáveis.</p>
+                    </div>
+                    <div className='fifth_button'>
+                        <Link to='/Products'>
+                            <button onClick={() => { window.scrollTo({ top: 0, }); }}>Produtos</button>
+                        </Link>
+                    </div>
                 </div>
                 <div className='container_imgft' data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <img src={photofunc} alt='photofunc' />
+                    <div className='photoproducts'>
+                        <img src={photofunc} alt='photofunc' />
+                    </div>
                 </div>
             </div>
             <div className='home_signature_container'>
@@ -214,8 +217,8 @@ function Home() {
                         <h1>Cartão Presente</h1>
                     </label>
                     <div className='signature_content'>
-                        <h3>- O Vale-presente pode ser em qualquer<br/>   valor que o cliente desejar.</h3>
-                        <h3>- Proporcione essa experiência única <br/>   e inesquecível para quem você ama.</h3>
+                        <h3>- O Vale-presente pode ser em qualquer<br />   valor que o cliente desejar.</h3>
+                        <h3>- Proporcione essa experiência única <br />   e inesquecível para quem você ama.</h3>
                     </div>
                 </div>
             </div>
@@ -226,7 +229,7 @@ function Home() {
             </div>
             <div className='carousel_block'>
                 <button onClick={handleLeftClick}>
-                <i className='fas fa-arrow-alt-circle-left'></i>
+                    <i className='fas fa-arrow-alt-circle-left'></i>
                 </button>
                 <div className="carousel" ref={carousel}>
                     <div className='item_carousel'>
@@ -303,7 +306,7 @@ function Home() {
                     </div>
                 </div>
                 <button onClick={handleRightClick}>
-                <i className='fas fa-arrow-alt-circle-right'></i>
+                    <i className='fas fa-arrow-alt-circle-right'></i>
                 </button>
             </div>
             <div className='buttonservice'>
@@ -315,7 +318,7 @@ function Home() {
                 <div className='footer'>
                     <div className='footer_icon'>
                         <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
-                        <i className='fab fa-instagram'></i>
+                            <i className='fab fa-instagram'></i>
                         </a>
                     </div>
                     <div className='footer_logo'>
@@ -323,7 +326,7 @@ function Home() {
                     </div>
                     <div className='footer_icon'>
                         <a href="https://web.whatsapp.com/send?phone=5531992926179" target="_blank" rel="noopener noreferrer">
-                        <i className='fab fa-whatsapp'></i>
+                            <i className='fab fa-whatsapp'></i>
                         </a>
                     </div>
                 </div>

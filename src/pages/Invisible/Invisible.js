@@ -33,7 +33,7 @@ function Invisible() {
                 <div className='firstblock_is'>
                     <img src={layer} alt='layer' data-aos="fade-right" />
                     <div className='text_containeris'>
-                        <h1>O Invisible é tudo o que você precisa.</h1>
+                        <h1>O Invisible é tudo que você precisa.</h1>
                         <p>O mega-hair é uma opção para qualquer mulher que deseja aumentar sua beleza e autoestima. Ele pode ser colocado em qualquer tipo de cabelo, desde que tenha pelo menos 2 dedos de comprimento para sustentar a fita.</p>
                         <p>Além disso, o mega-hair é uma ótima opção para mulheres que desejam aumentar o volume e comprimento do cabelo, sem precisar esperar anos para crescer naturalmente. Ele é feito de fios de cabelo humano, o que garante uma aparência natural e saúdavel.</p>
                         <p>No entanto, é importante  escolher o mega-hair certo e fazer a aplicação corretamente para evitar danos ao cabelo natural. É recomdendável procurar um profissional capacitado para ajudar a escolher e aplicar o mega-hair corretamente.</p>
