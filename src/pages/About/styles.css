@@ -592,4 +592,29 @@
     .map {
         margin-top: 2rem;
     }
+
+    .map iframe {
+        width: 21rem;
+    }
+
+    .slider {
+        width: 350px;
+        height: 260px;
+    }
+
+    .slide img {
+        width: 350px;
+    }
+
+    .manual_navigation {
+        width: 350px;
+    }
+
+    .navigation_auto {
+        width: 350px;
+    }
+
+    .slides {
+        height: 60px;
+    }
 }

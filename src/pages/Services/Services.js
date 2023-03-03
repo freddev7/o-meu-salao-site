@@ -54,37 +54,37 @@ function Services() {
             </div>
             <div className='second_container_services'>
                 <div className='listservices_box'>
-                    <div className='item_listservices' data-aos="fade-left">
+                    <div className='item_listservices' data-aos="fade-right">
                         <h1>Sobrancelha</h1>
                     </div>
                     <div className='item_listservices' data-aos="fade-right">
                         <h1>Esmalteria</h1>
                     </div>
-                    <div className='item_listservices' data-aos="fade-left">
+                    <div className='item_listservices' data-aos="fade-right">
                         <h1>Baby liss</h1>
                     </div>
                     <div className='item_listservices' data-aos="fade-right">
                         <h1>Escova</h1>
                     </div>
-                    <div className='item_listservices' data-aos="fade-left">
+                    <div className='item_listservices' data-aos="fade-right">
                         <h1>Corte</h1>
                     </div>
                     <div className='item_listservices' data-aos="fade-right">
                         <h1>Hidratação</h1>
                     </div>
-                    <div className='item_listservices' data-aos="fade-left">
+                    <div className='item_listservices' data-aos="fade-right">
                         <h1>Massagem</h1>
                     </div>
                     <div className='item_listservices' data-aos="fade-right">
                         <h1>Spa dos Pés</h1>
                     </div>
-                    <div className='item_listservices' data-aos="fade-left">
+                    <div className='item_listservices' data-aos="fade-right">
                         <h1>Selagem</h1>
                     </div>
                     <div className='item_listservices' data-aos="fade-right">
                         <h1>Botox</h1>
                     </div>
-                    <div className='item_listservices' data-aos="fade-left">
+                    <div className='item_listservices' data-aos="fade-right">
                         <h1>Podologia</h1>
                     </div>
                     <div className='item_listservices' data-aos="fade-right">

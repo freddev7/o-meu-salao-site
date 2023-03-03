@@ -74,7 +74,6 @@ function About() {
             </div>
             <div className='container_slider'>
                 <div className='slider'>
-
                     <div className='slides'>
                         <input type="radio" name='radio-btn' id="radio1" />
                         <input type="radio" name='radio-btn' id="radio2" />
@@ -120,7 +119,6 @@ function About() {
                         <label for="radio5" className='manual-btn' />
                         <label for="radio6" className='manual-btn' />
                     </div>
-
                 </div>
                 <div className='logocontainer'>
                     <img src={logosign} alt='logosign' />
@@ -152,7 +150,6 @@ function About() {
             </div>
             <div className='container_slidertwo'>
                 <div className='slider'>
-
                     <div className='slides'>
                         <input type="radio" name='radio-btn' id="radio7" />
                         <input type="radio" name='radio-btn' id="radio8" />

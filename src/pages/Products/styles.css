@@ -553,6 +553,10 @@
 }
 
 @media (max-width: 375px) {
+    .logo_container_products img {
+        width: 16rem;
+    }
+
     .product_img img {
         width: 21rem;
         height: 31rem;
@@ -592,5 +596,13 @@
     .product8_img img {
         width: 21rem;
         height: 11rem;
+    }
+
+    .logo_container_productsformen img {
+        width: 16rem;
+    }
+
+    button {
+        margin-top: 2rem;
     }
 }

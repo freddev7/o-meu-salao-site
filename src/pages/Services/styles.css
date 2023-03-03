@@ -68,7 +68,7 @@
     color: #cda582;
     position: relative;
     background-image: linear-gradient(330deg,#cda582 -3.21%,#fff  26%);
-    padding: 1rem 3rem 2rem 3rem;
+    padding: 1.2rem 2.6rem 1.4rem 2.6rem;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -130,7 +130,6 @@
     justify-content: flex-end;
     background: none;
     border: none;
-    
 }
 
 .benefitspackservices .benefits_pack input:checked ~ label div {
@@ -151,7 +150,6 @@
 
 .benefitspackservices .benefits_pack input:checked ~ .signature_pack {
     max-height: 100vh;
-    
 }
 
 .benefitspackservices .benefits_pack .signature_pack h3 {
@@ -200,7 +198,7 @@
 
 @media (max-width: 428px) {
     .title_container_services {
-        padding: 6rem 0rem 3rem 0rem;   
+        padding: 4rem 0rem 3rem 0rem;   
         font-size: 1.2rem;
     }
 
@@ -223,7 +221,7 @@
     }
 
     .benefitspackservices .benefits_pack {
-        padding: 0.2rem 2rem 1rem 2rem;
+        padding: 1rem 2rem 1rem 2rem;
     }
     
     .benefitspackservices .benefits_pack input:checked~label h1 {
@@ -261,6 +259,10 @@
 }
 
 @media (max-width: 375px) {
+    .title_container_services {
+        padding: 4rem 0rem 0rem 0rem;   
+    }
+
     .benefits_pack {
         margin-top: 2rem;
     }
