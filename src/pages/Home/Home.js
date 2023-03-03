@@ -74,8 +74,8 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className='container_img'>
-                    <div className='photo' data-aos="fade-left">
+                <div className='container_img' data-aos="fade-right">
+                    <div className='photo'>
                         <img src={photo} alt='photoa' />
                     </div>
                 </div>
@@ -86,7 +86,7 @@ function Home() {
                 </div>
                 <div className='second_home_block'>
                     <div className='second_block_text'>
-                        <h1>Você já conhece o método Invisible?</h1>
+                        <h1>Por Camila Rodrigues, criadora do método Invisible!</h1>
                         <br />
                         <p>Alongamento adesivado, totalmente indolor e imperceptível. Único método testado e aprovado por dermatologistas e tricologistas. Método exclusivo, desenvolvido pela expert em saúde capilar Camila Rodrigues que a mais de 20 anos vem transformando vidas atráves dos cabelos.</p>
                     </div>
@@ -181,9 +181,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='container_imgft' data-aos="fade-up" data-aos-anchor-placement="top-center">
-                    <div className='photoproducts'>
-                        <img src={photofunc} alt='photofunc' />
-                    </div>
+                    <img src={photofunc} alt='photofunc' />
                 </div>
             </div>
             <div className='home_signature_container'>
@@ -198,7 +196,7 @@ function Home() {
                         <div>
                             <img src={Oslogo} alt='logosign' />
                         </div>
-                        <h1>Clube de Vantagens</h1>
+                        <h1>CLUBE DE VANTAGENS</h1>
                     </label>
                     <div className='signature_content'>
                         <h3>- Procedimentos Ilimitados</h3>
@@ -214,11 +212,11 @@ function Home() {
                         <div>
                             <img src={Oslogo} alt='logosign' />
                         </div>
-                        <h1>Cartão Presente</h1>
+                        <h1>CARTÃO PRESENTE</h1>
                     </label>
                     <div className='signature_content'>
-                        <h3>- O Vale-presente pode ser em qualquer<br />   valor que o cliente desejar.</h3>
-                        <h3>- Proporcione essa experiência única <br />   e inesquecível para quem você ama.</h3>
+                        <h3>- O Vale-presente pode ser em qualquer<br/>valor que o cliente desejar.</h3>
+                        <h3>- Proporcione essa experiência única <br/>e inesquecível para quem você ama.</h3>
                     </div>
                 </div>
             </div>

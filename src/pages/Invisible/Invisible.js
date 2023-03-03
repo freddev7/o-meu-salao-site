@@ -50,50 +50,50 @@ function Invisible() {
                             <input type="radio" name="acc" id="acc1" />
                             <label for="acc1">
                                 <h2>1</h2>
-                                <h3>Posso prender meu cabelo com o Invisible?</h3>
+                                <h3>PODE PRENDER O INVISIBLE?</h3>
                             </label>
                             <div className='content'>
-                                <p>Sim! Independente se você está pensando em um simples rabo de cavalo para o dia a dia, uma trança ou até mesmo um penteado para festa, o megahair não te restringe em nada! Com a nossa técnica da fita invisível, ele fica imperceptível!</p>
+                                <p>Sim! O Invisible não restringe em nada quanto a maleabiliade do cabelo, adaptável ao movimento dos fios, seja para um simples coque ou até mesmo penteados de festa, sem precisar se preocupar com a aparência do mega-hair.</p>
                             </div>
                         </div>
                         <div className='item_questions'>
                             <input type="radio" name="acc" id="acc2" />
                             <label for="acc2">
                                 <h2>2</h2>
-                                <h3>Quando meu cabelo estiver molhado, o Invisible ficará visível?</h3>
+                                <h3>O INVISIBLE FICARÁ VISÍVEL QUANDO ESTIVER MOLHADO?</h3>
                             </label>
                             <div className='content'>
-                                <p>Não! Pode ficar tranquila que ninguém vai conseguir perceber o megahair. A fita fica invisível e, mesmo com o cabelo molhado, o aspecto é super natural! Até difícil de acreditar, né?! Corre lá no nosso Instagram e veja em nossos stories!</p>
+                                <p>Não! Totalmente imperceptível, o método Invisible inclusive molhado não altera o aspecto natural do cabelo, devido a utilização de técnicas apropriadas na aplicação.</p>
                             </div>
                         </div>
                         <div className='item_questions'>
                             <input type="radio" name="acc" id="acc3" />
                             <label for="acc3">
                                 <h2>3</h2>
-                                <h3>Posso secar meu cabelo ?</h3>
+                                <h3>PODE SECAR O INVISIBLE?</h3>
                             </label>
                             <div className='content'>
-                                <p>Pode secar o cabelo sim! O megahair fica bem aderido ao couro cabeludo e não será prejudicado. Só tome o cuidado de não usar o secador na temperatura muito quente próximo à raiz dos fios e da base do mega, porque isso prejudicaria qualquer couro cabeludo!</p>
+                                <p>Pode sim! O Invisible após fixado ao couro cabeludo não haverá problemas, apenas observar a temperatura e proximidade do secador á raíz dos fios com a base do mega-hair.</p>
                             </div>
                         </div>
                         <div className='item_questions'>
                             <input type="radio" name="acc" id="acc4" />
                             <label for="acc4">
                                 <h2>4</h2>
-                                <h3>Qualquer mulher pode colocar o Invisible?</h3>
+                                <h3>O INVISIBLE PODE SER COLOCADO EM QUALQUER MULHER?</h3>
                             </label>
                             <div className='content'>
-                                <p>O Invisible Slim pode ser colocado em qualquer tipo de cabelo e em qualquer mulher que queira ficar ainda mais bela e melhorar sua autoestima. A única restrição que existe é quanto ao tamanho do cabelo, que precisa ter mais de 2 dedos de comprimento para permitir a sustentação da fita!</p>
+                                <p>O invisible pode sim ser aplicado em diferentes tipos de cabelo, a mulher que deseja ter um cabelo longo, volumoso e aumentar a auto-estima. É necessário somente o cabelo ter mais de 2 dedos de comprimento.</p>
                             </div>
                         </div>
                         <div className='item_questions'>
                             <input type="radio" name="acc" id="acc5" />
                             <label for="acc5">
                                 <h2>5</h2>
-                                <h3>Como funciona a manutenção do Invisible?</h3>
+                                <h3>COMO FUNCIONA A MANUTENÇÃO DO INVISIBLE?</h3>
                             </label>
                             <div className='content'>
-                                <p>Na manutenção, as faixas são cuidadosamente retiradas, sem provocar danos ou perda de cabelos e, após a lavagem para eliminação de resíduos, são recolocadas. O processo é rápido, totalmente indolor e muito seguro.</p>
+                                <p>Na manutenção é feita delicadamente a retirada do Invisible para evitar danos ao couro cabeludo, higienizando o local de aplicação, após a lavagem recolocamos de forma rápida, completamente indolor e seguro.</p>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ function Invisible() {
             <div className='curly_container'>
                 <div className='block_curly'>
                     <h1>O método Invisible permite o uso de cachos devido a sua técnica de aplicação. </h1>
-                    <p>O Invisible pode ser feito em cabelos cacheados, mas é importante ter alguns cuidados específicios para preservar a saúde e o aspecto natural do cabelo. A primeira coisa a considerar é o tipo de fios de cabelos que serão utilizados. É importante escolher fios de cabelo que sejam compatíveis com o tipo de cacho e evitar aqueles que possuem um aspecto artificial e diferente da textura natural do cabelo. Após a aplicação do Invisible, é importante manter uma rotina de cuidados adequada para preservar a saúde do cabelo natural e dos fios adicionais. Isso inclui o uso de produtos específicos para cabelos cacheados e tratamentos regulares para evitar a perda de hidratação e a quebra dos fios.</p>
+                    <p>O Invisible pode ser feito em cabelos cacheados, a primeira coisa a considerar é o tipo de fios de cabelos que serão utilizados. É importante escolher fios de cabelo que sejam compatíveis com o tipo de cacho e evitar aqueles que possuem um aspecto artificial e diferente da textura natural do cabelo. Após a aplicação do Invisible, é importante manter uma rotina de cuidados adequada para preservar a saúde do cabelo natural e dos fios adicionais. Isso inclui o uso de produtos específicos para cabelos cacheados e tratamentos regulares para evitar a perda de hidratação e a quebra dos fios.</p>
                     <img src={newinvisiblelogo} alt='newinvisiblelogo' />
                 </div>
                 <div className='curlyimg'>
@@ -171,7 +171,7 @@ function Invisible() {
             <div className='dreams_result'>
                 <div className='dreamsresult_block'>
                     <h1>Resultados incríveis e surpreendentes para todos os tipos de cabelo.</h1>
-                    <p>A técnica consiste em um alongamento com uma quantidade pequena de cabelo, possibilitando então a colocação de mechas no cabelo sem a necessidade de química. Um alongamento totalmente indolor e imperceptível, metodo inivisivel com cobertura de cabelos totalmente imperceptivel e natural. Não possui ponto de tração sendo assim não danifica o cabelo pode ser utilizado para finalidades diferentes sendo elas alongar ou preencher material testado e aprovado por dermatologistas. Clientes que possuem alopecia adrogenica, corte químico pós covid com perca assentuada de cabelo na regiao frontal ou até mesmo para acabamentos</p>
+                    <p>Essa técnica de alongamento capilar é uma alternativa eficiente e saudável para quem deseja ter um cabelo mais longo e volumoso sem precisar recorrer a produtos químicos. Ao contrário de outras técnicas de alongamento, essa é totalmente imperceptível, o que significa que ninguém perceberá que você está usando mechas adicionais. O método é completamente seguro e não danifica o cabelo, já que não possui ponto de tração.</p>
                 </div>
                 <img src={dreamsresult} alt='dreamsresult' data-aos="zoom-in" />
             </div>

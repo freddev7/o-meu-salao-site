@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     padding: 3rem 3rem 0rem 6rem;
-    gap: 10rem;
+    gap: 6rem;
 }
 
 .home_block {
@@ -15,8 +15,8 @@
 .home_block_text {
     color: #cda582;
     font-family: 'arboria';
-    font-size: 1.6rem;
-    line-height: 2.3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 .home_block_text h1 {
@@ -97,8 +97,8 @@
 .second_block_text {
     color: #cda582;
     font-family: 'arboria';
-    font-size: 1.6rem;
-    line-height: 2.3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 300;
 }
 
@@ -125,7 +125,7 @@
 
 .title_container {
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: 'arboria';
     display: flex;
     justify-content: center;
@@ -153,7 +153,7 @@
     background: linear-gradient(349.78deg, #bb8f72 -17.21%, #cda582 116.61%);
     border-radius: 1rem;
     padding: 0rem 1.6rem 1rem 1.6rem;
-    max-width: 16rem;
+    max-width: 18rem;
     border: 0.1rem solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.1);
 }
@@ -228,19 +228,22 @@
 .fifth_container {
     background-color: #cda582;
     display: flex;
-    padding: 3rem 3rem 0rem 6rem;
-    gap: 2rem;
     align-items: center;
+    padding: 0rem 3rem 0rem 6rem;
 }
 
-.photoproducts img { 
-    max-width: 40rem;
+.container_imgft {
     display: flex;
+    align-self: flex-end;
+}
+
+.container_imgft img {
+    max-width: 40rem;
 }
 
 .title_fifthcontainer {
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: 'arboria';
 }
 
@@ -253,7 +256,7 @@
     color: #fff;
     font-family: 'arboria';
     margin-top: 2rem;
-    line-height: 2.3rem;
+    line-height: 2rem;
     font-weight: 300;
 }
 
@@ -273,7 +276,7 @@
 
 .sixth_text {
     color: #cda582;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: 'arboria';
     text-align: center;
     padding: 6rem;
@@ -289,14 +292,14 @@
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    padding: 6rem 6rem 3rem 6rem;
+    padding: 6rem 6rem 4rem 6rem;
     background-image: linear-gradient(to bottom, #cda582, #fff 25%);
 }
 
 .signature_content_container {
     text-align: center;
     color: #cda582;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: 'arboria';
     margin-top: 2rem;
 }
@@ -377,7 +380,7 @@
     right: 0;
     width: 20rem;
     height: 12rem;
-    opacity: 0.25;
+    opacity: 0.18;
     justify-content: flex-end;
     background: none;
     border: none;
@@ -396,10 +399,6 @@
     overflow: hidden;
 }
 
-.signature_content:first-child {
-    line-height: 2rem;
-}
-
 .container_benefits .benefits_content input:checked~.signature_content {
     max-height: 100vh;
 }
@@ -412,6 +411,10 @@
     padding: 0.6rem 0;
     color: #cda582;
     z-index: 10;
+}
+
+.container_benefits .benefits_content:first-child .signature_content h3 {
+    line-height: 1rem;
 }
 
 .carousel_block {
@@ -470,7 +473,6 @@
 .carousel_block button i {
     color: #cda582;
     font-size: 3rem;
-
 }
 
 .buttonservice {
@@ -483,7 +485,7 @@
 .buttonservice button {
     background: linear-gradient(349.78deg, #bb8f72 -17.21%, #cda582 116.61%);
     color: #fff;
-    width: 15rem;
+    width: 13rem;
     height: 3.4rem;
     border: none;
     font-family: 'arboria';
@@ -510,8 +512,8 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(5px);
     border-radius: 2rem;
-    width: 18rem;
-    height: 8rem;
+    width: 16rem;
+    height: 7rem;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     background-image: linear-gradient(330deg, #cda582 -3.21%, #fff 26%);
@@ -529,7 +531,7 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(5px);
     border-radius: 2rem;
-    width: 7rem;
+    width: 6rem;
     height: 6rem;
     box-shadow: 0 1.5rem 3.5rem rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -541,36 +543,12 @@
 }
 
 @media (max-width: 1440px) {
-    .home_block_text {
-        font-size: 1.4rem;
-    }
-
-    .home_block_text h1 {
-        line-height: 2.6rem;
-    }
-
-    .home_block_text p {
-        line-height: 2rem;
-    }
-
     .container_img img {
         max-width: 26rem;
     }
 
-    .second_block_text {
-        font-size: 1.4rem;
-    }
-
-    .second_block_text p {
-        line-height: 2rem;
-    }
-
     .second_container_img img {
-        max-width: 34rem;
-    }
-
-    .title_container {
-        font-size: 1.4rem;
+        max-width: 22rem;
     }
 
     .list_box {
@@ -579,6 +557,225 @@
 
     .item_list {
         padding: 0rem 1.2rem 2rem 1.2rem;
+    }
+
+    .item_list h2 {
+        font-size: 3.6rem;
+    }
+
+    .item_list p {
+        font-size: 1.1rem;
+    }
+
+    .item_list h3 {
+        font-size: 1.3rem;
+    }
+
+    .container_box {
+        padding: 0rem 4rem 4rem 4rem;
+    }
+
+    .item_box {
+        max-width: 400px;
+        max-height: 460px;
+    }
+
+    .container_imgft img {
+        max-width: 36rem;
+    }
+
+    .benefits_content {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width: 1376px) {
+    .first_container {
+        gap: 2rem;
+        padding: 3rem 3rem 0rem 4rem ;
+    }
+
+    .home_block_text p {
+        line-height: 1.8rem;
+    }
+
+    .home_first_btn:first-child button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1.1rem;
+    }
+
+    .home_second_btn button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1.1rem;
+    }
+
+    .container_img img {
+        max-width: 26rem;
+    }
+
+    .second_container {
+        gap: 3rem;
+        padding: 3rem 0rem 0rem 4rem;
+    }
+
+    .second_block_text p {
+        line-height: 1.8rem;
+    }
+
+    .second_container_img img {
+        max-width: 23rem;
+    }
+
+    .home_first_btn button {
+        width: 16rem;
+        height: 3rem;
+        font-size: 1.1rem;
+    }
+
+    .list_box {
+        gap: 2rem;
+        padding: 0rem 3rem 6rem 3rem;
+    }
+
+    .item_list {
+        padding: 0rem 1.2rem 1rem 1.2rem;
+    }
+
+    .item_list h2 {
+        font-size: 4rem;
+    }
+
+    .item_list p {
+        font-size: 1.1rem;
+    }
+
+    .item_list h3 {
+        font-size: 1.3rem;
+    }
+
+    .container_box {
+        gap: 0rem;
+        padding: 0rem 4rem 4rem 4rem;
+    }
+
+    .item_box {
+        max-width: 380px;
+        max-height: 440px;
+    }
+
+    .buttoninvisible button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1.1rem;
+    }
+    
+    .fifth_container {
+        padding: 0rem 3rem 0rem 4rem;
+    }
+
+    .title_fifthcontainer p {
+        line-height: 1.8rem;
+    }
+
+    .fifth_container button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 1.1rem;
+    }
+
+    .container_imgft img {
+        max-width: 33rem;
+    }
+
+    .benefits_content {
+        font-size: 90%;
+    }
+
+    .carousel {
+        max-width: 76rem;
+    }
+    
+    .carousel_block .carousel .item_carousel {
+        width: 21rem;
+    }
+
+    .buttonservice button {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 1290px) {
+    .item_box {
+        max-width: 360px;
+        max-height: 420px;
+    }
+
+    .carousel {
+        max-width: 70rem;
+    }
+    
+    .carousel_block .carousel .item_carousel {
+        width: 19rem;
+    }
+}
+
+@media (max-width: 1240px) {
+    .item_box {
+        max-width: 340px;
+        max-height: 400px;
+    }  
+
+    .list_box {
+        gap: 1rem;
+    }
+    
+    .carousel {
+        max-width: 67rem;
+    }
+    
+    .carousel_block .carousel .item_carousel {
+        width: 18rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .first_container {
+        gap: 1rem;
+        padding: 3rem 1rem 0rem 2rem ;
+    }
+
+    .home_block_text {
+        font-size:1.3rem;
+    }
+
+    .second_container {
+        gap: 0rem;
+        padding: 3rem 0rem 0rem 2rem;
+    }
+
+    .second_home_block {
+        padding: 0rem 2rem 0rem 0rem;
+    }
+
+    .second_block_text {
+        font-size: 1.3rem;
+    }
+
+    .title_container {
+        font-size: 1.3rem;
+    }
+    
+    .list_box {
+        display: flex;
+        gap: 1rem;
+        padding: 0rem 1rem 6rem 1rem;
+    }
+
+    .item_list {
+        padding: 0rem 0.8rem 1rem 0.8rem;
     }
 
     .item_list h2 {
@@ -594,148 +791,44 @@
     }
 
     .container_box {
-        padding: 0rem 4rem 4rem 4rem;
+        padding: 0rem 1rem 4rem 1rem;
     }
 
     .item_box {
-        max-width: 400px;
-        max-height: 460px;
+        max-width: 300px;
+        max-height: 360px;
+    } 
+
+    .fifth_container {
+        padding: 1rem 1rem 0rem 2rem;
     }
 
     .title_fifthcontainer {
-        font-size: 1.4rem;
-    }
-
-    .title_fifthcontainer p {
-        line-height: 2rem;
+        font-size: 1.3rem;
     }
 
     .signature_content_container {
-        font-size: 1.4rem;
+        font-size:1.3rem;
     }
 
-    .benefits_content {
-        font-size: 1rem;
-    }
-
-    .sixth_text {
-        font-size:1.4rem;
-    }
-
-}
-
-@media (max-width: 1376px) {
-    .home_block_text {
-        font-size: 120%;
-    }
-
-    .home_block_text p {
-        line-height: 1.6rem;
-    }
-
-    .home_first_btn:first-child button {
-        width: 10rem;
-        height: 3rem;
-        font-size: 1rem;
-    }
-
-    .home_second_btn button {
-        width: 10rem;
-        height: 3rem;
-        font-size: 1rem;
-    }
-
-    .container_img img {
-        max-width: 23rem;
-    }
-
-    .second_block_text {
-        font-size: 120%;
-    }
-
-    .second_block_text p {
-        line-height: 1.6rem;
-    }
-
-    .second_container_img img {
-        max-width: 32rem;
-    }
-
-    .home_first_btn button {
-        width: 16rem;
-        height: 3rem;
-        font-size: 1rem;
-    }
-
-    .list_box {
-        gap: 1rem;
-        padding: 0rem 6rem 6rem 6rem;
-    }
-
-    .title_container {
-        font-size:120% ;
-    }
-
-    .item_list {
-        padding: 0rem 1.2rem 1rem 1.2rem;
-    }
-
-    .item_list h2 {
-        font-size: 3rem;
-    }
-
-    .item_list p {
-        font-size: 90%;
-    }
-
-    .item_list h3 {
-        font-size: 110%;
-    }
-
-    .container_box {
-        padding: 0rem 4rem 4rem 4rem;
-    }
-
-    .item_box {
-        max-width: 340px;
-        max-height: 400px;
-    }
-
-    .buttoninvisible button {
-        width: 10rem;
-        height: 3rem;
-        font-size: 1rem;
-    }
-
-    .title_fifthcontainer {
-        font-size: 120%;
-    }
-
-    .title_fifthcontainer p {
-        line-height: 1.6rem;
-    }
-
-    .fifth_container button {
-        width: 10rem;
-        height: 3rem;
-        font-size: 1rem;
-    }
-
-    .signature_content_container {
-        font-size: 120%;
-    }
-
-    .benefits_content {
-        font-size: 90%;
-    }
-
-    .sixth_text {
-        font-size:120%;
+    .carousel {
+        max-width: 52rem;
     }
     
     .carousel_block .carousel .item_carousel {
-        width: 22.3rem;
+        width: 15rem;
+        margin: 1rem;
     }
+
+    .carousel_block .carousel .item_carousel .text_item h1 {
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+
+    .sixth_text {
+        font-size: 1.3rem;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -917,14 +1010,13 @@
     }
 
     .home_block_text {
-        font-size: 120%;
+        font-size: 1.2rem;
         padding: 0rem 1rem 0rem 1rem;
-        line-height: 3rem;
     }
 
     .home_block_text p {
-        margin-top: 1rem;
-        line-height: 2rem;
+        margin-top: 1.3rem;
+        line-height: 1.9rem;
     }
 
     .home_block_links {
@@ -950,15 +1042,23 @@
     }
 
     .second_home_block {
-        padding: 0rem 0rem 0rem 0rem;
-        gap: 0rem;
+        padding: 0rem;
         position: relative;
         right: 0rem;
     }
 
+    .second_home_block h1 {
+       line-height: 2.9rem;
+    }
+
     .second_block_text {
-        font-size: 120%;
-        padding: 0rem 1rem 0rem 1rem;
+        font-size: 1.2rem;
+        padding: 0rem;
+    }
+
+    .second_block_text p {
+       line-height: 1.9rem;
+       padding: 0rem 1rem 0rem 1rem;
     }
 
     .second_container_img {
@@ -966,11 +1066,11 @@
     }
 
     .second_container_img img {
-        max-width: 16rem;
+        max-width: 18rem;
     }
 
     .title_container {
-        font-size: 120%;
+        font-size: 1.2rem;
         padding: 2rem;
     }
 
@@ -1035,7 +1135,7 @@
     }
 
     .title_fifthcontainer {
-        font-size: 120%;
+        font-size: 1.2rem;
         padding: 0rem;
     }
 
@@ -1045,7 +1145,7 @@
 
     .title_fifthcontainer p {
         margin-top: 0.5rem;
-        line-height: 2.3rem;
+        line-height: 2rem;
     }
 
     .container_imgft img {
@@ -1058,7 +1158,7 @@
     }
 
     .signature_content_container {
-        font-size: 120%;
+        font-size: 1.2rem;
         text-align: center;
         line-height: 3rem;
     }
@@ -1084,7 +1184,7 @@
 
     .container_benefits .benefits_content:first-child .signature_content h3 {
         font-size: 1.05rem;
-        line-height: 0.6rem;
+        line-height: 0.3rem;
     }
 
     .container_benefits .benefits_content .signature_content h3 {
@@ -1098,8 +1198,8 @@
     }
 
     .container_benefits .benefits_content input:checked~label div img {
-        width: 16rem;
-        height: 12rem;
+        width: 13rem;
+        height: 13rem;
     }
 
     .sixth_text {
@@ -1148,6 +1248,36 @@
     }
 }
 
+@media (min-width: 375px) and (max-width: 428px) {
+    .photo img {
+        max-width: 22rem;
+        max-height: 32rem;
+    }
+
+    .container_imgft img {
+        max-width: 21.8rem;
+    }
+
+    .carousel {
+        max-width: 17rem;
+    }
+    
+    .carousel_block .carousel .item_carousel {
+        width: 14rem;
+        margin: 1rem;
+    }
+
+    .carousel_block button i {
+        font-size: 2.3rem;
+    }
+
+    .carousel_block button:nth-of-type(2) i {
+        position: relative;
+        left: 0rem;
+    }
+
+} 
+
 @media (max-width: 375px) {
     .home {
         padding: 0;
@@ -1158,24 +1288,23 @@
         flex-direction: column;
         text-align: center;
         padding: 0rem 1rem 0rem 1rem;
-        gap: 5rem;
+        gap: 0rem;
     }
 
     .home_block_text {
         font-size: 120%;
         padding: 3rem 0rem 0rem 0rem;
-
     }
 
     .home_block_links {
         display: flex;
-        gap: 2rem;
+        margin-top: 2rem;
     }
 
     .home_first_btn button {
         width: 10rem;
         height: 3rem;
-
+        margin-right: 1rem;
     }
 
     .home_second_btn button {
@@ -1184,13 +1313,13 @@
     }
 
     .photo {
+        margin-top: 3rem;
         display: flex;
     }
 
     .photo img {
         max-width: 22rem;
         max-height: 32rem;
-
     }
 
     .second_container {
@@ -1208,6 +1337,10 @@
         height: 55px;
     }
 
+    .second_container_img {
+        margin-top: 2rem;
+    }
+
     .second_container_img img {
         max-width: 28rem;
         max-height: 32rem;
@@ -1220,26 +1353,26 @@
 
     .list_box {
         display: flex;
-        gap: 2rem;
-        padding: 1rem 0rem 0rem 0rem;
+        padding: 0rem;
     }
 
     .item_list {
         max-width: 67%;
+        margin-top: 2rem;
     }
 
     .fourth_container {
-        padding: 3rem 0rem 0rem 0rem;
+        padding: 1rem 0rem 0rem 0rem;
     }
 
     .container_box {
         display: flex;
-        gap: 2rem;
     }
 
     .item_box {
-        max-width: 365px;
-        max-height: 345px;
+        max-width: 370px;
+        max-height: 350px;
+        margin-top: 2rem;
     }
 
     .item_box img {
@@ -1263,16 +1396,17 @@
     }
 
     .container_imgft {
+        margin-top: 2rem;
         display: flex;
         justify-content: center;
     }
 
     .container_imgft img {
-        max-width: 20rem;
+        max-width: 23rem;
     }
 
     .home_signature_container {
-        padding: 2rem 1rem 2rem 1rem;
+        padding: 2rem 1rem 1rem 1rem;
     }
 
     .signature_content_container {
@@ -1288,10 +1422,11 @@
 
     .container_benefits .benefits_content {
         padding: 2rem;
+        margin-top: 2rem;
     }
 
     .container_benefits .benefits_content input {
-        appearance: none;
+        display: none;
     }
 
     .container_benefits .benefits_content input:checked~label h1 {
@@ -1313,14 +1448,26 @@
         padding: 5rem 1rem 3rem 1rem;
     }
 
-    .carousel_block {
-        max-width: 96vw;
-        padding: 0rem 0.5rem 0rem 0.5rem;
+    .carousel {
+        max-width: 17rem;
     }
 
+    .carousel_block {
+        padding: 0rem 0rem 0rem 0.4rem;
+    }
+    
     .carousel_block .carousel .item_carousel {
-        width: 240px;
-        margin: 0rem 2rem 0rem 1.4rem;
+        width: 15rem;
+        margin: 1rem;
+    }
+
+    .carousel_block button i {
+        font-size: 2.3rem;
+    }
+
+    .carousel_block button:nth-of-type(2) i {
+        position: relative;
+        left: 0.5rem;
     }
 
     .carousel_block .carousel .item_carousel .text_item h1 {
@@ -1331,13 +1478,14 @@
 
     .footer {
         flex-direction: column;
-        gap: 3rem;
+        padding: 2rem 0rem 3rem 0rem;
     }
 
     .footer_icon {
         width: 80px;
         height: 80px;
         border-radius: 1rem;
+        margin-top: 1rem;
     }
 
     .footer_icon img {
@@ -1352,5 +1500,6 @@
         width: 220px;
         height: 100px;
         border-radius: 1.2rem;
+        margin-top: 1rem;
     }
 }

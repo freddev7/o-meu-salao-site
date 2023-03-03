@@ -3,53 +3,54 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(150deg,#cda582 ,#fff  36%);
-    padding: 8rem;
+    padding: 5rem 6rem 5rem 6rem;
+}
+
+.title_coursescontainer {
+    font-family: 'arboria';
+    color: #cda582;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .title_coursescontainer h1 {
-    font-family: 'arboria';
-    color: #cda582;
-    font-size: 48px;
-    max-width: 70rem;
-    text-align: center;
     font-weight: 500;
 }
 
 .course_container {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(250px, 1fr));
-    gap: 6rem;
-    padding: 5rem 0rem 0rem 8rem;
+    display: flex;
+    gap: 3rem;
+    padding: 5rem 2rem 0rem 8rem;
     justify-content: center;
+    align-items: center;
+}
 
+.block_course {
+    color: #cda582;
+    font-family: 'arboria';
+    font-size: 1.5rem;
 }
 
 .block_course h1 {
-    color: #cda582;
-    font-size: 42px;
-    font-family: 'arboria';
     font-weight: 500;
 }
 
 .block_course p {
-    color: #cda582;
-    font-size: 22px;
-    font-family: 'arboria';
-    line-height: 2.3rem;
+    line-height: 2rem;
     margin-top: 2rem;
     font-weight: 300;
-
 }
 
 .block_course img {
     position: relative;
-    left: 10rem;
-    top: 4rem;
+    left: 13rem;
+    top: 3rem;
     max-width: 300px;
 }
 
-.course_container img {
+.photocoursecont {
     display: flex;
+    align-self: flex-end;
 }
 
 .logoinvisibleslim {
@@ -78,16 +79,15 @@
     padding: 0rem 8rem 0rem 0rem;
     color: #cda582;
     font-family: 'arboria';
+    font-size: 1.5rem;
 }
 
 .block_prod h1 {
-    font-size: 42px;
     font-weight: 500;
 }
 
 .block_prod p {
-    font-size: 22px;
-    line-height: 2.3rem;
+    line-height: 2rem;
     margin-top: 2rem;
     font-weight: 300;
 }
@@ -108,16 +108,15 @@
 .blocktwo_prod {
     font-family: 'arboria';
     color: #cda582;
+    font-size: 1.5rem;
 }
 
 .blocktwo_prod h1 {
-    font-size: 42px;
     font-weight: 500;
 }
 
 .blocktwo_prod p {
-    font-size: 22px;
-    line-height: 2.3rem;
+    line-height: 2rem;
     margin-top: 2rem;
     font-weight: 300;
 }
@@ -135,33 +134,137 @@
     border-radius: 1rem;
 }
 
-@media (max-width: 428px) {
-    .title_coursescontainer {
-        padding: 3rem 1rem 3rem 1rem;
+@media (max-width: 1376px) {
+    .course_container {
+        gap: 0rem;
+        padding: 5rem 1rem 0rem 4rem;
     }
 
+    .block_course h1 {
+        line-height: 3.2rem;
+    }
 
-    .title_coursescontainer h1 {
-        font-size: 46px;
+    .prodcourse_container {
+        padding: 5rem 4rem 0rem 4rem;
+        gap: 3rem;
+    }
+
+    .block_prod {
+        padding: 0rem;
+    }
+    
+    .block_prod h1 {
+        line-height: 3.2rem;   
+    }
+
+    .prodcourse_containertwo {
+        padding: 5rem 4rem 0rem 4rem;
+        gap: 3rem;
+    }
+
+    .blocktwo_prod h1 {
+        line-height: 3.2rem;
+    }
+
+    .prodcourse_containerthree {
+        padding: 5rem 4rem 2rem 4rem;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 1240px) {
+    .course_container {
+        gap: 0rem;
+        padding: 3rem 0rem 0rem 3rem;
+    }
+
+    .block_course img {
+        left: 6rem;
+        top: 2.3rem;
+        max-width: 15rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .title_coursescontainer {
+        font-size: 1.3rem;
+    }
+    
+    .course_container {
+        gap: 0rem;
+        padding: 5rem 1rem 0rem 2rem;
+        flex-direction: column;
+    } 
+
+    .block_course {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .block_course img {
+        position: relative;
+        left: 0rem;
+        top: 2rem;
+        max-width: 15rem;
+    }
+
+    .photocoursecont {
+        display: flex;
+        align-self: center;
+        margin-top: 3rem ;
+    }
+
+    .prodcourse_container {
+        padding: 5rem 2rem 0rem 2rem;
+        gap: 3rem;
+    }
+
+    .block_prod {
+        font-size: 1.3rem;
+    }
+
+    .prodcourse_containertwo {
+        padding: 5rem 2rem 0rem 2rem;
+        gap: 3rem;
+    }
+
+    .blocktwo_prod {
+        font-size: 1.3rem;
+    }
+
+    .prodcourse_containerthree {
+        padding: 5rem 2rem 2rem 2rem;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 428px) {
+    .title_coursescontainer {
+        padding: 3rem 0rem 1rem 0rem;
+        font-size: 1.2rem;
     }
 
     .course_container {
         display: flex;
         flex-direction: column;
-        gap: 6rem;
+        gap: 3rem;
         padding: 0rem 1rem 0rem 1rem;
         text-align: center;
     }
 
+    .block_course {
+        font-size: 1.2rem;
+    }
+
     .block_course h1 {
-        font-size: 40px;
+        display: none;
     }
 
     .block_course img {
         position: relative;
-        left: 5.6rem;
-        top: 4rem;
-        max-width: 200px;
+        left: 0rem;
+        top: 3rem;
+        max-width: 65%;
     }
 
     .photocoursecont {
@@ -170,20 +273,19 @@
     }
 
     .photocoursecont img {
-        max-width: 390px;
+        max-width: 25rem;
     }
 
     .prodcourse_container {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
-        padding: 5rem 0rem 0rem 0rem;
+        padding: 3rem 0rem 0rem 0rem;
     }
 
     .block_prod {
-        position: relative;
-        right: 0rem;
         padding: 3rem 1rem 0rem 1rem;
+        font-size: 1.2rem;
     }
 
     .prodcourse_container img {
@@ -196,7 +298,11 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 3rem 1rem 0rem 1rem;
+        padding: 3rem 0rem 0rem 0rem;
+    }
+
+    .blocktwo_prod {
+        font-size: 1.2rem;
     }
 
     .prodcourse_containertwo img {
@@ -206,7 +312,7 @@
     .prodcourse_containerthree {
         flex-direction: column-reverse;
         text-align: center;
-        padding: 2rem 0rem 2rem 0rem;
+        padding: 1rem 0rem 2rem 0rem;
     }
 
     .prodcourse_containerthree img {
@@ -214,4 +320,27 @@
         position: relative;
         right: 0rem;
     }
+}
+
+@media (max-width: 375px) {
+    .photocoursecont img {
+        max-width: 21rem;
+        max-height: 31rem;
+    }
+
+    .prodcourse_container img {
+        margin-top: 2rem;
+        max-width: 21rem;
+    }
+
+    .prodcourse_containertwo img {
+        margin-top: 2rem;
+        max-width: 21rem;
+    }
+
+    .prodcourse_containerthree img {
+        margin-top: 2rem;
+        max-width: 21rem;
+    }
+
 }

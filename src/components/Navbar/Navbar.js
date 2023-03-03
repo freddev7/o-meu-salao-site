@@ -37,13 +37,7 @@ class Navbar extends Component {
               <Link to='/Products'>PRODUTOS</Link>
             </li>
             <li>
-              <a href={'/Contact'}>CONTATO</a>
-            </li>
-            <li>
-              <a href={'/Franchise'}>FRANQUIAS</a>
-            </li>
-            <li>
-              <a href={'/Blog'}>BLOG</a>
+              <Link to='/Contact'>( FALE-CONOSCO )</Link>
             </li>
           </ul>
         </div>

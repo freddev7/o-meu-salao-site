@@ -4,25 +4,23 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(150deg,#cda582 ,#fff  36%);
-    padding: 6rem 0rem 6rem 0rem;
+    padding: 6rem 9rem 6rem 9rem;
+}
+
+.title_container_services {
+    color: #cda582;
+    font-size: 1.5rem;
+    font-family: 'arboria';
 }
 
 .title_container_services h1 {
-    color: #cda582;
-    font-size: 48px;
-    font-family: 'arboria';
     text-align: center;
-    max-width: 60rem;
     font-weight: 500;
 }
 
 .title_container_services p {
-    color: #cda582;
-    font-size: 1.6rem;
-    font-family: 'arboria';
     margin-top: 2rem;
     text-align: center;
-    max-width: 60rem;
     font-weight: 300;
 }
 
@@ -62,7 +60,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 0 40px;
     gap: 2rem;
 }
 
@@ -83,7 +80,7 @@
 }
 
 .benefitspackservices .benefits_pack input {
-    appearance: none;
+    display: none;
 }
 
 .benefitspackservices .benefits_pack label {
@@ -129,7 +126,7 @@
     right: 0;
     width: 59%;
     height: 59%;
-    opacity: 0.35;
+    opacity: 0.18;
     justify-content: flex-end;
     background: none;
     border: none;
@@ -167,6 +164,10 @@
     z-index: 10;
 }
 
+.benefitspackservices .benefits_pack:first-child .signature_pack h3 {
+    line-height: 1rem;
+}
+
 .buttonscheduling {
     display: flex;
     justify-content: center;
@@ -187,18 +188,27 @@
     font-weight: 300;
 } 
 
+@media (max-width: 1240px) {
+    .title_container_services {
+        font-size: 1.3rem;
+    } 
+
+    .benefitspackservices .benefits_pack {
+        font-size: 0.9rem;
+    }
+}
+
 @media (max-width: 428px) {
     .title_container_services {
         padding: 6rem 0rem 3rem 0rem;   
+        font-size: 1.2rem;
     }
 
     .title_container_services h1{
-        font-size: 44px;
         padding: 0rem 1rem 0rem 1rem;
     }
 
     .title_container_services p {
-        font-size: 140%;
         line-height: 2rem;
         padding: 1rem 1rem 0rem 1rem;
     }
@@ -207,24 +217,26 @@
         padding: 0rem,
     }
     
-
     .benefits_pack {
         font-size: 75%;
         text-align: center;
     }
 
     .benefitspackservices .benefits_pack {
-        padding: 2rem;
+        padding: 0.2rem 2rem 1rem 2rem;
     }
     
-
     .benefitspackservices .benefits_pack input:checked~label h1 {
         position: relative;
-        left: 0.7rem;
+        left: 0.8rem;
+    }
+
+    .benefitspackservices .benefits_pack {
+        font-size: 70%;
     }
 
     .benefitspackservices .benefits_pack .signature_pack h3 {
-        font-size: 1rem;
+        font-size: 1.05rem;
     }
 
     .benefitspackservices .benefits_pack label div img {
@@ -232,8 +244,28 @@
         height: 35px;
     }
 
+    .benefitspackservices .benefits_pack:first-child .signature_pack h3 {
+        font-size: 1.05rem;
+        line-height: 0.3rem;
+    }
+
+    .benefitspackservices .benefits_pack .signature_pack h3 {
+        font-size: 1.05rem;
+        line-height: 1.3rem;
+    }
+
     .second_container_services {
         padding: 6rem 2rem 2rem 2rem;
     }
-    
+
+}
+
+@media (max-width: 375px) {
+    .benefits_pack {
+        margin-top: 2rem;
+    }
+
+    .item_listservices {
+        margin-top: 1.6rem;
+    }
 }
