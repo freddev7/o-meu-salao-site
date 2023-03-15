@@ -326,6 +326,10 @@
     width: 16rem;
 }
 
+.product6_img img {
+    max-width: 30rem;
+}
+
 .product7_img img {
     max-width: 25rem;
 }

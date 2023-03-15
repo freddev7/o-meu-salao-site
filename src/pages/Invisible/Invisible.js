@@ -1,10 +1,10 @@
 import ImageSlider from 'react-image-comparison-slider'
-import before from '../../assets/img/before.jpg'
-import after from '../../assets/img/after.jpg'
-import randompht from '../../assets/img/randompht.jpg'
-import randompht2 from '../../assets/img/randompht2.jpg'
-import randomphoto from '../../assets/img/randomphoto.jpg'
-import randomphoto2 from '../../assets/img/randomphoto2.jpg'
+import beforeonepi from '../../assets/img/beforeonepi.jpg'
+import afteronepi from '../../assets/img/afteronepi.jpg'
+import beforetwopi from '../../assets/img/beforetwopi.jpg'
+import aftertwopi from '../../assets/img/aftertwopi.jpg'
+import beforethreepi from '../../assets/img/beforethreepi.jpg'
+import afterthreepi from '../../assets/img/afterthreepi.jpg'
 import cacheado from '../../assets/img/cacheado.png'
 import invisibleslimlogo from '../../assets/img/invisibleslimlogo.svg'
 import newinvisiblelogo from '../../assets/img/newinvisiblelogo.svg'
@@ -110,8 +110,8 @@ function Invisible() {
             <div className='container_box'>
                 <div className='item_box' style={{ width: 475, height: 519 }}>
                     <ImageSlider
-                        image1={before}
-                        image2={after}
+                        image1={afterthreepi}
+                        image2={beforethreepi}
                         sliderWidth={1}
                         sliderColor="#fff"
                         handleColor="#cda582"
@@ -120,8 +120,8 @@ function Invisible() {
                 </div>
                 <div className='item_box' style={{ width: 475, height: 519 }}>
                     <ImageSlider
-                        image1={randompht2}
-                        image2={randompht}
+                        image1={aftertwopi}
+                        image2={beforetwopi}
                         sliderWidth={1}
                         sliderColor="#fff"
                         handleColor="#cda582"
@@ -130,8 +130,8 @@ function Invisible() {
                 </div>
                 <div className='item_box' style={{ width: 475, height: 519 }}>
                     <ImageSlider
-                        image1={randomphoto2}
-                        image2={randomphoto}
+                        image1={afteronepi}
+                        image2={beforeonepi}
                         sliderWidth={1}
                         sliderColor="#fff"
                         handleColor="#cda582"
@@ -190,7 +190,7 @@ function Invisible() {
                     <img onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} src={Oslogo} alt='Oslogo' />
                 </div>
                 <div className='footer_icon'>
-                    <a href="https://web.whatsapp.com/send?phone=5531992926179" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/5531991021509?text=Ol%C3%A1%2C+venho+do+Site+O+Meu+Salao+Buritis" target="_blank" rel="noopener noreferrer">
                         <i className='fab fa-whatsapp'></i>
                     </a>
                 </div>

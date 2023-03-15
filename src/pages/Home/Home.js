@@ -128,8 +128,8 @@ function Home() {
                 <div className='container_box'>
                     <div className='item_box' style={{ width: 475, height: 519 }}>
                         <ImageSlider
-                            image1={after}
-                            image2={before}
+                            image1={before}
+                            image2={after}
                             sliderWidth={1}
                             sliderColor="#cda582"
                             handleColor="#fff"
@@ -148,8 +148,8 @@ function Home() {
                     </div>
                     <div className='item_box' style={{ width: 475, height: 519 }}>
                         <ImageSlider
-                            image1={randomphoto}
-                            image2={randomphoto2}
+                            image1={randomphoto2}
+                            image2={randomphoto}
                             sliderWidth={1}
                             sliderColor="#cda582"
                             handleColor="#fff"
@@ -323,7 +323,7 @@ function Home() {
                         <img onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} src={Oslogo} alt='Oslogo' />
                     </div>
                     <div className='footer_icon'>
-                        <a href="https://web.whatsapp.com/send?phone=5531992926179" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/5531991021509?text=Ol%C3%A1%2C+venho+do+Site+O+Meu+Salao+Buritis" target="_blank" rel="noopener noreferrer">
                             <i className='fab fa-whatsapp'></i>
                         </a>
                     </div>
