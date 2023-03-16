@@ -128,8 +128,8 @@ function Home() {
                 <div className='container_box'>
                     <div className='item_box' style={{ width: 475, height: 519 }}>
                         <ImageSlider
-                            image1={before}
-                            image2={after}
+                            image1={after}
+                            image2={before}
                             sliderWidth={1}
                             sliderColor="#cda582"
                             handleColor="#fff"

@@ -696,6 +696,7 @@
     .curlyimg img {
         margin-top: 2rem;
         max-width: 21rem;
+        height: auto;
     }
 
     .dreams_container img {
