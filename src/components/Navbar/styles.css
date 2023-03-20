@@ -51,6 +51,12 @@ nav a img {
     color: #cda582;
 }
 
+@media (max-width: 1024px) {
+    nav {
+        padding: 1.4rem 3rem 1.4rem 4rem;
+    } 
+}
+
 @media screen and (max-width:768px) {
     #navbar {
         display: flex;

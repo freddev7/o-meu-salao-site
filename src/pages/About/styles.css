@@ -449,10 +449,13 @@
     .unit_textblock {
         font-size: 90%;
         text-align: center;
-
     }
 
     .icon_phone {
+        justify-content: center;
+    }
+
+    .icon_wpp {
         justify-content: center;
     }
 

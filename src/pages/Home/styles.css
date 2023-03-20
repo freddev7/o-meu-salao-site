@@ -115,7 +115,7 @@
 }
 
 .second_container_img img {
-    max-width: 28rem;
+    max-width: 32rem;
 }
 
 .third_container {
@@ -553,7 +553,7 @@
     }
 
     .second_container_img img {
-        max-width: 22rem;
+        max-width: 28rem;
     }
 
     .list_box {
@@ -633,7 +633,7 @@
     }
 
     .second_container_img img {
-        max-width: 23rem;
+        max-width: 26rem;
     }
 
     .home_first_btn button {
@@ -759,7 +759,7 @@
     }
 
     .second_container {
-        gap: 0rem;
+        gap: 2rem;
         padding: 3rem 0rem 0rem 2rem;
     }
 
@@ -783,6 +783,7 @@
 
     .item_list {
         padding: 0rem 0.8rem 1rem 0.8rem;
+        max-width: 12rem;
     }
 
     .item_list h2 {
@@ -791,6 +792,7 @@
 
     .item_list p {
         font-size: 1rem;
+        line-height: 1.3rem;
     }
 
     .item_list h3 {
@@ -843,11 +845,12 @@
         flex-direction: column;
         text-align: center;
         padding: 3rem 0rem 0rem 0rem;
+        gap: 3rem;
     }
 
     .home_block_text {
         font-size: 140%;
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 0rem 1rem 0rem 1rem;
     }
 
     .home_block_links {
@@ -860,9 +863,9 @@
     }
 
     .second_home_block {
-        padding: 0;
+        padding: 0rem;
         position: relative;
-        right: 2rem;
+        right: 1rem;
     }
 
     .second_block_text {
@@ -956,8 +959,18 @@
     }
 
     .carousel_block {
-        max-width: 65vw;
-        padding: 0rem 0rem 0rem 7.6rem;
+        max-width: 96vw;
+        padding: 0rem 0rem 0rem 0.3rem;
+    }
+
+    .carousel_block .carousel .item_carousel {
+        width: 18rem;
+        margin: 1rem;
+    }
+
+    .carousel_block button:nth-of-type(2) i {
+        position: relative;
+        left: 0.4rem;
     }
 
     .footer {
