@@ -540,6 +540,11 @@
         margin-top: 2rem;
         padding: 0rem 0rem 0rem 1.3rem;
     }
+
+    .items_course_boxtwo {
+        margin-left: 0rem ;
+    }    
+
     
     .block_prod_end {
         flex-direction: column;
@@ -623,11 +628,6 @@
         padding: 0rem 2rem 0rem 2rem;
     }
 
-    .prodcourse_containerthree .block_images {
-        position: relative;
-        left: 1rem;
-    }
-
     .prodcourse_containerthree .block_images img {
         max-width: 10rem;
         margin-left: 1rem;
@@ -638,6 +638,10 @@
         display: flex;
         flex-direction: column;
     }
+
+    .items_course_boxtwo {
+        margin-left: 0rem ;
+    }    
 
     .block_prod_end {
         flex-direction: column;
@@ -677,7 +681,7 @@
     .block_course_text {
         text-align: center;
         margin-left: 0rem;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
     .block_course_text p {
@@ -763,10 +767,18 @@
         padding: 0rem 1rem 0rem 1rem;
     }
 
+    .items_course {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
     .items_course_box {
         display: flex;
         flex-direction: column;
     }
+
+    .items_course_boxtwo {
+        margin-left: 0rem ;
+    }    
 
     .block_prod_end {
         flex-direction: column;
@@ -880,6 +892,10 @@
         flex-direction: column;
     }
 
+    .items_course_boxtwo {
+        margin-left: 0rem ;
+    }    
+    
     .block_prod_end {
         flex-direction: column;
         text-align: center;
