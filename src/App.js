@@ -17,32 +17,16 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Services">
-          <Route path="/Services" element={<Services />} />
-        </Route>
-        <Route path="/Products">
-          <Route path="/Products" element={<Products />} />
-        </Route>
-        <Route path="/About">
-          <Route path="/About" element={<About />} />
-        </Route>
-        <Route path="/Invisible">
-          <Route path="/Invisible" element={<Invisible />} />
-        </Route>
-        <Route path="/Contact">
-          <Route path="/Contact" element={<Contact />} />
-        </Route>
-        <Route path="/Courses">
-          <Route path="/Courses" element={<Courses />} />
-        </Route>
-        <Route path="/Franchise">
-          <Route path="/Franchise" element={<Franchise />} />
-        </Route>
-        <Route path="/Blog">
-          <Route path="/Blog" element={<Blog />} />
-        </Route>
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Products" element={<Products />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Invisible" element={<Invisible />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Courses" element={<Courses />} />
+        <Route path="/Franchise" element={<Franchise />} />
+        <Route path="/Blog" element={<Blog />} />
       </Routes>
-      </>
+    </>
   );
 }
 
