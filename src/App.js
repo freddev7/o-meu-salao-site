@@ -13,20 +13,20 @@ import Blog from './pages/Blog/Blog';
 
 function App() {
   return (
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Services" element={<Services />} />
-          <Route path="/Products" element={<Products />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Invisible" element={<Invisible />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Courses" element={<Courses />} />
-          <Route path="/Franchise" element={<Franchise />} />
-          <Route path="/Blog" element={<Blog />} />
-        </Routes>
-      </BrowserRouter>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Services" element={<Services />} />
+        <Route path="/Products" element={<Products />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Invisible" element={<Invisible />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Courses" element={<Courses />} />
+        <Route path="/Franchise" element={<Franchise />} />
+        <Route path="/Blog" element={<Blog />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
