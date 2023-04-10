@@ -28,11 +28,12 @@ function Courses() {
                 <h2>Descubra as técnicas para você lucrar trabalhando com o novo método Invisible.</h2>
             </div>
             <div className='block_course'>
-                <h2>Não existe nenhuma outra carreira na área da beleza que te proporcione ter um lucro entre mil reais a três mil reais entre 10 minutos à 1 hora de trabalho, como o Mega Hair te proporciona.</h2>
-                <img src={photocourse} alt='photocourse' />
+                <h2>Não existe nenhuma outra carreira na área da beleza que te proporcione ter um lucro entre mil a três mil reais entre 10 minutos à 1 hora de trabalho, como o Mega Hair te proporciona.</h2>
+                <img src={photocourse} alt='photocourse' data-aos="fade-right" />
                 <div className='block_course_text'>
-                    <h3>O MASTER CLASS INVISIBLE CAPACITA O PROFISSIONAL EXECUTAR A MELHOR TÉCNICA DE ALONGAMENTO DO MERCADO.</h3>
-                    <p>O mercado de beleza e estética está em constante evolução, e um dos segmentos que mais tem crescido é o de alongamento capilar. Porém, nem sempre é fácil encontrar profissionais qualificados que realizem esse serviço com excelência. O curso Invisible tem como objetivo ensinar a técnica mais avançada de alongamento capilar atualmente, que proporcionam um resultado mais natural e duradouro. Além disso, o curso aborda temas importantes como higiene e segurança no trabalho, escolha dos materiais adequados e cuidados pós-procedimento.</p>
+                    <h3 data-aos="fade-right">O MASTER CLASS INVISIBLE CAPACITA O PROFISSIONAL EXECUTAR A MELHOR TÉCNICA DE ALONGAMENTO DO MERCADO.</h3>
+                    <p data-aos="fade-down">O mercado de beleza e estética está em constante evolução, e um dos segmentos que mais tem crescido é o de alongamento capilar. Porém, nem sempre é fácil encontrar profissionais qualificados que realizem esse serviço com excelência.</p>
+                    <p data-aos="fade-up">O curso Invisible tem como objetivo ensinar a técnica mais avançada de alongamento capilar atualmente, que proporcionam um resultado mais natural e duradouro. Além disso, o curso aborda temas importantes como higiene e segurança no trabalho, escolha dos materiais adequados e cuidados pós-procedimento.</p>
                     <i className='fas fa-award'></i>
                 </div>
             </div>
@@ -40,7 +41,8 @@ function Courses() {
                 <div className='block_prod'>
                     <div className='block_prod_text'>
                         <h2>Aprenda a forma certa, na prática, o método mais seguro e eficaz de alongamento.</h2>
-                        <p>Nesse curso, você irá aprender desde as técnicas mais básicas até as mais avançadas, passando pelos diferentes tipos de cabelo e texturas. O curso também irá abordar as precauções necessárias para realizar o alongamento capilar com segurança, como cuidados com o couro cabeludo e a manutenção adequada do cabelo. Além disso, você terá a oportunidade de aprender a escolher os melhores materiais e equipamentos para cada método de alongamento capilar. Mesmo que você já tenha experiência com cabelos ou trabalhe com outra área e irá começar agora nesta carreira. Tem lugar para você! Mas é o Mega Hair de excelência, com a técnica e o método certo. Vou te ensinar o ÚNICO MÉTODO aprovado por dermatologistas e tricologistas o Invisible. E mais: esse novo mercado de excelência em mega hair está nascendo agora e o mundo todo precisa de profissionais qualificados.</p>
+                        <p>Nesse curso, você irá aprender desde as técnicas mais básicas até as mais avançadas, passando pelos diferentes tipos de cabelo e texturas. O curso também irá abordar as precauções necessárias para realizar o alongamento capilar com segurança, como cuidados com o couro cabeludo e a manutenção adequada do cabelo. Além disso, você terá a oportunidade de aprender a escolher os melhores materiais e equipamentos para cada método de alongamento capilar.</p>
+                        <p>Mesmo que você já tenha experiência com cabelos ou trabalhe com outra área e irá começar agora nesta carreira. Tem lugar para você! Mas é o Mega Hair de excelência, com a técnica e o método certo. Vou te ensinar o ÚNICO MÉTODO aprovado por dermatologistas e tricologistas o Invisible. E mais: esse novo mercado de excelência em mega hair está nascendo agora e o mundo todo precisa de profissionais qualificados.</p>
                         <a href="https://wa.me/5531991021509?text=Ol%C3%A1%2C+venho+do+Site+O+Meu+Salao+Buritis" target="_blank" rel="noopener noreferrer">
                             <button onClick={() => { window.scrollTo({ top: 0, }); }}>INSCREVA-SE</button>
                         </a>
@@ -52,7 +54,9 @@ function Courses() {
             </div>
             <div className='prodcourse_containertwo'>
                 <div className='title_prodcourse_containertwo'>
-                    <h2>Vários métodos no mercado  mas o ÚNICO MÉTODO aprovado por dermatologistas e tricologistas o Invisible. E mais: tenha total diferencial no mercado garantindo seu ganho financeiro..</h2>
+                    <h2>Vários métodos no mercado  mas o ÚNICO MÉTODO aprovado por dermatologistas e tricologistas o Invisible. E mais: tenha total diferencial no mercado garantindo seu ganho financeiro.</h2>
+                    <i className='fas fa-graduation-cap'></i>
+                    <img src={mcinvisiblew} alt='mcinvisiblew' />
                 </div>
                 <div className='video_block'>
                     <div className='video_block_model'>
@@ -60,13 +64,22 @@ function Courses() {
                     </div>
                     <div className='video_block_text'>
                         <i className='fas fa-graduation-cap'></i>
-                        <img src={mcinvisiblew} alt='mcinvisiblew' />
+                        <img src={mcinvisiblew} alt='mcinvisiblew'/>
                         <i className='fas fa-vote-yea'></i>
                         <h3>Garanta sua vaga e tenha lucros de 1 mil reais em apenas 30 minutos de trabalho com o método Invisible.</h3>
+                        <i className='fas fa-shield-alt'></i>
+                        <h3>Método mais seguro e eficaz do mercado.</h3>
                     </div>
                     <div className='video_block_model2'>
                         <img src={videocoursemodel2} alt='videocoursemodel2' />
                     </div>
+                </div>
+                <div className='box_button'>
+                    <i className='fas fa-shield-alt'></i>
+                    <h3>Método mais seguro e eficaz do mercado.</h3>
+                    <a href="https://wa.me/5531991021509?text=Ol%C3%A1%2C+venho+do+Site+O+Meu+Salao+Buritis" target="_blank" rel="noopener noreferrer">
+                        <button onClick={() => { window.scrollTo({ top: 0, }); }}>FAÇA JÁ SUA INSCRIÇÃO</button>
+                    </a>
                 </div>
             </div>
             <div className='prodcourse_containerthree'>
@@ -74,20 +87,21 @@ function Courses() {
                     <h2>Garanta o seu certificado e comece a transformar vidas através dos cabelos.</h2>
                 </div>
                 <div className='block_images'>
-                    <img src={class01} alt='class01' />
-                    <img src={class02} alt='class02' />
-                    <img src={class03} alt='class03' />
-                    <img src={class04} alt='class04' />
+                    <img src={class01} alt='class01'  data-aos="fade-right"/>
+                    <img src={class02} alt='class02' data-aos="fade-down"/>
+                    <img src={class03} alt='class03' data-aos="fade-right"/>
+                    <img src={class04} alt='class04' data-aos="fade-up"/>
                 </div>
                 <div className='subtitle_prodcourse_containerthree'>
                     <h2>Conteúdo do curso</h2>
                     <h3>Todo o conteúdo que você irá aprender durante o curso para você se tornar um expert</h3>
+                    <i className='f	fas fa-tasks'></i>
                 </div>
                 <div className='items_course_box'>
                     <div className='items_course_boxone'>
                         <div className='items_course'>
                             <h2>CONHEÇA O MÉTODO INVISIBLE</h2>
-                            <p>Você irá conhecer como o método foi desenvolvido, os seus principais<br /> benefícios, as diferenças com outros métodos e a nossa garantia exclusiva:</p>
+                            <p>Você irá conhecer como o método foi desenvolvido, os seus principais benefícios e a nossa garantia exclusiva:</p>
                             <ul>
                                 <li>- Todos os benefícios do metódo</li>
                                 <li>- Como se apresentar corretamente</li>
@@ -111,7 +125,7 @@ function Courses() {
                     <div className='items_course_boxtwo'>
                         <div className='items_course'>
                             <h2>COMO FAZER A APLICAÇÃO</h2>
-                            <p>Depois de realizar a avaliação, chegou a hora de fazermos a aplicação,<br /> por isso, você irá aprender:</p>
+                            <p>Depois de realizar a avaliação, chegou a hora de fazermos a aplicação, por isso, você irá aprender:</p>
                             <ul>
                                 <li>- Como fazer a preparação do cabelo</li>
                                 <li>- A montagem da mecha para aplicação na fita</li>
@@ -131,13 +145,14 @@ function Courses() {
                         </div>
                     </div>
                 </div>
+                <h3>Vários métodos no mercado mas o ÚNICO MÉTODO aprovado por dermatologistas e tricologistas o Invisible.<br/> E mais: tenha total diferencial no mercado garantindo seu ganho financeiro.</h3>
                 <a href="https://wa.me/5531991021509?text=Ol%C3%A1%2C+venho+do+Site+O+Meu+Salao+Buritis" target="_blank" rel="noopener noreferrer">
                     <button onClick={() => { window.scrollTo({ top: 0, }); }}>FAÇA JÁ SUA INSCRIÇÃO</button>
                 </a>
             </div>
             <div className='course_container_end'>
                 <div className='block_prod_end'>
-                    <img src={courseend} alt='courseend' />
+                    <img src={courseend} alt='courseend' data-aos="fade-up" />
                     <div className='block_prod_endtext'>
                         <h2>MasterClass Invisible: Conquiste sua liberdade financeira com o método de mega hair adesivado da especialista Camila Rodrigues.</h2>
                         <p>É mãe da pequena Maria Lucia, empresária e especialista em mega hair com mais de 20 anos de carreira. Criadora do único método de alongamento adesivado aprovado por dermatologistas e tricologistas o Invisible, técnica exclusiva e que possibilita suas alunas faturarem mais de 1 mil reais em apenas 30 minutos, por aplicação, sem precisar fazer investimentos altos em cabelos ou estrutura física. Na MasterClass Invisible, Camila Rodrigues vai pegar na sua mão e te mostrar o plano prático para conquistar a sua liberdade financeira através do Mega Hair, se tornando uma profissional de referência na sua região.</p>
