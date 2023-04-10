@@ -1,9 +1,9 @@
 import mcinvisible from '../../assets/img/mcinvisible.svg'
 import mcinvisiblew from '../../assets/img/mcinvisiblew.svg'
 import photocourse from '../../assets/img/photocourse.png'
-import videocourse from '../../assets/img/videocourse.mp4'
-import videocoursemodel from '../../assets/img/videocoursemodel.mp4'
-import videocoursemodel2 from '../../assets/img/videocoursemodel2.mp4'
+import videocourse from '../../assets/img/videocourse.gif'
+import videocoursemodel from '../../assets/img/videocoursemodel.gif'
+import videocoursemodel2 from '../../assets/img/videocoursemodel2.gif'
 import class01 from '../../assets/img/class01.jpg'
 import class02 from '../../assets/img/class02.png'
 import class03 from '../../assets/img/class03.png'
@@ -45,7 +45,9 @@ function Courses() {
                             <button onClick={() => { window.scrollTo({ top: 0, }); }}>INSCREVA-SE</button>
                         </a>
                     </div>
-                    <video src={videocourse} alt='videocourse' autoPlay muted loop />
+                    <div className='gif_block_prod'>
+                        <img src={videocourse} alt='videocourse' />
+                    </div>
                 </div>
             </div>
             <div className='prodcourse_containertwo'>
@@ -53,14 +55,18 @@ function Courses() {
                     <h2>Vários métodos no mercado  mas o ÚNICO MÉTODO aprovado por dermatologistas e tricologistas o Invisible. E mais: tenha total diferencial no mercado garantindo seu ganho financeiro..</h2>
                 </div>
                 <div className='video_block'>
-                    <video src={videocoursemodel} alt='videocoursemodel' autoPlay muted loop />
+                    <div className='video_block_model'>
+                        <img src={videocoursemodel} alt='videocoursemodel' />
+                    </div>
                     <div className='video_block_text'>
                         <i className='fas fa-graduation-cap'></i>
                         <img src={mcinvisiblew} alt='mcinvisiblew' />
                         <i className='fas fa-vote-yea'></i>
                         <h3>Garanta sua vaga e tenha lucros de 1 mil reais em apenas 30 minutos de trabalho com o método Invisible.</h3>
                     </div>
-                    <video src={videocoursemodel2} alt='videocoursemodel2' autoPlay muted loop />
+                    <div className='video_block_model2'>
+                        <img src={videocoursemodel2} alt='videocoursemodel2' />
+                    </div>
                 </div>
             </div>
             <div className='prodcourse_containerthree'>
