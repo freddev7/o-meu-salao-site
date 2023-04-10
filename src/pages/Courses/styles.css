@@ -162,6 +162,7 @@
 .title_prodcourse_containertwo img {
     width: 16rem;
     display: none;
+    margin-bottom: 1rem;
 }
 
 .title_prodcourse_containertwo h2 {
@@ -210,6 +211,7 @@
 }
 
 .prodcourse_containertwo .box_button i {
+    margin-top: 2rem;
     display: none;
 }
 
