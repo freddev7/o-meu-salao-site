@@ -45,7 +45,7 @@ function Courses() {
                             <button onClick={() => { window.scrollTo({ top: 0, }); }}>INSCREVA-SE</button>
                         </a>
                     </div>
-                    <video src={videocourse} alt='videocourse' autoPlay muted loop />
+                    <video src={videocourse} alt='videocourse' width="940" height="660" autoPlay muted loop />
                 </div>
             </div>
             <div className='prodcourse_containertwo'>
@@ -53,14 +53,14 @@ function Courses() {
                     <h2>Vários métodos no mercado  mas o ÚNICO MÉTODO aprovado por dermatologistas e tricologistas o Invisible. E mais: tenha total diferencial no mercado garantindo seu ganho financeiro..</h2>
                 </div>
                 <div className='video_block'>
-                    <video src={videocoursemodel} alt='videocoursemodel' autoPlay muted loop />
+                    <video src={videocoursemodel} alt='videocoursemodel' width="940" height="660" autoPlay muted loop />
                     <div className='video_block_text'>
                         <i className='fas fa-graduation-cap'></i>
                         <img src={mcinvisiblew} alt='mcinvisiblew' />
                         <i className='fas fa-vote-yea'></i>
                         <h3>Garanta sua vaga e tenha lucros de 1 mil reais em apenas 30 minutos de trabalho com o método Invisible.</h3>
                     </div>
-                    <video src={videocoursemodel2} alt='videocoursemodel2' autoPlay muted loop />
+                    <video src={videocoursemodel2} alt='videocoursemodel2' width="940" height="660" autoPlay muted loop />
                 </div>
             </div>
             <div className='prodcourse_containerthree'>
