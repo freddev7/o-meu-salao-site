@@ -507,7 +507,7 @@
     .prodcourse_containerthree h3 {
         font-size: 1.3rem;
         font-weight: 500;
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 1rem 2rem 1rem 2rem;
         display: block;
         text-align: center;
     }
@@ -662,7 +662,7 @@
     .prodcourse_containerthree h3 {
         font-size: 1.3rem;
         font-weight: 500;
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 1rem 2rem 1rem 2rem;
         display: block;
         text-align: center;
     }
@@ -679,7 +679,6 @@
     .block_prod_endtext {
         margin-top: 1rem;
     }
-
 
 }
 
@@ -828,7 +827,7 @@
     .prodcourse_containerthree h3 {
         font-size: 1.3rem;
         font-weight: 500;
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 2rem;
         display: block;
         text-align: center;
     }
@@ -1030,7 +1029,7 @@
     .prodcourse_containerthree h3 {
         font-size: 1.3rem;
         font-weight: 500;
-        padding: 0rem 1rem 0rem 1rem;
+        padding: 2rem;
         display: block;
     }
     
@@ -1204,7 +1203,7 @@
     .prodcourse_containerthree h3 {
         font-size: 1.3rem;
         font-weight: 500;
-        padding: 0rem 1rem 0rem 1rem;
+        padding: 2rem;
         display: block;
     }
 
