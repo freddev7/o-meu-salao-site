@@ -151,7 +151,7 @@
     font-size: 1rem;
     margin-bottom: 0rem;
     text-align: center;
-    padding: 0rem 9rem 0rem 9rem;
+    padding: 0rem 9rem 3rem 9rem;
 }
 
 .title_prodcourse_containertwo i {
@@ -200,10 +200,18 @@
     font-size: 3rem;
 }
 
+.prodcourse_containertwo .video_block .video_block_text i:nth-child(1) {
+    margin-bottom: 0.6rem;
+}
+
 .prodcourse_containertwo .video_block .video_block_text h3 {
     font-weight: 500;
     text-align: center;
     padding: 1rem 4rem 2rem 4rem;
+}
+
+.prodcourse_containertwo .box_button {
+    padding: 2rem 0rem 0rem 0rem;
 }
 
 .prodcourse_containertwo .box_button h3 {
@@ -364,7 +372,6 @@
 
     .prodcourse_containertwo {
         padding: 5rem 4rem 0rem 4rem;
-        gap: 3rem;
     }
 
     .blocktwo_prod h1 {
@@ -381,57 +388,6 @@
     }
 }
 
-@media (max-width: 1240px) {
-    .course_container {
-        gap: 0rem;
-        padding: 3rem 0rem 0rem 3rem;
-    }
-
-}
-
-@media (max-width: 1024px) {
-    .title_coursescontainer {
-        font-size: 0.9rem;
-    }
-
-    .course_container {
-        gap: 0rem;
-        padding: 5rem 1rem 0rem 2rem;
-        flex-direction: column;
-    }
-
-    .block_course {
-        font-size: 1.2rem;
-    }
-
-    .block_course_text i {
-        position: relative;
-        bottom: 1rem;
-    }
-
-    .block_prod {
-        font-size: 1.3rem;
-    }
-
-    .prodcourse_containertwo {
-        padding: 5rem 2rem 0rem 2rem;
-        gap: 3rem;
-    }
-
-    .blocktwo_prod {
-        font-size: 1.3rem;
-    }
-
-    .prodcourse_containerthree {
-        padding: 5rem 2rem 2rem 2rem;
-        gap: 0rem;
-    }
-
-    .prodcourse_containerthree .block_images img {
-        max-width: 11rem;
-    }
-}
-
 @media (max-width: 1024px) and (min-width: 768px) {
     .title_coursescontainer {
         text-align: center;
@@ -440,6 +396,7 @@
     .block_course {
         flex-direction: column;
         text-align: center;
+        padding: 0rem 3rem 1rem 3rem;
     }
 
     .block_course img {
@@ -472,10 +429,12 @@
 
     .title_prodcourse_containertwo i {
         display: block;
+        margin-bottom: 0.6rem;
     }
 
     .title_prodcourse_containertwo img {
         display: block;
+        margin-bottom: 2rem;
     }
 
     .prodcourse_containertwo .video_block {
@@ -500,6 +459,10 @@
         padding: 1rem 0rem 1rem 0rem;
     }
 
+    .prodcourse_containertwo .video_block .video_block_text h3:nth-child(4) {
+       padding: 0rem 5rem 0rem 5rem;
+    }
+
     .prodcourse_containertwo .video_block .video_block_text i:nth-child(5) {
         display: none;
     }
@@ -512,12 +475,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0rem;
     }
 
     .prodcourse_containertwo .box_button i {
         font-size: 3rem;
         display: block;
         text-align: center;
+        margin-top: 2rem;
     }
     
     .prodcourse_containertwo .box_button h3 {
@@ -539,6 +504,18 @@
         padding: 0rem 3rem 0rem 3rem;
     }
 
+    .prodcourse_containerthree h3 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 0rem 2rem 0rem 2rem;
+        display: block;
+        text-align: center;
+    }
+
+    .prodcourse_containerthree button {
+        margin-top: 0rem;
+    }
+
     .block_prod_end {
         flex-direction: column;
         text-align: center;
@@ -558,6 +535,7 @@
     .block_course {
         flex-direction: column;
         text-align: center;
+        padding: 0rem 3rem 1rem 3rem;
     }
 
     .block_course img {
@@ -590,10 +568,12 @@
 
     .title_prodcourse_containertwo i {
         display: block;
+        margin-bottom: 0.6rem;
     }
 
     .title_prodcourse_containertwo img {
         display: block;
+        margin-bottom: 2rem;
     }
 
     .prodcourse_containertwo .video_block {
@@ -604,6 +584,51 @@
 
     .prodcourse_containertwo .video_block .video_block_text {
         margin-bottom: 2rem;
+        margin-top: 0rem;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text i:nth-child(1) {
+        display: none;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text img {
+        display: none;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text i:nth-child(3) {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text h3:nth-child(4) {
+        padding: 1rem 3rem 0rem 3rem;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text i:nth-child(5) {
+        display: none;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text h3:nth-child(6) {
+        display: none;
+    }
+
+    .prodcourse_containertwo .box_button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0rem;
+    }
+
+    .prodcourse_containertwo .box_button i {
+        font-size: 3rem;
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .prodcourse_containertwo .box_button h3 {
+        font-weight: 500;
+        padding: 1rem 2rem 2rem 2rem;
+        display: block;
     }
 
     .title_prodcourse_containerthree {
@@ -634,6 +659,17 @@
         margin-left: 0rem;
     }
 
+    .prodcourse_containerthree h3 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 0rem 2rem 0rem 2rem;
+        display: block;
+        text-align: center;
+    }
+
+    .prodcourse_containerthree button {
+        margin-top: 0rem;
+    }
 
     .block_prod_end {
         flex-direction: column;
@@ -655,7 +691,7 @@
     .block_course {
         flex-direction: column;
         text-align: center;
-        padding: 0rem 1rem 0rem 1rem;
+        padding: 0rem 1rem 1rem 1rem;
     }
 
     .block_course img {
@@ -696,6 +732,7 @@
 
     .title_prodcourse_containertwo img {
         display: block;
+        margin-bottom: 2rem;
     }
 
     .title_prodcourse_containertwo {
@@ -715,6 +752,50 @@
 
     .prodcourse_containertwo .video_block .video_block_text h3 {
         padding: 0rem;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text i:nth-child(1) {
+        display: none;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text img {
+        display: none;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text i:nth-child(3) {
+        padding: 1rem 0rem 1rem 0rem;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text h3:nth-child(4) {
+       padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text i:nth-child(5) {
+        display: none;
+    }
+
+    .prodcourse_containertwo .video_block .video_block_text h3:nth-child(6) {
+        display: none;
+    }
+
+    .prodcourse_containertwo .box_button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0rem;
+    }
+
+    .prodcourse_containertwo .box_button i {
+        font-size: 3rem;
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .prodcourse_containertwo .box_button h3 {
+        font-weight: 500;
+        padding: 1rem 2rem 2rem 2rem;
+        display: block;
     }
 
     .prodcourse_containerthree {
@@ -742,6 +823,18 @@
 
     .items_course_boxtwo {
         margin-left: 0rem;
+    }
+
+    .prodcourse_containerthree h3 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 0rem 2rem 0rem 2rem;
+        display: block;
+        text-align: center;
+    }
+
+    .prodcourse_containerthree button {
+        margin-top: 0rem;
     }
 
     .block_prod_end {
@@ -832,11 +925,13 @@
     }
 
     .title_prodcourse_containertwo i {
+        margin-bottom: 0.6rem;
         display: block;
     }
 
     .title_prodcourse_containertwo img {
         display: block;
+        margin-bottom: 2rem;
     }
 
     .title_prodcourse_containertwo {
@@ -879,6 +974,10 @@
         padding: 0rem 3rem 0rem 3rem;
     }
 
+    .prodcourse_containertwo .box_button {
+        padding: 0rem;
+    }
+
     .prodcourse_containertwo .box_button h3 {
         font-weight: 500;
         padding: 1rem 2rem 2rem 2rem;
@@ -886,6 +985,7 @@
     }
 
     .prodcourse_containertwo .box_button i {
+        margin-top: 2rem;
         font-size: 3rem;
         display: block;
     }
@@ -930,8 +1030,12 @@
     .prodcourse_containerthree h3 {
         font-size: 1.3rem;
         font-weight: 500;
-        padding: 2rem 1rem 1rem 1rem;
+        padding: 0rem 1rem 0rem 1rem;
         display: block;
+    }
+    
+    .prodcourse_containerthree button {
+        margin-top: 0rem;
     }
 
     .items_course {
@@ -1031,6 +1135,10 @@
         padding: 0rem 1rem 0rem 1rem;
     }
 
+    .title_prodcourse_containertwo img {
+        margin-bottom: 2rem;
+    }
+
     .prodcourse_containertwo .video_block {
         display: flex;
         flex-direction: column;
@@ -1071,6 +1179,10 @@
         padding: 0rem 2rem 0rem 2rem;
     }
 
+    .prodcourse_containertwo .box_button {
+        padding: 0rem;
+    }
+
     .prodcourse_containertwo .box_button h3 {
         font-weight: 500;
         padding: 1rem 2rem 0rem 2rem;
@@ -1080,12 +1192,20 @@
     .prodcourse_containertwo .box_button i {
         font-size: 3rem;
         display: block;
+        margin-top: 2rem;
     }
 
     .prodcourse_containerthree {
         flex-direction: column;
         text-align: center;
         padding: 1rem 0rem 2rem 0rem;
+    }
+
+    .prodcourse_containerthree h3 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 0rem 1rem 0rem 1rem;
+        display: block;
     }
 
     .title_prodcourse_containerthree {
