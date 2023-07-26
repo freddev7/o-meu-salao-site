@@ -1,6 +1,37 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background-color: #d19e78;
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.slider__wrapper {
+  border-radius: 1rem;
+}
+
+.label__text.label__right{
+  font-family: 'arial';
+  right: 0;
+  background-image: linear-gradient(349.78deg, #fff -17.21%, #ede8de 116.61%);
+  color: #d19e78;
+  top: 3%;
+  border-radius: 0rem 1rem 0rem 1rem;
+  padding: 0.6rem 1rem 0.3rem 1rem;
+}
+
+.label__text.label__left{
+  font-family: 'arial';
+  background-image: linear-gradient(349.78deg, #fff -17.21%, #ede8de 116.61%);
+  color: #d19e78;
+  top: 3%;
+  left: 0;
+  border-radius: 1rem 0rem 1rem 0rem;
+  padding: 0.6rem 1rem 0.3rem 1rem;
 }
 
 

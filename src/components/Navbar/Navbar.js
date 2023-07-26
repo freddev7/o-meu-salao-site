@@ -1,49 +1,36 @@
-import Oslogo from '../../assets/img/logo.png'
+import logoomscr from '../../assets/img/logoomscrwhite.svg'
 import './styles.css'
 import { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { MenuData } from "./MenuData";
 
 class Navbar extends Component {
 
   state = { clicked: false };
   handleClick = () => {
-    this.setState({
-      clicked:
-        !this.state.clicked
-    })
+    this.setState({ clicked: !this.state.clicked })
   }
+
   render() {
 
     return (
-      <nav>
-        <a href={'/'}>
-          <img src={Oslogo} alt='Oslogo' />
-        </a>
-        <div>
-          <ul id='navbar' className={this.state.clicked ? '#navbar active' : '#navbar'}>
-            <li>
-              <Link to='/About'>SOBRE</Link>
-            </li>
-            <li>
-              <Link to='/Services'>SERVIÇOS</Link>
-            </li>
-            <li>
-              <Link to='/Invisible'>ALONGAMENTOS</Link>
-            </li>
-            <li>
-              <Link to='/Courses'>CURSOS</Link>
-            </li>
-            <li>
-              <Link to='/Products'>PRODUTOS</Link>
-            </li>
-            <li>
-              <Link to='/Contact'>( FALE-CONOSCO )</Link>
-            </li>
+        <nav className="NavbarItems">
+          <div className="containerLogo">
+            <a href={'/'}>
+              <img src={logoomscr} alt='logosign' />
+            </a>
+          </div>
+          <div className="menu-icons" onClick={this.handleClick}>
+            <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
+          </div>
+          <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+            {MenuData.map((item, index) => {
+              return (
+                <li key={index}>
+                  <a href={item.url} className={item.cName}>{item.title}</a>
+                </li>
+              )
+            })}
           </ul>
-        </div>
-        <div id='mobile' onClick={this.handleClick}>
-          <i id='bar' className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-        </div>
       </nav>
     );
   }

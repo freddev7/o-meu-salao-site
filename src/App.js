@@ -9,12 +9,14 @@ import Contact from './pages/Contact/Contact'
 import Courses from './pages/Courses/Courses';
 import Franchise from './pages/Franchise/Franchise';
 import Blog from './pages/Blog/Blog';
+import Navigation from './components/Navigation/Navigation';
 
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <Navigation />
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/Services" element={<Services />} />
