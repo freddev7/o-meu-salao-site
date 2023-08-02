@@ -12,7 +12,6 @@ import carouselimgfour from '../../assets/img/carouselimgfour.jpg'
 import carouselimgfive from '../../assets/img/carouselimgfive.jpg'
 import carouselimgsix from '../../assets/img/carouselimgsix.jpg'
 import logosign from '../../assets/img/logosign.svg'
-import Oslogo from '../../assets/img/logo.svg'
 import logoomsformen from '../../assets/img/logoomsformen.svg'
 import logodf from '../../assets/img/logodf.svg'
 
