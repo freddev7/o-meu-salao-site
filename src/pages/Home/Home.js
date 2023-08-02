@@ -184,7 +184,7 @@ function Home() {
             </div>
             <div className='fourth_container'>
                 <div className='fourth_text'>
-                    <h1 data-aos="fade-left" data-aos-duration="1000">Surpreenda-se com a variedade e qualidade de nossos serviços!</h1>
+                    <h1 data-aos="fade-right" data-aos-duration="1000">Surpreenda-se com a variedade e qualidade de nossos serviços!</h1>
                     <div className='acessibility_container'>
                         <img src={slideiconacess} alt='slideiconacess' />
                     </div>

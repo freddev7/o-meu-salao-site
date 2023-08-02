@@ -8,7 +8,7 @@
     cursor: pointer;
     position: fixed;
     bottom: 115px;
-    right: 60px;
+    right: 45px;
     z-index: 100;
 }
 
@@ -42,7 +42,7 @@
     cursor: pointer;
     position: fixed;
     bottom: 30px;
-    right: 35px;
+    right: 20px;
     z-index: 100;
     animation-name: pulse;
     animation-duration: 1.5s;
