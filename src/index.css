@@ -10,6 +10,12 @@
   bottom: 0.5rem;
 }
 
+@media (max-width: 428px) and (min-width: 375px) {
+  .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    bottom: 0rem;
+  }
+}
+
 .slider__wrapper {
   border-radius: 1rem;
 }

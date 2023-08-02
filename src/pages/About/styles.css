@@ -1,25 +1,26 @@
 .first_about_container {
-    background-image: linear-gradient(150deg, #cda582, #fff 26%);
+    background-image: linear-gradient(358deg, #fff 20%, #ede8de 80%);
     display: flex;
     justify-content: center;
-    padding: 6rem 6rem 3rem 6rem;
+    padding: 9rem 6rem 3rem 6rem;
 }
 
 .title_about_container {
     text-align: center;
     color: #cda582;
-    font-size: 1.5rem;
-    line-height: 2rem;
     font-family: 'arboria';
 }
 
 .title_about_container h1 {
-    font-weight: 500;
+    font-weight: 900;
+    font-size: 3rem;
+    text-transform: uppercase;
 }
 
 .title_about_container p {
-    margin-top: 3rem;
-    font-weight: 300;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 1.4rem;
 }
 
 .second_about_container {
@@ -29,22 +30,20 @@
 
 .title_second_container {
     color: #cda582;
-    font-size: 1.5rem;
     font-family: 'arboria';
     text-align: center;
     line-height: 3.6rem;
 }
 
 .title_second_container h1 {
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 2.8rem;
 }
 
 .unit_one {
     display: flex;
     align-items: center;
     color: #cda582;
-    font-size: 1.3rem;
-    line-height: 2rem;
     font-family: 'arboria';
     padding: 6rem;
     gap: 6rem;
@@ -55,14 +54,20 @@
 }
 
 .unit_textblock h1 {
-    font-weight: 500;
+    font-weight: 700;
+    font-size:2.6rem;
 }
 
 .unit_textblock p {
     font-weight: 300;
+    font-size: 1.4rem;
 }
 
 .hour_phone h1 {
+    font-weight: 700;
+}
+
+.hour_phone p {
     font-weight: 700;
 }
 

@@ -50,7 +50,6 @@ function Services() {
                         <h3>- Proporcione essa experiência única <br />   e inesquecível para quem você ama.</h3>
                     </div>
                 </div>
-
             </div>
             <div className='second_container_services'>
                 <div className='listservices_box'>

@@ -14,6 +14,7 @@ import carouselimgsix from '../../assets/img/carouselimgsix.jpg'
 import logosign from '../../assets/img/logosign.svg'
 import Oslogo from '../../assets/img/logo.svg'
 import logoomsformen from '../../assets/img/logoomsformen.svg'
+import logodf from '../../assets/img/logodf.svg'
 
 function About() {
 
@@ -35,9 +36,10 @@ function About() {
                     <h1>O Meu Salão</h1>
                     <p>Fundado em 2019 por Camila Rodrigues, profissional atuante no mercado desde 2003. Sempre buscando por inovações, tecnologias e contribuições diretas com o mercado da beleza.
                         Vinda de uma tradicional e consagrada família de cabeleireiros e artistas do meio. Sempre com muita paixão pelo aprendizado concebeu o inédito método de mega hair denominado Invisible, técnica esta que obteve destaque em premiações internacionais no ano de 2022 em países da América e Oriente Médio.
-                        Sempre buscando oferecer os melhores serviços de beleza e bem-estar para nossos clientes, com uma sofisticação ímpar, elegância singular
-                        e muito glamour.
-                        Contamos com uma equipe de profissionais altamente qualificadas, que está sempre pronta para atender às suas necessidades e desejos, proporcionando um elegante, sutil e perspicaz ambiente para que você possa relaxar e cuidar de si.
+                        <p> Sempre buscando oferecer os melhores serviços de beleza e bem-estar para nossos clientes, com uma sofisticação ímpar, elegância singular
+                            e muito glamour.
+                            Contamos com uma equipe de profissionais altamente qualificadas, que está sempre pronta para atender às suas necessidades e desejos, proporcionando um elegante, sutil e perspicaz ambiente para que você possa relaxar e cuidar de si.
+                        </p>
                     </p>
                 </div>
             </div>
@@ -52,7 +54,7 @@ function About() {
                     <p>Um salão completo para toda a família com profissionais voltados para um atendimento totalmente humanizado e respeitando sempre a individualidade de cada cliente.</p>
                     <p>Nossos profissionais passam por treinamentos periódicos em academias nacionais e internacionais para garantir a sua satisfação de acordo com a sua personalidade e também com as tendências do visagismo mundial.</p>
                     <div className='hour_phone'>
-                        <p><strong>TELEFONES</strong></p>
+                        <p>TELEFONES</p>
                         <div className='icon_phone'>
                             <div className='phone'><i className='fas fa-phone'></i></div>
                             <h1>(31) 3212-3002</h1>
@@ -61,7 +63,7 @@ function About() {
                             <div className='wpp'><i className='fab fa-whatsapp'></i></div>
                             <h1>(31) 9 9292-6179</h1>
                         </div>
-                        <p><strong>TERÇA A SÁBADO</strong></p>
+                        <p>TERÇA A SÁBADO</p>
                         <div className='icon_clock'>
                             <div className='clock'><i className='fas fa-clock'></i></div>
                             <h1>09H - 19H</h1>
@@ -204,15 +206,13 @@ function About() {
             <div className='footer'>
                 <div className='footer_icon'>
                     <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
-                    <i className='fab fa-instagram'></i>
+                        <i className='fab fa-instagram'></i>
                     </a>
                 </div>
-                <div className='footer_logo'>
-                    <img onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} src={Oslogo} alt='Oslogo' />
-                </div>
-                <div className='footer_icon'>
-                    <a href="https://wa.me/5531991021509?text=Ol%C3%A1%2C+venho+do+Site+O+Meu+Salao+Buritis" target="_blank" rel="noopener noreferrer">
-                    <i className='fab fa-whatsapp'></i>
+                <div className='auth_prod'>
+                    <h1>Powered by</h1>
+                    <a href="https://www.designfactoryweb.com.br" target="_blank" rel="noopener noreferrer">
+                        <img src={logodf} alt="logodf"></img>
                     </a>
                 </div>
             </div>
