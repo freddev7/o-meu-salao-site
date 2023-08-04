@@ -16,7 +16,6 @@ import centralparktwo from '../../assets/img/centralparktwo.jpeg'
 import centralparkthree from '../../assets/img/centralparkthree.jpeg'
 import centralparkfour from '../../assets/img/centralparkfour.jpeg'
 import centralparkfive from '../../assets/img/centralparkfive.jpeg'
-import centralparksix from '../../assets/img/centralparksix.jpeg'
 import centralparkseven from '../../assets/img/centralparkseven.jpeg'
 import logosign from '../../assets/img/logosign.svg'
 import logoomsformen from '../../assets/img/logoomsformen.svg'
@@ -218,57 +217,51 @@ function About() {
                     <iframe width="600" height="500" id="gmap_canvas" title='mapcentralpark' src="https://maps.google.com/maps?q=o%20meu%20salao%20for%20men&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
             </div>
-                <Swiper
-                    effect={'coverflow'}
-                    grabCursor={true}
-                    centeredSlides={true}
-                    loop={true}
-                    slidesPerView="auto"
-                    coverflowEffect={{
-                        rotate: 0,
-                        stretch: 0,
-                        depth: 100,
-                        modifier: 2.5,
-                    }}
-                    pagination={{ el: '.swiper-pagination', clickable: true }}
-                    navigation={{
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev',
-                        clickable: true,
-                    }}
-                    modules={[EffectCoverflow, Pagination, Navigation]}
-                    className='swiper_container'
+            <Swiper
+                effect={'coverflow'}
+                grabCursor={true}
+                centeredSlides={true}
+                loop={true}
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                }}
+                navigation={{
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                    clickable: true,
+                }}
+                pagination={{ el: '.swiper-pagination', clickable: true }}
+                modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
+                className='swiper_container2'
 
-                >
-                    <SwiperSlide>
-                        <img src={centralparkone} alt="pht_one"></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src={centralparktwo} alt="pht_two"></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src={centralparkthree} alt="pht_third"></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src={centralparkfour} alt="pht_fourth"></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src={centralparkfive} alt="pht_fifth"></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src={centralparksix} alt="pht_fifth"></img>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src={centralparkseven} alt="pht_fifth"></img>
-                    </SwiperSlide>
-                    <div className='slider-controler'>
-                        <div className='swiper-button-prev slider-arrow'>
-                        </div>
-                        <div className='swiper-button-next slider-arrow'>
-                        </div>
-                        <div className='swiper-pagination'></div>
+                {...swiper2Params}>
+                <SwiperSlide className='swiper_item'>
+                    <img src={centralparkone} alt="pht_one"></img>
+                </SwiperSlide>
+                <SwiperSlide className='swiper_item'>
+                    <img src={centralparktwo} alt="pht_two"></img>
+                </SwiperSlide>
+                <SwiperSlide className='swiper_item'>
+                    <img src={centralparkthree} alt="pht_third"></img>
+                </SwiperSlide>
+                <SwiperSlide className='swiper_item'>
+                    <img src={centralparkfour} alt="pht_fourth"></img>
+                </SwiperSlide>
+                <SwiperSlide className='swiper_item'>
+                    <img src={centralparkfive} alt="pht_fifth"></img>
+                </SwiperSlide>
+                <SwiperSlide className='swiper_item'>
+                    <img src={centralparkseven} alt="pht_sixth"></img>
+                </SwiperSlide>
+                <div className='slider-controler'>
+                    <div className='swiper-button-prev slider-arrow'>
                     </div>
-                </Swiper>
+                    <div className='swiper-button-next slider-arrow'>
+                    </div>
+                    <div className='swiper-pagination'></div>
+                </div>
+            </Swiper>
             <div className='footer'>
                 <div className='footer_icon'>
                     <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">

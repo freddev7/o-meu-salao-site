@@ -11,7 +11,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { EffectCards, Pagination, Navigation } from "swiper";
+import { Autoplay, EffectCards, Pagination, Navigation } from "swiper";
 import pht_one from '../../assets/img/pht_one.jpg'
 import pht_two from '../../assets/img/pht_two.jpg'
 import pht_third from '../../assets/img/pht_third.jpg'
@@ -80,9 +80,14 @@ function Services() {
                     effect={'cards'}
                     grabCursor={true}
                     loop={true}
+                    spaceBetween={10}
                     centeredSlides={true}
                     slidesPerView="auto"
-                    modules={[EffectCards, Pagination, Navigation]}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    }}
+                    modules={[ Autoplay, EffectCards, Pagination, Navigation]}
                     className='swiper_container'
 
                 >

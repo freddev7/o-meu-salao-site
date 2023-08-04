@@ -14,7 +14,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
+import { Autoplay, EffectCoverflow, Pagination, Navigation } from "swiper";
 import pht_one from '../../assets/img/pht_one.jpg'
 import pht_two from '../../assets/img/pht_two.jpg'
 import pht_third from '../../assets/img/pht_third.jpg'
@@ -196,6 +196,10 @@ function Home() {
                         centeredSlides={true}
                         loop={true}
                         slidesPerView="auto"
+                        autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        }}
                         coverflowEffect={{
                             rotate: 0,
                             stretch: 0,
@@ -208,7 +212,7 @@ function Home() {
                             prevEl: '.swiper-button-prev',
                             clickable: true,
                         }}
-                        modules={[EffectCoverflow, Pagination, Navigation]}
+                        modules={[ Autoplay, EffectCoverflow, Pagination, Navigation]}
                         className='swiper_container'
 
                     >

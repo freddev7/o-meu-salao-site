@@ -23,36 +23,9 @@
 
 .second_container_services {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding: 3rem 0rem 0rem 0rem;
-}
-
-.listservices_box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 2rem;
-}
-
-.item_listservices {
-    background-image: linear-gradient(330deg,#cda582 -3.21%,#fff  26%);
-    color: #cda582;
-    font-family: 'arboria';
-    border-radius: 1rem;
-    padding: 1.6rem;
-    max-width: 230px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-}
-
-.item_listservices h1 {
-    font-weight: 500;
-}
-
-.item_listservices img {
-    max-width: 110px;
-    margin-top: 1rem;
-    
 }
 
 .benefitspackservices {
@@ -102,7 +75,7 @@
     color: #d19e78;
 }
 
-.benefitspackservices .benefits_pack input:checked ~ label::after {
+.benefitspackservices .benefits_pack input:checked~label::after {
     transform: rotate(135deg);
     color: #fff;
     top: 0.4rem;
@@ -122,7 +95,7 @@
     border: 0.1rem solid rgba(255, 255, 255, 0.2);
 }
 
-.benefitspackservices .benefits_pack input:checked ~ label div img {
+.benefitspackservices .benefits_pack input:checked~label div img {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -134,8 +107,8 @@
     border: none;
 }
 
-.benefitspackservices .benefits_pack input:checked ~ label div {
-    background-image: linear-gradient(30deg,#cda582 -3.21%,#fff  26%);
+.benefitspackservices .benefits_pack input:checked~label div {
+    background-image: linear-gradient(30deg, #cda582 -3.21%, #fff 26%);
 }
 
 .benefitspackservices .benefits_pack label h1 {
@@ -153,7 +126,7 @@
     overflow: hidden;
 }
 
-.benefitspackservices .benefits_pack input:checked ~ .signature_pack {
+.benefitspackservices .benefits_pack input:checked~.signature_pack {
     max-height: 100vh;
 }
 
@@ -175,7 +148,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:2rem 0 0 0;
+    padding: 2rem 0 0 0;
 }
 
 .buttonscheduling button {
@@ -190,4 +163,52 @@
     cursor: pointer;
     font-weight: 400;
     box-shadow: 1px 1px 3px #c9c5bd, -1px -1px 2px #ffffff;
-} 
+}
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .first_container_services {
+        padding: 9rem 2rem 3rem 2rem;
+    }
+
+    .first_container_services p {
+        padding: 1rem 2rem 0rem 2rem;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 590px) {
+    .first_container_services {
+        padding: 9rem 2rem 3rem 2rem;
+    }
+
+    .first_container_services p {
+        padding: 1rem 2rem 0rem 2rem;
+    }
+}
+
+@media (max-width: 589px) and (min-width: 429px) {
+    .first_container_services {
+        padding: 9rem 1rem 3rem 1rem;
+        text-align: start;
+    }
+
+    .first_container_services p {
+        padding: 1rem 0rem 0rem 0rem;
+    }
+}
+
+@media (max-width: 428px) and (min-width: 375px) {
+    .first_container_services {
+        padding: 8rem 1rem 3rem 1rem;
+        text-align: start;
+    }
+
+    .first_container_services h1 {
+        font-size: 2.3rem;
+    }
+
+    .first_container_services p {
+        padding: 1rem 0rem 0rem 0rem;
+        font-size: 1.2rem;
+    }
+}
