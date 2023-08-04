@@ -1,31 +1,31 @@
-.title_container_services {
+.first_container_services {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(150deg,#cda582 ,#fff  36%);
-    padding: 6rem 9rem 6rem 9rem;
-}
-
-.title_container_services {
+    background-image: linear-gradient(358deg, #fff 20%, #ede8de 80%);
+    padding: 9rem 6rem 3rem 6rem;
     color: #cda582;
-    font-size: 1.5rem;
     font-family: 'arboria';
+    text-align: center;
 }
 
-.title_container_services h1 {
-    text-align: center;
-    font-weight: 500;
+.first_container_services h1 {
+    font-weight: 700;
+    font-size: 2.8rem;
 }
 
-.title_container_services p {
-    margin-top: 2rem;
-    text-align: center;
-    font-weight: 300;
+.first_container_services p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding: 1rem 10rem 0rem 10rem;
 }
 
 .second_container_services {
-    padding: 6rem 8rem 2rem 8rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 3rem 0rem 0rem 0rem;
 }
 
 .listservices_box {
@@ -60,6 +60,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding: 1rem 0rem 0rem 0rem;
 }
 
 .benefitspackservices .benefits_pack {
@@ -178,100 +179,15 @@
 }
 
 .buttonscheduling button {
-    background: linear-gradient(349.78deg, #bb8f72 -17.21%, #cda582 116.61%);
-    color: #fff;
+    background: linear-gradient(349.78deg, #fff -17.21%, #ede8de 116.61%);
+    color: #d19e78;
     width: 260px;
     height: 60px;
-    border: none;
+    border: 1px solid #fff;
     font-family: 'arboria';
     font-size: 1.2rem;
     border-radius: 1rem;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 400;
+    box-shadow: 1px 1px 3px #c9c5bd, -1px -1px 2px #ffffff;
 } 
-
-@media (max-width: 1240px) {
-    .title_container_services {
-        font-size: 1.3rem;
-    } 
-
-    .benefitspackservices .benefits_pack {
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 428px) {
-    .title_container_services {
-        padding: 4rem 0rem 3rem 0rem;   
-        font-size: 1.2rem;
-    }
-
-    .title_container_services h1{
-        padding: 0rem 1rem 0rem 1rem;
-    }
-
-    .title_container_services p {
-        line-height: 2rem;
-        padding: 1rem 1rem 0rem 1rem;
-    }
-
-    .benefitspackservices {
-        padding: 0rem,
-    }
-    
-    .benefits_pack {
-        font-size: 75%;
-        text-align: center;
-    }
-
-    .benefitspackservices .benefits_pack {
-        padding: 1rem 2rem 1rem 2rem;
-    }
-    
-    .benefitspackservices .benefits_pack input:checked~label h1 {
-        position: relative;
-        left: 0.8rem;
-    }
-
-    .benefitspackservices .benefits_pack {
-        font-size: 70%;
-    }
-
-    .benefitspackservices .benefits_pack .signature_pack h3 {
-        font-size: 1.05rem;
-    }
-
-    .benefitspackservices .benefits_pack label div img {
-        width: 80px;
-        height: 35px;
-    }
-
-    .benefitspackservices .benefits_pack:first-child .signature_pack h3 {
-        font-size: 1.05rem;
-        line-height: 0.3rem;
-    }
-
-    .benefitspackservices .benefits_pack .signature_pack h3 {
-        font-size: 1.05rem;
-        line-height: 1.3rem;
-    }
-
-    .second_container_services {
-        padding: 6rem 2rem 2rem 2rem;
-    }
-
-}
-
-@media (max-width: 375px) {
-    .title_container_services {
-        padding: 4rem 0rem 0rem 0rem;   
-    }
-
-    .benefits_pack {
-        margin-top: 2rem;
-    }
-
-    .item_listservices {
-        margin-top: 1.6rem;
-    }
-}
