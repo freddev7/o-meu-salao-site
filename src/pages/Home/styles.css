@@ -107,6 +107,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 .title_second_container {
@@ -209,8 +210,6 @@
     box-shadow: 1px 1px 3px #c9c5bd, -3px -3px 6px #ffffff;
     margin-left: 1rem;
     margin-right: 1rem;
-    z-index: 10;
-    overflow: hidden;
 }
 
 .item_list p {
