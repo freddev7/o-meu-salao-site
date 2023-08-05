@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(358deg, #fff 20%, #ede8de 80%);
-    padding: 9rem 6rem 3rem 6rem;
-    color: #cda582;
+    padding: 8rem 6rem 3rem 6rem;
+    color: #d19e78;
     font-family: 'arboria';
     text-align: center;
 }
@@ -17,7 +17,7 @@
 
 .first_container_services p {
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 1rem 10rem 0rem 10rem;
 }
 
@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0rem 0rem 0rem;
+    padding: 2rem 0rem 0rem 0rem;
 }
 
 .benefitspackservices {
@@ -33,7 +33,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 1rem 0rem 0rem 0rem;
+    padding: 1rem 0rem 3rem 0rem;
 }
 
 .benefitspackservices .benefits_pack {
@@ -144,11 +144,65 @@
     line-height: 1rem;
 }
 
+.carousel_container {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    background-image: linear-gradient(to right, #fff 30%, #ede8de);
+}
+
+.carousel_container_two {
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    background-image: linear-gradient(to left, #fff 30%, #ede8de);
+    margin-top: 2rem;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scrolltwo {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.slider_carousel {
+    display: inline-flex;
+    animation: scroll 25s linear infinite;
+    padding: 2rem 0rem;
+}
+
+.slider_carousel_two {
+    display: inline-flex;
+    animation: scrolltwo 25s linear infinite;
+    padding: 2rem 0rem;
+}
+
+.item_carousel h1 {
+    color: #d19e78;
+    font-family: 'arboria';
+    margin: 0 2rem;
+    font-weight: 400;
+    font-size: 2.3rem;
+}
+
 .buttonscheduling {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0 0 0;
 }
 
 .buttonscheduling button {
@@ -192,9 +246,19 @@
         text-align: start;
     }
 
+    .first_container_services h1 {
+        font-size: 2rem;
+    }
+
     .first_container_services p {
         padding: 1rem 0rem 0rem 0rem;
+        font-size: 1.2rem;
     }
+
+    .benefitspackservices {
+        padding: 1rem 1rem 3rem 1rem;
+    }
+
 }
 
 @media (max-width: 428px) and (min-width: 375px) {
@@ -204,11 +268,16 @@
     }
 
     .first_container_services h1 {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     .first_container_services p {
         padding: 1rem 0rem 0rem 0rem;
         font-size: 1.2rem;
     }
+
+    .benefitspackservices {
+        padding: 1rem 1rem 3rem 1rem;
+    }
+
 }

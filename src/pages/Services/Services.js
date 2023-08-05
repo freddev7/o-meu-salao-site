@@ -72,6 +72,72 @@ function Services() {
                     </div>
                 </div>
             </div>
+            <div className='carousel_container'>
+                <div className='slider_carousel'>
+                    <div className='item_carousel'>
+                        <h1>Mechas</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Esmalteria</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Cílios</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Micropigmentação Labial</h1>
+                    </div>
+                </div>
+                <div className='slider_carousel'>
+                    <div className='item_carousel'>
+                        <h1>Mechas</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Esmalteria</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Cílios</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Micropigmentação Labial</h1>
+                    </div>
+                </div>
+            </div>
+            <div className='carousel_container_two'>
+                <div className='slider_carousel_two'>
+                    <div className='item_carousel'>
+                        <h1>Massagem</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Dream Gloss</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Penteados</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Makeup</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Sobrancelha</h1>
+                    </div>
+                </div>
+                <div className='slider_carousel_two'>
+                    <div className='item_carousel'>
+                        <h1>Massagem</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Dream Gloss</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Penteados</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Makeup</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Sobrancelha</h1>
+                    </div>
+                </div>
+            </div>
             <div className='acessibility_container'>
                 <img src={acessibilitycardsicon} alt='acessibilitycardsicon' />
             </div>
@@ -87,7 +153,7 @@ function Services() {
                         delay: 2500,
                         disableOnInteraction: false,
                     }}
-                    modules={[ Autoplay, EffectCards, Pagination, Navigation]}
+                    modules={[Autoplay, EffectCards, Pagination, Navigation]}
                     className='swiper_container'
 
                 >
@@ -147,7 +213,7 @@ function Services() {
                     </a>
                 </div>
             </div>
-        </div>
+        </div >
 
     );
 }

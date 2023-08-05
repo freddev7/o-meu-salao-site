@@ -68,7 +68,7 @@ function About() {
                     </div>
                 </div>
                 <div className='map'>
-                    <iframe width="600" height="500" id="gmap_canvas" title="buritismap" src="https://maps.google.com/maps?q=o%20meu%20salao%20por%20camila%20rodrigues&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.782462713408!2d-43.97467732547753!3d-19.97564873973023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bd291d9ea46d%3A0x162be66b6b7c42e0!2sO%20Meu%20Sal%C3%A3o%20por%20Camila%20Rodrigues!5e0!3m2!1spt-PT!2sbr!4v1691166694600!5m2!1spt-PT!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='Responsive Google Map'></iframe>
                 </div>
             </div>
             <div className='container_slider'>
@@ -141,7 +141,7 @@ function About() {
                     </div>
                 </div>
                 <div className='map'>
-                    <iframe width="600" height="500" id="gmap_canvas" title='mapcentralpark' src="https://maps.google.com/maps?q=o%20meu%20salao%20for%20men&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.174560548708!2d-43.989568425478176!3d-19.959159839215804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697d208f1932d%3A0xbabbd2108be7f097!2sO%20Meu%20Sal%C3%A3o%20For%20Men!5e0!3m2!1spt-PT!2sbr!4v1691165895307!5m2!1spt-PT!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Responsive Google Map"></iframe>
                 </div>
             </div>
             <div className='container_slider'>
@@ -214,7 +214,7 @@ function About() {
                     </div>
                 </div>
                 <div className='map'>
-                    <iframe width="600" height="500" id="gmap_canvas" title='mapcentralpark' src="https://maps.google.com/maps?q=o%20meu%20salao%20for%20men&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.170968875911!2d-43.98961792547816!3d-19.959310939220558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6972e464dc2fb%3A0x9c38bdd960ddf76f!2sO%20Meu%20Sal%C3%A3o%20-%20Central%20Park%20Shopping!5e0!3m2!1spt-PT!2sbr!4v1691166303715!5m2!1spt-PT!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Responsive Google Map"></iframe>
                 </div>
             </div>
             <Swiper

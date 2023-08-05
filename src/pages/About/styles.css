@@ -15,7 +15,7 @@
 .first_about_container p {
     margin-top: 2rem;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .second_about_container {
@@ -48,7 +48,7 @@
 
 .unit_textblock p {
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-top: 1rem;
 }
 
@@ -104,6 +104,7 @@
 .map iframe {
     width: 30rem;
     height: 24rem;
+    border: none;
 }
 
 .logocontainer {
@@ -297,7 +298,6 @@
 
     .first_about_container p {
         font-size: 1.1rem;
-        letter-spacing: 0.03rem;
     }
 
     .first_about_container p:nth-child(3) {
@@ -305,7 +305,8 @@
     }
 
     .second_about_container h1 {
-        font-size: 2.3rem;
+        font-size: 2rem;
+        line-height: 2.4rem;
     }
 
     .unit_one {

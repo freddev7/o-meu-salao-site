@@ -7,16 +7,16 @@ import beforethreepi from '../../assets/img/beforethreepi.jpg'
 import afterthreepi from '../../assets/img/afterthreepi.jpg'
 import cacheado from '../../assets/img/cacheado.png'
 import invisibleslimlogo from '../../assets/img/invisibleslimlogo.svg'
-import newinvisiblelogo from '../../assets/img/newinvisiblelogo.svg'
 import dreams from '../../assets/img/dreams.jpg'
 import dreamsresult from '../../assets/img/dreamsresult.jpg'
 import './styles.css'
 import layer from '../../assets/img/layer.png'
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
-import Oslogo from '../../assets/img/logo.svg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import slide from '../../assets/img/slide.svg'
+import logodf from '../../assets/img/logodf.svg'
 
 function Invisible() {
 
@@ -27,20 +27,19 @@ function Invisible() {
     return (
         <div>
             <div className='title_stretches'>
-                <h1>Conheça os métodos de alongamento mais seguros e éficazes do mercado!</h1>
+                <h1>Conheça os métodos de alongamento mais seguros e eficazes do mercado!</h1>
             </div>
-            <div className="firstcontainer_is">
-                <div className='firstblock_is'>
-                    <img src={layer} alt='layer' data-aos="fade-right" />
-                    <div className='text_containeris'>
-                        <h1>O Invisible é tudo que você precisa.</h1>
-                        <p>O mega-hair é uma opção para qualquer mulher que deseja aumentar sua beleza e autoestima. Ele pode ser colocado em qualquer tipo de cabelo, desde que tenha pelo menos 2 dedos de comprimento para sustentar a fita.</p>
-                        <p>Além disso, o mega-hair é uma ótima opção para mulheres que desejam aumentar o volume e comprimento do cabelo, sem precisar esperar anos para crescer naturalmente. Ele é feito de fios de cabelo humano, o que garante uma aparência natural e saúdavel.</p>
-                        <p>No entanto, é importante  escolher o mega-hair certo e fazer a aplicação corretamente para evitar danos ao cabelo natural. É recomdendável procurar um profissional capacitado para ajudar a escolher e aplicar o mega-hair corretamente.</p>
-                    </div>
+            <div className='text_containeris'>
+                <img src={layer} alt='layer' data-aos="fade-right" />
+                <div className='text_blockis'>
+                    <h1>O <span class="word">Invisible</span> é tudo que você precisa.</h1>
+                    <h2>Único método testado e aprovado por dermatologistas e tricologistas.</h2>
+                    <p>Descubra a transformação que o <strong>INVISIBLE</strong> pode trazer para a sua beleza e confiança! <strong>Este método revolucionário é a escolha perfeita para mulheres que desejam um cabelo deslumbrante e volumoso.</strong></p>
+                    <p>Independentemente do tipo de cabelo que você tem, <strong>o INVISIBLE é uma solução versátil e adaptável. Seus cabelos precisam ter apenas 2 dedos de comprimento</strong> para suportar a fita e garantir um visual impecável.</p>
                 </div>
             </div>
             <div className='secondcontainer_is'>
+                <img src={invisibleslimlogo} alt='invisibleslimlogo'  />
                 <div className='block_title'>
                     <h1>Perguntas Frequentes:</h1>
                 </div>
@@ -50,7 +49,7 @@ function Invisible() {
                             <input type="radio" name="acc" id="acc1" />
                             <label for="acc1">
                                 <h2>1</h2>
-                                <h3>PODE PRENDER O INVISIBLE?</h3>
+                                <h3>Pode prender o <strong>INVISIBLE</strong>?</h3>
                             </label>
                             <div className='content'>
                                 <p>Sim! O Invisible não restringe em nada quanto a maleabiliade do cabelo, adaptável ao movimento dos fios, seja para um simples coque ou até mesmo penteados de festa, sem precisar se preocupar com a aparência do mega-hair.</p>
@@ -60,7 +59,7 @@ function Invisible() {
                             <input type="radio" name="acc" id="acc2" />
                             <label for="acc2">
                                 <h2>2</h2>
-                                <h3>O INVISIBLE FICARÁ VISÍVEL QUANDO ESTIVER MOLHADO?</h3>
+                                <h3>O <strong>INVISIBLE</strong> ficará visível quando estiver molhado?</h3>
                             </label>
                             <div className='content'>
                                 <p>Não! Totalmente imperceptível, o método Invisible inclusive molhado não altera o aspecto natural do cabelo, devido a utilização de técnicas apropriadas na aplicação.</p>
@@ -70,7 +69,7 @@ function Invisible() {
                             <input type="radio" name="acc" id="acc3" />
                             <label for="acc3">
                                 <h2>3</h2>
-                                <h3>PODE SECAR O INVISIBLE?</h3>
+                                <h3>Pode secar o <strong>INVISIBLE</strong>?</h3>
                             </label>
                             <div className='content'>
                                 <p>Pode sim! O Invisible após fixado ao couro cabeludo não haverá problemas, apenas observar a temperatura e proximidade do secador á raíz dos fios com a base do mega-hair.</p>
@@ -80,7 +79,7 @@ function Invisible() {
                             <input type="radio" name="acc" id="acc4" />
                             <label for="acc4">
                                 <h2>4</h2>
-                                <h3>O INVISIBLE PODE SER COLOCADO EM QUALQUER MULHER?</h3>
+                                <h3>O <strong>INVISIBLE</strong> pode ser colocado em qualquer mulher?</h3>
                             </label>
                             <div className='content'>
                                 <p>O invisible pode sim ser aplicado em diferentes tipos de cabelo, a mulher que deseja ter um cabelo longo, volumoso e aumentar a auto-estima. É necessário somente o cabelo ter mais de 2 dedos de comprimento.</p>
@@ -90,7 +89,7 @@ function Invisible() {
                             <input type="radio" name="acc" id="acc5" />
                             <label for="acc5">
                                 <h2>5</h2>
-                                <h3>COMO FUNCIONA A MANUTENÇÃO DO INVISIBLE?</h3>
+                                <h3>Como funciona a manuntenção do <strong>INVISIBLE</strong>?</h3>
                             </label>
                             <div className='content'>
                                 <p>Na manutenção é feita delicadamente a retirada do Invisible para evitar danos ao couro cabeludo, higienizando o local de aplicação, após a lavagem recolocamos de forma rápida, completamente indolor e seguro.</p>
@@ -99,13 +98,12 @@ function Invisible() {
                     </div>
                 </div>
             </div>
-            <div className='logoinvisible'>
-                <img src={invisibleslimlogo} alt='invisibleslimlogo' />
-            </div>
             <div className='third_containeris'>
-                <div className='title_thirdcontainer'>
-                    <h1>Condições especiais e os melhores resultados você encontra aqui!</h1>
-                </div>
+                <h1>Condições especiais e os melhores resultados você encontra aqui!</h1>
+            </div>
+            <div className='acessibility_container'>
+                <h3>Pressione ao centro das fotos e arraste<br /> para o lado para ver os resultados.</h3>
+                <img src={slide} alt='slide' />
             </div>
             <div className='container_box'>
                 <div className='item_box' style={{ width: 475, height: 519 }}>
@@ -114,8 +112,10 @@ function Invisible() {
                         image2={beforethreepi}
                         sliderWidth={1}
                         sliderColor="#fff"
-                        handleColor="#cda582"
+                        handleColor="#d19e78"
                         handleBackgroundColor="white"
+                        leftLabelText="ANTES"
+                        rightLabelText="DEPOIS"
                     />
                 </div>
                 <div className='item_box' style={{ width: 475, height: 519 }}>
@@ -124,8 +124,10 @@ function Invisible() {
                         image2={beforetwopi}
                         sliderWidth={1}
                         sliderColor="#fff"
-                        handleColor="#cda582"
-                        handleBackgroundColor="white"
+                        handleColor="#d19e78"
+                        handleBackgroundColor="#ede8de"
+                        leftLabelText="ANTES"
+                        rightLabelText="DEPOIS"
                     />
                 </div>
                 <div className='item_box' style={{ width: 475, height: 519 }}>
@@ -134,31 +136,32 @@ function Invisible() {
                         image2={beforeonepi}
                         sliderWidth={1}
                         sliderColor="#fff"
-                        handleColor="#cda582"
+                        handleColor="#d19e78"
                         handleBackgroundColor="white"
+                        leftLabelText="ANTES"
+                        rightLabelText="DEPOIS"
                     />
                 </div>
             </div>
-            <div className='buttonscheduling'>
-                <Link to='/Contact'>
-                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>Agendar Avaliação</button>
-                </Link>
-            </div>
-            <div className='footeris'>
-                <h1>As cacheadas também podem!</h1>
+            <div className='curly_title_container'>
+                <div className='buttonscheduling'>
+                    <Link to='/Contact'>
+                        <button onClick={() => { window.scrollTo({ top: 0, }); }}>Agendar Avaliação</button>
+                    </Link>
+                </div>
             </div>
             <div className='curly_container'>
+                <img src={cacheado} alt='layer' data-aos="fade-right" />
                 <div className='block_curly'>
-                    <h1>O método Invisible permite o uso de cachos devido a sua técnica de aplicação. </h1>
-                    <p>O Invisible pode ser feito em cabelos cacheados, a primeira coisa a considerar é o tipo de fios de cabelos que serão utilizados. É importante escolher fios de cabelo que sejam compatíveis com o tipo de cacho e evitar aqueles que possuem um aspecto artificial e diferente da textura natural do cabelo. Após a aplicação do Invisible, é importante manter uma rotina de cuidados adequada para preservar a saúde do cabelo natural e dos fios adicionais. Isso inclui o uso de produtos específicos para cabelos cacheados e tratamentos regulares para evitar a perda de hidratação e a quebra dos fios.</p>
-                    <img src={newinvisiblelogo} alt='newinvisiblelogo' />
-                </div>
-                <div className='curlyimg'>
-                    <img src={cacheado} alt='cacheado' data-aos="fade-up" data-aos-anchor-placement="top-bottom" />
+                    <h1>AS CACHEADAS TAMBÉM PODEM!</h1>
+                    <h2>O <span class="word">Invisible</span> permite o uso de cachos devido a sua técnica de aplicação.</h2>
+                    <p>Descubra o segredo para deslumbrar com cabelos cacheados perfeitos com o Invisible! Se você está procurando um método que se encaixe perfeitamente com seus cachos, esta é a resposta para a sua busca.</p>
+                    <p><strong>Com o INVISIBLE, a compatibilidade é a chave. Os fios harmonizam perfeitamente com a textura do seu cabelo cacheado, evitando qualquer aspecto artificial.</strong> Afinal, o objetivo é aprimorar a beleza dos seus cachos, e não comprometê-la.</p>
                 </div>
             </div>
             <div className='titledreams_container'>
-                <h1>Conheça o Dreams uma técnica inovadora de alongamento assim como o Invisible.</h1>
+                <h1>DREAMS</h1>
+                <h2>Conheça o Dreams uma técnica inovadora de alongamento assim como o Invisible.</h2>
             </div>
             <div className='dreams_container'>
                 <img src={dreams} alt='dreams' data-aos="zoom-in" />
@@ -186,12 +189,10 @@ function Invisible() {
                         <i className='fab fa-instagram'></i>
                     </a>
                 </div>
-                <div className='footer_logo'>
-                    <img onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} src={Oslogo} alt='Oslogo' />
-                </div>
-                <div className='footer_icon'>
-                    <a href="https://wa.me/5531991021509?text=Ol%C3%A1%2C+venho+do+Site+O+Meu+Salao+Buritis" target="_blank" rel="noopener noreferrer">
-                        <i className='fab fa-whatsapp'></i>
+                <div className='auth_prod'>
+                    <h1>Powered by</h1>
+                    <a href="https://www.designfactoryweb.com.br" target="_blank" rel="noopener noreferrer">
+                        <img src={logodf} alt="logodf"></img>
                     </a>
                 </div>
             </div>

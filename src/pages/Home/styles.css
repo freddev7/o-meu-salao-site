@@ -23,14 +23,14 @@
 }
 
 .first_text_block h1 {
-    font-size: 4rem;
+    font-size: 3.8rem;
     font-weight: 900;
-    line-height: 4rem;
+    line-height: 4.3rem;
 }
 
 .first_text_block p {
     margin-top: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 
@@ -41,9 +41,9 @@
 }
 
 .second_text_block h1 {
-    line-height: 3rem;
     font-weight: 700;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
 }
 
 .word {
@@ -53,7 +53,7 @@
 
 .second_text_block p {
     margin-top: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 400;
 }
 
@@ -137,7 +137,7 @@
 }
 
 .acessibility_container {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'arboria';
     color: #d19e78;
     display: flex;
@@ -214,7 +214,7 @@
 
 .item_list p {
     margin-top: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.4rem;
     font-size: 1rem;
     font-weight: 400;
 }
@@ -250,6 +250,7 @@
     cursor: pointer;
     font-weight: 400;
     box-shadow: 1px 1px 3px #c9c5bd, -1px -1px 2px #ffffff;
+    margin-bottom: 1rem;
 }
 
 .buttoninvisible button:hover {
@@ -271,14 +272,14 @@
 }
 
 .third_text_block {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #d19e78;
     font-family: 'arboria';
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .third_text_block p:nth-child(2) {
@@ -300,11 +301,14 @@
     flex-direction: column;
     align-items: center;
     color: #d19e78;
-    font-size: 1.5rem;
     font-family: 'arboria';
     text-align: center;
     font-weight: 700;
-    padding: 3rem 12rem 0rem 12rem;
+    padding: 2rem 12rem 0rem 12rem;
+}
+
+.title_third_container h1 {
+    font-size: 3rem;
 }
 
 .title_third_container img {
@@ -339,7 +343,6 @@
 
 .fourth_text {
     color: #cda582;
-    font-size: 1.5rem;
     font-family: 'arboria';
     text-align: center;
     padding: 0rem 10rem 1rem 10rem;
@@ -347,6 +350,7 @@
 }
 
 .fourth_text h1 {
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -722,7 +726,6 @@
     }
 
     .second_text_block h1 {
-        line-height: 3rem;
         font-size: 2.3rem;
     }
 
@@ -740,10 +743,9 @@
         align-items: center;
     }
 
-    .title_container {
-        padding: 1rem;
-        font-size: 1.4rem;
-        line-height: 3.2rem;
+    .title_second_container .title_container h1 {
+        padding: 1rem 1rem 1.3rem 1rem;
+        font-size: 2rem;
     }
 
     .container_box {
@@ -760,6 +762,11 @@
         margin-bottom: 2rem;
         margin-right: 0rem;
         margin-left: 0rem;
+    }
+
+    .title_steps_list h1 {
+        padding: 1rem;
+        font-size: 2rem;
     }
 
     .list_box {
@@ -784,8 +791,10 @@
     .title_third_container {
         text-align: start;
         padding: 3rem 0rem 0rem 0rem;
-        font-size: 1.4rem;
-        line-height: 3.2rem;
+    }
+
+    .title_third_container h1 {
+        font-size: 2rem;
     }
 
     .third_block {
@@ -816,8 +825,10 @@
     .fourth_text {
         padding: 0rem 1rem 1rem 1rem;
         text-align: start;
-        font-size: 1.4rem;
-        line-height: 3.2rem;
+    }
+
+    .fourth_text h1 {
+        font-size: 2rem;
     }
 }
 
@@ -850,8 +861,8 @@
     }
 
     .second_text_block h1 {
-        line-height: 2.3rem;
-        font-size: 1.9rem;
+        font-size: 2rem;
+        line-height: 2.4rem;
         padding: 0 1rem;
     }
 
@@ -872,8 +883,8 @@
 
     .title_second_container .title_container h1 {
         padding: 1rem 1rem 1.3rem 1rem;
-        font-size: 2.2rem;
-        line-height: 2.2rem;
+        font-size: 2rem;
+        line-height: 2.4rem;
     }
 
     .acessibility_container {
@@ -898,8 +909,8 @@
 
     .title_steps_list h1 {
         padding: 1rem;
-        font-size: 2.2rem;
-        line-height: 2.2rem;
+        font-size: 2rem;
+        line-height: 2.4rem;
     }
 
     .list_box {
@@ -925,8 +936,11 @@
     .title_third_container {
         text-align: start;
         padding: 3rem 1rem 0rem 1rem;
-        font-size: 1.3rem;
-        line-height: 2.8rem;
+    }
+
+    .title_third_container h1 {
+        font-size: 2rem;
+        line-height: 2.4rem;
     }
 
     .third_block {
@@ -958,8 +972,11 @@
     .fourth_text {
         padding: 0rem 2rem 1rem 1rem;
         text-align: start;
-        font-size: 1.3rem;
-        line-height: 2.8rem;
+    }
+
+    .fourth_text h1 {
+        font-size: 2rem;
+        line-height: 2.4rem;
     }
 
 }

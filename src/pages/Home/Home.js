@@ -79,7 +79,7 @@ function Home() {
                 <div className='title_second_container'>
                     <img src={invisibleslimlogo} alt='invisibleslimlogo' />
                     <div className='title_container'>
-                        <h1 data-aos="fade-right" data-aos-duration="1000">Tenha o cabelo dos sonhos com o Invisible!</h1>
+                        <h1 data-aos="fade-right" data-aos-duration="1000">Tenha o cabelo dos sonhos com o <span class="word">INVISIBLE</span>!</h1>
                     </div>
                 </div>
                 <div className='acessibility_container'>
@@ -173,7 +173,7 @@ function Home() {
                         <img src={photofunc} alt='photofunc' />
                     </div>
                     <div className='third_text_block'>
-                        <p data-aos="fade-left" data-aos-duration="1000">Experimente os nossos produtos profissionais e sinta a diferença com cabelos sempre mais bonitos e saudáveis.</p>
+                        <p data-aos="fade-left" data-aos-duration="1000"><strong>Experimente os nossos produtos profissionais e sinta a diferença com cabelos sempre mais bonitos e saudáveis.</strong></p>
                         <div className='third_button'>
                             <Link to='/Products'>
                                 <button onClick={() => { window.scrollTo({ top: 0, }); }}>Produtos</button>
