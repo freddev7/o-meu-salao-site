@@ -950,6 +950,7 @@
 
     .third_text_block {
         margin-top: 1rem;
+        text-align: center;
     }
 
     .third_text_block p {
@@ -959,6 +960,11 @@
 
     .third_text_block p:nth-child(2) {
         margin-top: 1rem;
+    }
+
+    .third_text_block:nth-child(3) {
+        margin-top: 0.5rem;
+        text-align: center;
     }
 
     .container_imgft img {

@@ -23,6 +23,8 @@ import pht_tenth from '../../assets/img/pht_tenth.jpg'
 import pht_ninth from '../../assets/img/pht_ninth.png'
 import acessibilitycardsicon from '../../assets/img/acessibilitycardsicon.svg'
 import logodf from '../../assets/img/logodf.svg'
+import pht_ten from '../../assets/img/pht_ten.jpg'
+import pht_eleven from '../../assets/img/pht_eleven.jpg'
 
 function Services() {
 
@@ -86,6 +88,9 @@ function Services() {
                     <div className='item_carousel'>
                         <h1>Micropigmentação Labial</h1>
                     </div>
+                    <div className='item_carousel'>
+                        <h1>Lash Lift</h1>
+                    </div>
                 </div>
                 <div className='slider_carousel'>
                     <div className='item_carousel'>
@@ -99,6 +104,9 @@ function Services() {
                     </div>
                     <div className='item_carousel'>
                         <h1>Micropigmentação Labial</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Lash Lift</h1>
                     </div>
                 </div>
             </div>
@@ -119,6 +127,9 @@ function Services() {
                     <div className='item_carousel'>
                         <h1>Sobrancelha</h1>
                     </div>
+                    <div className='item_carousel'>
+                        <h1>Hydra Gloss</h1>
+                    </div>
                 </div>
                 <div className='slider_carousel_two'>
                     <div className='item_carousel'>
@@ -135,6 +146,9 @@ function Services() {
                     </div>
                     <div className='item_carousel'>
                         <h1>Sobrancelha</h1>
+                    </div>
+                    <div className='item_carousel'>
+                        <h1>Hydra Gloss</h1>
                     </div>
                 </div>
             </div>
@@ -162,7 +176,7 @@ function Services() {
                         <img src={pht_one} alt="pht_one"></img>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <h1>Micropigmentação Labial</h1>
+                        <h1>Hydra Gloss</h1>
                         <img src={pht_two} alt="pht_two"></img>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -192,6 +206,14 @@ function Services() {
                     <SwiperSlide>
                         <h1>Cílios</h1>
                         <img src={pht_ninth} alt="pht_ninth"></img>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <h1>Micropigmentação Labial</h1>
+                        <img src={pht_ten} alt="pht_ninth"></img>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <h1>Lash Lift</h1>
+                        <img src={pht_eleven} alt="pht_eleven"></img>
                     </SwiperSlide>
                 </Swiper>
             </div>

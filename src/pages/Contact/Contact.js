@@ -1,5 +1,5 @@
 import './styles.css'
-import Oslogo from '../../assets/img/logo.svg'
+import logodf from '../../assets/img/logodf.svg'
 
 function Contact() {
     return (
@@ -45,12 +45,10 @@ function Contact() {
                         <i className='fab fa-instagram'></i>
                     </a>
                 </div>
-                <div className='footer_logo'>
-                    <img onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} src={Oslogo} alt='Oslogo' />
-                </div>
-                <div className='footer_icon'>
-                    <a href="https://wa.me/5531991021509?text=Ol%C3%A1%2C+venho+do+Site+O+Meu+Salao+Buritis" target="_blank" rel="noopener noreferrer">
-                        <i className='fab fa-whatsapp'></i>
+                <div className='auth_prod'>
+                    <h1>Powered by</h1>
+                    <a href="https://www.designfactoryweb.com.br" target="_blank" rel="noopener noreferrer">
+                        <img src={logodf} alt="logodf"></img>
                     </a>
                 </div>
             </div>

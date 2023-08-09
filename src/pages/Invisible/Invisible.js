@@ -7,7 +7,6 @@ import beforethreepi from '../../assets/img/beforethreepi.jpg'
 import afterthreepi from '../../assets/img/afterthreepi.jpg'
 import cacheado from '../../assets/img/cacheado.png'
 import invisibleslimlogo from '../../assets/img/invisibleslimlogo.svg'
-import dreams from '../../assets/img/dreams.jpg'
 import dreamsresult from '../../assets/img/dreamsresult.jpg'
 import './styles.css'
 import layer from '../../assets/img/layer.png'
@@ -17,6 +16,8 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import slide from '../../assets/img/slide.svg'
 import logodf from '../../assets/img/logodf.svg'
+import hairtwologo from '../../assets/img/hairtwologo.svg'
+import hairtwophoto from '../../assets/img/hairtwophoto.png'
 
 function Invisible() {
 
@@ -33,13 +34,14 @@ function Invisible() {
                 <img src={layer} alt='layer' data-aos="fade-right" />
                 <div className='text_blockis'>
                     <h1>O <span class="word">Invisible</span> é tudo que você precisa.</h1>
+                    <h3><span className='word'>Totalmente indolor e imperceptível.</span></h3>
                     <h2>Único método testado e aprovado por dermatologistas e tricologistas.</h2>
                     <p>Descubra a transformação que o <strong>INVISIBLE</strong> pode trazer para a sua beleza e confiança! <strong>Este método revolucionário é a escolha perfeita para mulheres que desejam um cabelo deslumbrante e volumoso.</strong></p>
                     <p>Independentemente do tipo de cabelo que você tem, <strong>o INVISIBLE é uma solução versátil e adaptável. Seus cabelos precisam ter apenas 2 dedos de comprimento</strong> para suportar a fita e garantir um visual impecável.</p>
                 </div>
             </div>
             <div className='secondcontainer_is'>
-                <img src={invisibleslimlogo} alt='invisibleslimlogo'  />
+                <img src={invisibleslimlogo} alt='invisibleslimlogo' />
                 <div className='block_title'>
                     <h1>Perguntas Frequentes:</h1>
                 </div>
@@ -156,19 +158,19 @@ function Invisible() {
                     <h1>AS CACHEADAS TAMBÉM PODEM!</h1>
                     <h2>O <span class="word">Invisible</span> permite o uso de cachos devido a sua técnica de aplicação.</h2>
                     <p>Descubra o segredo para deslumbrar com cabelos cacheados perfeitos com o Invisible! Se você está procurando um método que se encaixe perfeitamente com seus cachos, esta é a resposta para a sua busca.</p>
-                    <p><strong>Com o INVISIBLE, a compatibilidade é a chave. Os fios harmonizam perfeitamente com a textura do seu cabelo cacheado, evitando qualquer aspecto artificial.</strong> Afinal, o objetivo é aprimorar a beleza dos seus cachos, e não comprometê-la.</p>
+                    <p>Com o <span className='word'>INVISIBLE</span>, a compatibilidade é a chave. Os fios harmonizam perfeitamente com a textura do seu cabelo cacheado, evitando qualquer aspecto artificial. Afinal, o objetivo é aprimorar a beleza dos seus cachos, e não comprometê-la.</p>
                 </div>
             </div>
             <div className='titledreams_container'>
-                <h1>DREAMS</h1>
-                <h2>Conheça o Dreams uma técnica inovadora de alongamento assim como o Invisible.</h2>
+                <img src={hairtwologo} alt='hairtwologo' />
+                <h2>Conheça o <span className='word'>Hair 2</span> uma técnica inovadora de alongamento assim como o Invisible.</h2>
             </div>
             <div className='dreams_container'>
-                <img src={dreams} alt='dreams' data-aos="zoom-in" />
+                <img src={hairtwophoto} alt='dreams' data-aos="fade-right" />
                 <div className='block_dreams'>
-                    <h1>Transforme o seu visual com o Dreams e desfrute de um cabelo longo, volumoso e saúdavel.</h1>
-                    <p>A técnica consiste em um alongamento com uma quantidade pequena de cabelo, possibilitando então a colocação de mechas no cabelo sem a necessidade de química. Um alongamento totalmente indolor e imperceptível, metodo inivisivel com cobertura de cabelos totalmente imperceptivel e natural.</p>
-                    <p>Não possui ponto de tração sendo assim não danifica o cabelo pode ser utilizado para finalidades diferentes sendo elas alongar ou preencher material testado e aprovado por dermatologistas. Clientes que possuem alopecia adrogenica, corte químico pós covid com perca assentuada de cabelo na regiao frontal ou até mesmo para acabamentos</p>
+                    <h1>Transforme o seu visual com o <span className='word'>Hair 2</span> e desfrute de um cabelo longo, volumoso e saúdavel.</h1>
+                    <p>O <span className='word'>Hair 2</span> é a maneira mais acessível que eu Camila encontrei para realizar o sonho de muitas mulheres que querem colocar o tão sonhado <span className='word'>Invisible</span>. O HAIR 2 ele é um cabelo que já foi de uma cliente e agora passou a ser do salão, antes de ficar disponível ele passa por todos os cuidados necessários, e depois, SIM está apto para instalação, devolvendo a sua autoestima</p>
+                    <p>O HAIR 2 não apenas transforma cabelos, ele transforma vidas, tornando visível o poder interior que todas as mulheres possuem. Juntos, estamos construindo mais do que um visual deslumbrante, estamos construindo autoconfiança, amor-próprio e conexões profundas. No mundo do HAIR 2, todas podem brilhar.</p>
                 </div>
             </div>
             <div className='dreams_result'>

@@ -3,59 +3,64 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(150deg,#cda582 ,#fff  36%);
-    padding: 6rem 6rem 3rem 6rem;
-}
-
-.title_contactcontainer {
-    color: #cda582;
-    font-size: 1.5rem;
+    background-image: linear-gradient(360deg, #fff 20%, #ede8de 80%);
+    padding: 8rem 12rem 3rem 12rem;
     font-family: 'arboria';
+    color: #d19e78;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 0rem 8rem 0rem 8rem;
 }
 
 .title_contactcontainer h1 {
-    font-weight: 500;
+    font-size: 2.8rem;
+    font-weight: 700;
 }
 
 .title_contactcontainer p {
-    font-weight: 300;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 1rem;
 }
 
 .first_contactcontainer i {
     margin-top: 2rem;
     font-size: 5rem;
-    color: #cda582;
+    color: #d19e78;
 }
 
 .contact_btn button {
-    background: linear-gradient(349.78deg, #bb8f72 -17.21%, #cda582 116.61%);
-    color: #fff;
+    background: linear-gradient(349.78deg, #fff 17.21%, #ede8de 116.61%);
+    color: #d19e78;
     width: 12rem;
     height: 3.4rem;
-    border: none;
+    border: 1px solid #fff;
     font-family: 'arboria';
     font-size: 1.2rem;
     border-radius: 1rem;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 3rem;
+    box-shadow: 1px 1px 3px #c9c5bd, -12px -12px 24px #ffffff;
 }
 
 .box_contacts {
     padding: 2rem 0rem 0rem 0rem;
-    color: #cda582;
+    color: #d19e78;
     font-size: 1.2rem;
     font-family: 'arboria';
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(-160deg,#cda582 ,#fff  26%);
+    background-image: linear-gradient(-160deg,#ede8de ,#fff  26%);
+}
+
+.icon_phone {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.icon_wpp {
+    margin-top: 0.2rem;
 }
 
 .phone_square i {
@@ -76,11 +81,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1rem;
 }
 
 .icon_email i {
     font-size: 3rem;
+    margin-bottom: 0.2rem;
 }
 
 .icon_email h1 {
@@ -89,12 +94,11 @@
 }
 
 .icon_location {
-    padding: 2rem 30rem 0rem 30rem;
+    padding: 2rem 23rem 0rem 23rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
     text-align: center;
 }
 
@@ -107,60 +111,140 @@
     font-weight: 500;
 }
 
-@media (max-width: 1376px) {
-    .icon_location {
-        padding: 2rem 20rem 0 20rem;
-    }
-}
-
-@media (max-width: 1024px) {
-    .icon_location {
-        padding: 2rem 10rem 0 10rem;
-    }
-
-    .title_contactcontainer {
-        font-size: 1.3rem;
-    }
-}
-
-@media (max-width: 428px) {
+@media (max-width: 1115px) and (min-width: 1024px) {
     .first_contactcontainer {
-        padding: 6rem 0rem 3rem 0rem;
+        padding: 8rem 9rem 3rem 9rem;
+    }
+
+    .icon_location {
+        padding: 2rem 9rem 0rem 9rem;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .first_contactcontainer {
+        padding: 8rem 3rem 3rem 3rem;
+    }
+
+    .icon_location {
+        padding: 2rem 6rem 0rem 6rem;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 590px) {
+    .first_contactcontainer {
+        padding: 8rem 2rem 3rem 2rem;
+    }
+
+    .icon_location {
+        padding: 2rem 2rem 0rem 2rem;
+    }
+}
+
+@media (max-width: 589px) and (min-width: 429px) {
+    .first_contactcontainer {
+        padding: 8rem 1rem 3rem 1rem;
+    }
+
+    .title_contactcontainer h1 {
+        font-size: 2.2rem;
     }
     
-    .title_contactcontainer {
+    .title_contactcontainer p {
         font-size: 1.2rem;
-        padding: 0rem 0rem 0rem 0rem;
     }
 
     .box_contacts {
-        padding: 4rem 0rem 0rem 0rem;
+        font-size: 1.1rem;
     }
 
-    .icon_email h1 {
-        font-size: 2.2rem;
-        font-weight: 500;
+    .phone_square i {
+        font-size: 3.4rem;
+    }
+
+    .icon_wpp {
+        margin-top: 0rem;
+    }
+    
+    .phone i {
+        font-size: 2rem;
+    }
+    
+    .wpp i {
+        font-size: 3rem;
     }
 
     .icon_email i {
-        margin-top: 1rem;
+        font-size: 2.6rem;
     }
 
-    .icon_location {
-        padding: 3rem 0rem 0rem 0rem;
-    }
-
-    .icon_location h1 {
-        font-size: 2.2rem;
-    }
-}
-
-@media (max-width: 375px) {
     .icon_email h1 {
         font-size: 2rem;
     }
 
+    .icon_location {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+    
+    .icon_location i {
+        font-size: 3rem;
+    }
 
+    .icon_location h1 {
+        font-size: 1.8rem;
+    }
 }
 
+@media (max-width: 428px) and (min-width: 375px) {
+    .first_contactcontainer {
+        padding: 8rem 1rem 3rem 1rem;
+    }
 
+    .title_contactcontainer h1 {
+        font-size: 2.2rem;
+    }
+    
+    .title_contactcontainer p {
+        font-size: 1.2rem;
+    }
+
+    .box_contacts {
+        font-size: 1.1rem;
+    }
+
+    .phone_square i {
+        font-size: 3.4rem;
+    }
+
+    .icon_wpp {
+        margin-top: 0rem;
+    }
+    
+    .phone i {
+        font-size: 2rem;
+    }
+    
+    .wpp i {
+        font-size: 3rem;
+    }
+
+    .icon_email i {
+        font-size: 2.6rem;
+    }
+
+    .icon_email h1 {
+        font-size: 1.8rem;
+    }
+
+    .icon_location {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+    
+    .icon_location i {
+        font-size: 3rem;
+    }
+
+    .icon_location h1 {
+        font-size: 1.6rem;
+    }  
+}

@@ -3,19 +3,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(170deg, #cda582, #fff 36%);
-    padding: 3rem 0rem 2rem 0rem;
+    background-image: linear-gradient(360deg, #fff 20%, #ede8de 80%);
+    padding: 8rem 12rem 2rem 12rem;
 }
 
 .title_coursescontainer {
     font-family: 'arboria';
-    color: #cda582;
-    font-size: 1rem;
+    color: #d19e78;
+    text-align: center;
 }
 
-.title_coursescontainer h2 {
-    margin-top: 2rem;
-    font-weight: 500;
+.title_coursescontainer h1 {
+    margin-top: 1.6rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
 }
 
 .title_coursescontainer img {
@@ -23,33 +25,43 @@
 }
 
 .block_course {
-    color: #cda582;
+    color: #d19e78;
     font-family: 'arboria';
-    font-size: 1.3rem;
-    display: flex;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 0rem 3rem 0rem 3rem;
 }
 
+.block_course_text_one p {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
 .block_course h2 {
-    margin-right: 1rem;
-}
-
-.block_course_text {
-    text-align: right;
-    margin-left: 1rem;
-
-}
-
-.block_course_text h3 {
-    font-weight: 500;
+    font-size: 1.8rem;
     margin-bottom: 2rem;
 }
 
+.block_course q {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.block_course_text {
+    text-align: end;
+}
+
+.block_course_text h3 {
+    margin-bottom: 2rem;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 1.4rem;
+}
+
 .block_course_text p {
-    font-weight: 300;
-    font-size: 1.1rem;
-    line-height: 1.6rem;
+    font-weight: 400;
+    font-size: 1.3rem;
     margin-top: 1rem;
 }
 
@@ -59,16 +71,15 @@
 }
 
 .block_course img {
-    max-width: 23rem;
+    max-width: 18rem;
 }
 
 .prodcourse_container {
     display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(190deg, #cda582, #fff 26%);
-    color: #cda582;
+    align-items: center;
+    background-image: linear-gradient(190deg, #ede8de, #fff 26%);
+    color: #d19e78;
     font-family: 'arboria';
-    font-size: 1.3rem;
     padding: 3rem 3rem 1rem 3rem;
 }
 
@@ -78,41 +89,34 @@
 }
 
 .block_prod {
-    display: flex;
-    align-items: center;
-    color: #cda582;
-    font-family: 'arboria';
-    font-size: 1.5rem;
+    margin-right: 4rem;
 }
 
-.block_prod_text {
-    margin-right: 6rem;
+.block_prod h1 {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin-bottom: 1.6rem;
 }
 
-.block_prod_text button {
-    background: linear-gradient(349.78deg, #bb8f72 -17.21%, #cda582 116.61%);
-    color: #fff;
+.block_prod p {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.block_prod button {
+    background: linear-gradient(349.78deg, #fff 17.21%, #ede8de 116.61%);
+    color: #d19e78;
     width: 11rem;
     height: 3.2rem;
-    line-height: 0;
-    border: none;
+    border: 1px solid #fff;
     font-family: 'arboria';
     font-size: 1.1rem;
     border-radius: 1rem;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 2rem;
-}
-
-.block_prod_text h2 {
-    margin-bottom: 2rem;
-}
-
-.block_prod_text p {
-    font-weight: 300;
-    font-size: 1.1rem;
-    line-height: 1.6rem;
-    margin-top: 1rem;
+    box-shadow: 1px 1px 3px #c9c5bd, -12px -12px 24px #ffffff;
 }
 
 .gif_block_prod img {
@@ -120,38 +124,36 @@
 }
 
 .prodcourse_containertwo {
-    background-image: linear-gradient(to bottom, #fff, #cda582 6%);
+    background-image: linear-gradient(to bottom, #fff, #ede8de 6%);
     font-family: 'arboria';
-    color: #fff;
+    color: #d19e78;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 4rem;
 }
 
 .prodcourse_containertwo button {
-    background: linear-gradient(349.78deg, #f1d4bc -17.21%, #fff 116.61%);
-    color: #cda582;
+    background: linear-gradient(349.78deg, #fff 17.21%, #ede8de 116.61%);
+    color: #d19e78;
     width: 16rem;
     height: 3.2rem;
     line-height: 0;
-    border: none;
+    border: 1px solid #fff;
     font-family: 'arboria';
     font-size: 1.1rem;
     border-radius: 1rem;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 2rem;
+    box-shadow: 1px 1px 3px #c9c5bd, -12px -12px 44px #ffffff;
 }
 
 .title_prodcourse_containertwo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     font-size: 1rem;
-    margin-bottom: 0rem;
     text-align: center;
-    padding: 0rem 9rem 3rem 9rem;
+    padding: 3rem 9rem 3rem 9rem;
 }
 
 .title_prodcourse_containertwo i {
@@ -224,107 +226,121 @@
 }
 
 .prodcourse_containerthree {
-    background-image: linear-gradient(to bottom, #cda582, #fff 6%);
+    background-image: linear-gradient(to bottom, #ede8de, #fff 6%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5rem 0rem 2rem 0rem;
-    gap: 6rem;
+    padding: 0rem 0rem 2rem 0rem;
     font-family: 'arboria';
-    color: #cda582;
-    font-size: 1.5rem;
+    color: #d19e78;
 }
 
 .prodcourse_containerthree button {
-    background: linear-gradient(349.78deg, #bb8f72 -17.21%, #cda582 116.61%);
-    color: #fff;
+    background: linear-gradient(349.78deg, #fff 17.21%, #ede8de 116.61%);
+    color: #d19e78;
     width: 16rem;
     height: 3.2rem;
     line-height: 0;
-    border: none;
+    border: 1px solid #fff;
     font-family: 'arboria';
     font-size: 1.1rem;
     border-radius: 1rem;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 2rem;
+    box-shadow: 1px 1px 3px #c9c5bd, -12px -12px 44px #ffffff;
 }
 
-.title_prodcourse_containerthree {
-    padding: 0rem 10rem 0rem 10rem;
+.title_prodcourse_containerthree h1 {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    padding: 2rem 12rem 3rem 12rem;
     text-align: center;
 }
 
-.prodcourse_containerthree .block_images img {
-    margin-left: 3rem;
-}
-
-.prodcourse_containerthree img {
+.block_images img {
     max-width: 16rem;
     border-radius: 1rem;
 }
 
+.block_images img:nth-child(2) {
+    margin-left: 2rem;
+}
+
+.block_images img:nth-child(3) {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 .subtitle_prodcourse_containerthree {
     text-align: center;
-    padding: 0rem 12rem 0rem 12rem;
-    font-size: 1.5rem;
+    padding: 3rem 12rem 0rem 12rem;
+}
+
+.subtitle_prodcourse_containerthree h2 {
+    font-size: 2.4rem;
 }
 
 .subtitle_prodcourse_containerthree i {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 3rem;
 }
 
 .subtitle_prodcourse_containerthree h3 {
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 1rem;
-    font-size: 1.3rem;
-}
-
-.prodcourse_containerthree h3 {
-    display: none;
+    font-size: 1.5rem;
+    padding: 0 9rem;
 }
 
 .items_course_box {
     display: flex;
-    font-size: 1rem;
+    padding: 0rem 3rem;
+}
+
+.items_course_boxtwo {
+    margin-left: 2rem;
 }
 
 .items_course {
     display: flex;
     flex-direction: column;
-    gap: 0rem;
     margin-top: 2rem;
-    padding: 0rem 1rem 0rem 1.3rem;
-    background-image: linear-gradient(110deg, #cda582, #fff 9%);
-    border: 0.1rem solid rgba(255, 255, 255, 0.1) ;
+    padding: 0rem 6rem 0rem 1.3rem;
+    background-image: linear-gradient(110deg, #ede8de, #fff 9%);
+    border: 1px solid hsla(0, 0%, 100%, .01);
 }
 
 .items_course h2 {
     margin-top: 0.6rem;
+    text-decoration: underline;
+}
+
+.items_course p {
+    line-height: 1.3rem;
+    padding: 0.6rem 0;
 }
 
 .items_course ul {
-    list-style: none;
     font-weight: 300;
     line-height: 1.6rem;
-    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 .block_prod_end {
     display: flex;
     align-items: center;
     padding: 0rem 3rem 0rem 3rem;
-    color: #cda582;
+    color: #d19e78;
     font-family: 'arboria';
     font-size: 1.3rem;
 }
 
 .block_prod_end p {
     margin-top: 2rem;
-    font-weight: 300;
-    font-size: 1.1rem;
+    font-weight: 400;
+    font-size: 1.3rem;
     line-height: 1.6rem;
 }
 
@@ -335,87 +351,52 @@
     margin-right: 3rem;
 }
 
-@media (max-width: 1440px) {
-    .prodcourse_containertwo {
-        padding: 3rem;
-    }
-
-    .block_images {
-        margin-top: 2rem;
-    }
-
-    .subtitle_prodcourse_containerthree {
-        margin-top: 2rem;
-    }
-
-    .items_course_boxtwo {
-        margin-left: 2rem;
-    }
-
-    .items_course ul {
-        margin-top: 1rem;
-    }
-
-    .items_course p {
-        margin-top: 1rem;
-    }
-}
-
-@media (max-width: 1376px) {
-    .block_prod {
-        padding: 0rem;
-    }
-
-    .block_prod h1 {
-        line-height: 3.2rem;
+@media (max-width: 1115px) and (min-width: 1024px) {
+    .title_prodcourse_containertwo {
+        padding: 3rem 2rem 3rem 2rem;
     }
 
     .prodcourse_containertwo {
-        padding: 5rem 4rem 0rem 4rem;
+        padding: 0 2rem;
     }
 
-    .blocktwo_prod h1 {
-        line-height: 3.2rem;
+    .prodcourse_containertwo .video_block .video_block_text h3 {
+        padding: 1rem 1rem 2rem 1rem;
     }
 
-    .prodcourse_containerthree {
-        padding: 5rem 4rem 2rem 4rem;
-        gap: 3rem;
-    }
-
-    .prodcourse_containerthree img {
-        max-width: 14rem;
+    .block_images img {
+        max-width: 13rem;
     }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 768px) {
     .title_coursescontainer {
-        text-align: center;
+        padding: 8rem 3rem 2rem 3rem;
     }
 
     .block_course {
+        display: flex;
         flex-direction: column;
-        text-align: center;
         padding: 0rem 3rem 1rem 3rem;
+        text-align: center;
     }
 
     .block_course img {
-        margin-top: 2rem;
-    }
-
-    .block_course_text {
-        text-align: center;
         margin-top: 1rem;
     }
 
-    .block_prod {
-        flex-direction: column-reverse;
-        text-align: center;
+    .block_course_text {
+        margin-top: 0rem;
     }
 
-    .block_prod_text {
+    .prodcourse_container {
+        flex-direction: column-reverse;
+        padding: 3rem 3rem 1rem 3rem;
+    }
+
+    .block_prod {
         margin-right: 0rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .title_prodcourse_containertwo {
@@ -423,18 +404,18 @@
         padding: 0rem 3rem 0rem 3rem;
     }
 
-    .title_prodcourse_containertwo h2 {
-        display: none;
+    .title_prodcourse_containertwo img {
+        display: block;
+        margin-bottom: 2rem;
     }
 
     .title_prodcourse_containertwo i {
         display: block;
-        margin-bottom: 0.6rem;
+        margin-top: 1rem;
     }
 
-    .title_prodcourse_containertwo img {
-        display: block;
-        margin-bottom: 2rem;
+    .title_prodcourse_containertwo h2 {
+        display: none;
     }
 
     .prodcourse_containertwo .video_block {
@@ -460,7 +441,7 @@
     }
 
     .prodcourse_containertwo .video_block .video_block_text h3:nth-child(4) {
-       padding: 0rem 5rem 0rem 5rem;
+        padding: 0rem 5rem 0rem 5rem;
     }
 
     .prodcourse_containertwo .video_block .video_block_text i:nth-child(5) {
@@ -484,7 +465,7 @@
         text-align: center;
         margin-top: 2rem;
     }
-    
+
     .prodcourse_containertwo .box_button h3 {
         font-weight: 500;
         padding: 1rem 2rem 2rem 2rem;
@@ -495,25 +476,46 @@
         padding: 0rem 3rem 0rem 3rem;
     }
 
-    .prodcourse_containerthree .block_images img {
-        max-width: 10rem;
-        margin-left: 0.5rem;
+    .title_prodcourse_containerthree h1 {
+        padding: 2rem 1rem 3rem 1rem;
+    }
+
+    .block_images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        left: 1rem;
+    }
+
+    .block_images img:nth-child(2) {
+        margin-left: 0rem;
+    }
+
+    .block_images img:nth-child(3) {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    .block_images img:nth-child(4) {
+        margin-top: 2rem;
     }
 
     .subtitle_prodcourse_containerthree {
-        padding: 0rem 3rem 0rem 3rem;
+        padding: 2rem 3rem 0rem 3rem;
     }
 
     .prodcourse_containerthree h3 {
         font-size: 1.3rem;
-        font-weight: 500;
-        padding: 1rem 2rem 1rem 2rem;
-        display: block;
-        text-align: center;
+        padding: 0rem 2rem 0rem 2rem;
     }
 
-    .prodcourse_containerthree button {
-        margin-top: 0rem;
+    .items_course_box {
+        flex-direction: column;
+        padding: 0rem 2rem;
+    }
+
+    .items_course_boxtwo {
+        margin-left: 0rem;
     }
 
     .block_prod_end {
@@ -527,29 +529,35 @@
 
 }
 
-@media (max-width: 768px) and (min-width: 590px) {
+@media (max-width: 768px) and (min-width: 591px) {
     .title_coursescontainer {
-        text-align: center;
+        padding: 8rem 1rem 2rem 1rem;
     }
 
     .block_course {
+        display: flex;
         flex-direction: column;
+        padding: 0rem 2rem 1rem 2rem;
         text-align: center;
-        padding: 0rem 3rem 1rem 3rem;
     }
 
     .block_course img {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .block_course_text {
         text-align: center;
-        margin-top: 1rem;
+        margin-top: 0rem;
+    }
+
+    .prodcourse_container {
+        flex-direction: column-reverse;
+        padding: 3rem 2rem 1rem 2rem;
     }
 
     .block_prod {
-        flex-direction: column-reverse;
-        text-align: center;
+        margin-right: 0rem;
+        margin-top: 1rem;
     }
 
     .block_prod_text {
@@ -558,7 +566,6 @@
     }
 
     .title_prodcourse_containertwo {
-        margin-bottom: 0rem;
         padding: 0rem 3rem 0rem 3rem;
     }
 
@@ -624,35 +631,48 @@
         text-align: center;
         margin-top: 2rem;
     }
-    
+
     .prodcourse_containertwo .box_button h3 {
         font-weight: 500;
         padding: 1rem 2rem 2rem 2rem;
         display: block;
     }
 
-    .title_prodcourse_containerthree {
-        padding: 0rem 2rem 0rem 2rem;
+    .title_prodcourse_containerthree h1 {
+        padding: 1rem 2rem 2rem 2rem;
     }
 
     .subtitle_prodcourse_containerthree {
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 2rem 2rem 0rem 2rem;
     }
 
-    .prodcourse_containerthree .block_images img {
-        max-width: 10rem;
-        margin-left: 4rem;
-        margin-top: 1rem;
+    .block_images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        left: 1rem;
+    }
+
+    .block_images img {
+        max-width: 14rem;
+    }
+
+    .block_images img:nth-child(2) {
+        margin-left: 0rem;
+    }
+
+    .block_images img:nth-child(3) {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    .block_images img:nth-child(4) {
+        margin-top: 2rem;
     }
 
     .items_course_box {
-        display: flex;
         flex-direction: column;
-    }
-
-    .items_course {
-        margin-top: 2rem;
-        padding: 0rem 0rem 0rem 1.3rem;
+        padding: 0rem 2rem;
     }
 
     .items_course_boxtwo {
@@ -662,9 +682,7 @@
     .prodcourse_containerthree h3 {
         font-size: 1.3rem;
         font-weight: 500;
-        padding: 1rem 2rem 1rem 2rem;
-        display: block;
-        text-align: center;
+        padding: 0rem 2rem 0rem 2rem;
     }
 
     .prodcourse_containerthree button {
@@ -682,43 +700,73 @@
 
 }
 
-@media (max-width: 590px) and (min-width: 428px) {
+@media (max-width: 590px) and (min-width: 429px) {
     .title_coursescontainer {
-        text-align: center;
+        padding: 8rem 1rem 1rem 1rem;
+    }
+
+    .title_coursescontainer h1 {
+        display: none;
     }
 
     .block_course {
+        display: flex;
         flex-direction: column;
+        padding: 0.3rem 1rem 1rem 1rem;
         text-align: center;
-        padding: 0rem 1rem 1rem 1rem;
+    }
+
+    .block_course_text_one h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .block_course_text_one q {
+        font-size: 1.1rem;
     }
 
     .block_course img {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .block_course_text {
         text-align: center;
-        margin-top: 1rem;
-        margin-left: 0;
+    }
+
+    .block_course_text h3 {
+        margin-top: 0.6rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .block_course_text p {
+        font-size: 1.2rem;
     }
 
     .prodcourse_container {
-        padding: 3rem 1rem 0rem 1rem;
+        flex-direction: column-reverse;
+        padding: 3rem 1rem 1rem 1rem;
     }
 
     .block_prod {
-        flex-direction: column-reverse;
-        text-align: center;
+        margin-right: 0rem;
+        margin-top: 1rem;
     }
 
-    .block_prod_text {
-        margin-right: 0rem;
-        margin-top: 2rem;
+    .block_prod h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .block_prod p {
+        font-size: 1.2rem;
+    }
+
+    .block_prod p:nth-child(3) {
+        display: none;
     }
 
     .prodcourse_containertwo {
-        padding: 3rem 1rem 0rem 1rem;
+        padding: 2rem 1rem 0rem 1rem;
     }
 
     .title_prodcourse_containertwo h2 {
@@ -766,7 +814,7 @@
     }
 
     .prodcourse_containertwo .video_block .video_block_text h3:nth-child(4) {
-       padding: 0rem 3rem 0rem 3rem;
+        padding: 0rem 3rem 0rem 3rem;
     }
 
     .prodcourse_containertwo .video_block .video_block_text i:nth-child(5) {
@@ -778,9 +826,7 @@
     }
 
     .prodcourse_containertwo .box_button {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        text-align: center;
         padding: 0rem;
     }
 
@@ -790,7 +836,7 @@
         text-align: center;
         margin-top: 2rem;
     }
-    
+
     .prodcourse_containertwo .box_button h3 {
         font-weight: 500;
         padding: 1rem 2rem 2rem 2rem;
@@ -798,26 +844,44 @@
     }
 
     .prodcourse_containerthree {
-        padding: 5rem 1rem 0rem 1rem;
-    }
-
-    .title_prodcourse_containerthree {
         padding: 0rem 1rem 0rem 1rem;
     }
 
-    .subtitle_prodcourse_containerthree {
-        padding: 0rem 2rem 0rem 2rem;
+    .title_prodcourse_containerthree h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        padding: 2rem 0rem 3rem 0rem;
     }
 
-    .prodcourse_containerthree .block_images img {
-        max-width: 10rem;
-        margin-left: 1rem;
-        margin-top: 1rem;
+    .block_images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .block_images img {
+        max-width: 11rem;
+    }
+
+    .block_images img:nth-child(2) {
+        margin-left: 0rem;
+    }
+
+    .block_images img:nth-child(3) {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    .block_images img:nth-child(4) {
+        margin-top: 2rem;
+    }
+
+    .subtitle_prodcourse_containerthree {
+        padding: 2rem 1rem 0rem 1rem;
     }
 
     .items_course_box {
-        display: flex;
         flex-direction: column;
+        padding: 0rem;
     }
 
     .items_course_boxtwo {
@@ -825,15 +889,13 @@
     }
 
     .prodcourse_containerthree h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 500;
-        padding: 2rem;
-        display: block;
-        text-align: center;
+        padding: 0rem;
     }
 
     .prodcourse_containerthree button {
-        margin-top: 0rem;
+        margin-top: 2rem;
     }
 
     .block_prod_end {
@@ -851,64 +913,75 @@
         margin-top: 1rem;
     }
 
+    .block_prod_endtext p {
+        font-size: 1.2rem;
+    }
+
 }
 
 @media (max-width: 428px) and (min-width: 375px) {
     .title_coursescontainer {
-        padding: 3rem 0rem 0rem 0rem;
-        text-align: center;
-        font-size: 0.8rem;
+        padding: 8rem 1rem 1rem 1rem;
+    }
+
+    .title_coursescontainer h1 {
+        display: none;
     }
 
     .block_course {
         display: flex;
         flex-direction: column;
-        font-size: 1.2rem;
-        padding: 0rem 1rem 2rem 1rem;
+        padding: 0.3rem 1rem 1rem 1rem;
+        text-align: center;
     }
 
-    .block_course h2 {
-        display: none;
+    .block_course_text_one h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .block_course_text_one q {
+        font-size: 1.1rem;
+    }
+
+    .block_course img {
+        margin-top: 1rem;
+        max-width: 17rem;
     }
 
     .block_course_text {
         text-align: center;
-        margin-left: 0rem;
-        margin-top: 1rem;
+    }
+
+    .block_course_text h3 {
+        margin-top: 0.6rem;
+        margin-bottom: 1.6rem;
     }
 
     .block_course_text p {
-        font-size: 1rem;
-    }
-
-    .block_course img {
-        margin-top: 2rem;
-        max-width: 23rem;
-    }
-
-    .prodcourse_container {
-        text-align: center;
-        padding: 3rem 0rem 0rem 0rem;
-    }
-
-    .block_prod {
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 2rem 1rem 0rem 1rem;
         font-size: 1.2rem;
     }
 
-    .block_prod_text {
-        margin-top: 2rem;
-        margin-right: 0;
+    .prodcourse_container {
+        flex-direction: column-reverse;
+        padding: 3rem 1rem 1rem 1rem;
     }
 
-    .block_prod_text p {
-        font-size: 1rem;
-        line-height: 1.6rem;
+    .block_prod {
+        margin-right: 0rem;
+        margin-top: 1rem;
     }
 
-    .block_prod_text :nth-child(3) {
+    .block_prod h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .block_prod p {
+        font-size: 1.2rem;
+    }
+
+    .block_prod p:nth-child(3) {
         display: none;
     }
 
@@ -916,7 +989,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding: 4rem 0rem 0rem 0rem;
+        padding: 2rem 0rem 0rem 0rem;
     }
 
     .title_prodcourse_containertwo h2 {
@@ -934,7 +1007,7 @@
     }
 
     .title_prodcourse_containertwo {
-        padding: 0rem 1rem 0rem 1rem;
+        padding: 0rem;
     }
 
     .prodcourse_containertwo .video_block {
@@ -990,60 +1063,64 @@
     }
 
     .prodcourse_containerthree {
-        flex-direction: column;
-        text-align: center;
-        padding: 1rem 0rem 2rem 0rem;
+        padding: 0rem 1rem 0rem 1rem;
     }
 
-    .title_prodcourse_containerthree {
-        padding: 3rem 1rem 0rem 1rem;
-        text-align: center;
+    .title_prodcourse_containerthree h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        padding: 2rem 0rem 3rem 0rem;
     }
 
-    .prodcourse_containerthree .block_images img {
-        margin-left: 0.6rem;
-        margin-right: 0.6rem;
-        margin-top: 1rem;
+    .block_images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
     }
 
-    .prodcourse_containerthree img {
-        max-width: 11rem;
-        border-radius: 1rem;
+    .block_images img {
+        max-width: 10rem;
+    }
+
+    .block_images img:nth-child(2) {
+        margin-left: 0rem;
+    }
+
+    .block_images img:nth-child(3) {
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    .block_images img:nth-child(4) {
+        margin-top: 2rem;
     }
 
     .subtitle_prodcourse_containerthree {
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 2rem 0rem 0rem 0rem;
     }
 
-    .subtitle_prodcourse_containerthree i {
-        margin-top: 1rem;
-        font-size: 3rem;
-    }
-    
     .subtitle_prodcourse_containerthree h3 {
         font-weight: 500;
-        margin-top: 0rem;
+        margin-top: 1rem;
         font-size: 1.3rem;
+        padding: 0rem;
     }
 
-    .prodcourse_containerthree h3 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        padding: 2rem;
-        display: block;
-    }
-    
     .prodcourse_containerthree button {
-        margin-top: 0rem;
+        margin-top: 2rem;
     }
 
     .items_course {
-        padding: 1rem 1rem 0rem 0.6rem;
+        padding: 0rem 0.2rem 0rem 0.6rem;
+    }
+
+    .items_course h2 {
+        font-size: 1.3rem;
     }
 
     .items_course_box {
-        display: flex;
         flex-direction: column;
+        padding: 0rem;
     }
 
     .items_course_boxtwo {
@@ -1053,7 +1130,7 @@
     .block_prod_end {
         flex-direction: column;
         text-align: center;
-        padding: 0rem 1rem 0rem 1rem;
+        padding: 2rem 1rem 0rem 1rem;
     }
 
     .block_prod_end img {
@@ -1061,187 +1138,12 @@
         margin-right: 0rem;
         margin-bottom: 2rem;
     }
-}
 
-@media (max-width: 375px) and (min-width: 320px) {
-    .title_coursescontainer {
-        text-align: center;
+    .block_prod_endtext h2 {
+        font-size: 1.8rem;
     }
 
-    .block_course {
-        display: flex;
-        flex-direction: column;
+    .block_prod_endtext p {
         font-size: 1.2rem;
-        padding: 0rem 1rem 2rem 1rem;
-        text-align: center;
-    }
-
-    .block_course h2 {
-        display: none;
-    }
-
-    .block_course_text {
-        text-align: center;
-        margin-left: 0rem;
-        margin-top: 1rem;
-    }
-
-    .block_course img {
-        max-width: 20rem;
-    }
-
-    .block_prod {
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 2rem 1rem 0rem 1rem;
-        font-size: 1.2rem;
-    }
-
-    .block_prod_text {
-        margin-top: 2rem;
-        margin-right: 0;
-    }
-
-    .block_prod_text p {
-        font-size: 1rem;
-        line-height: 1.6rem;
-    }
-
-    .prodcourse_container {
-        text-align: center;
-        padding: 3rem 0rem 0rem 0rem;
-    }
-
-    .title_prodcourse_containertwo h2 {
-        display: none;
-    }
-
-    .title_prodcourse_containertwo i {
-        display: block;
-    }
-
-    .title_prodcourse_containertwo img {
-        display: block;
-    }
-
-    .prodcourse_containertwo {
-        flex-direction: column;
-        text-align: center;
-        padding: 3rem 0rem 0rem 0rem;
-    }
-
-    .title_prodcourse_containertwo {
-        padding: 0rem 1rem 0rem 1rem;
-    }
-
-    .title_prodcourse_containertwo img {
-        margin-bottom: 2rem;
-    }
-
-    .prodcourse_containertwo .video_block {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 0rem;
-    }
-
-    .prodcourse_containertwo .video_block_text {
-        margin-bottom: 2rem;
-    }
-
-    .prodcourse_containertwo .video_block .video_block_text h3 {
-        padding: 0rem 3rem 0rem 3rem;
-    }
-
-    .prodcourse_containertwo .video_block .video_block_text i:nth-child(1) {
-        display: none;
-    }
-
-    .prodcourse_containertwo .video_block .video_block_text img {
-        display: none;
-    }
-
-    .prodcourse_containertwo .video_block .video_block_text i:nth-child(3) {
-        padding: 1rem 0rem 1rem 0rem;
-    }
-
-    .prodcourse_containertwo .video_block .video_block_text i:nth-child(5) {
-        display: none;
-    }
-
-    .prodcourse_containertwo .video_block .video_block_text h3:nth-child(6) {
-        display: none;
-    }
-
-    .prodcourse_containertwo .video_block .video_block_text h3 {
-        padding: 0rem 2rem 0rem 2rem;
-    }
-
-    .prodcourse_containertwo .box_button {
-        padding: 0rem;
-    }
-
-    .prodcourse_containertwo .box_button h3 {
-        font-weight: 500;
-        padding: 1rem 2rem 0rem 2rem;
-        display: block;
-    }
-
-    .prodcourse_containertwo .box_button i {
-        font-size: 3rem;
-        display: block;
-        margin-top: 2rem;
-    }
-
-    .prodcourse_containerthree {
-        flex-direction: column;
-        text-align: center;
-        padding: 1rem 0rem 2rem 0rem;
-    }
-
-    .prodcourse_containerthree h3 {
-        font-size: 1.3rem;
-        font-weight: 500;
-        padding: 2rem;
-        display: block;
-    }
-
-    .title_prodcourse_containerthree {
-        padding: 3rem 1rem 0rem 1rem;
-        text-align: center;
-    }
-
-    .prodcourse_containerthree .block_images img {
-        margin-left: 0.6rem;
-        margin-right: 0.6rem;
-        margin-top: 1rem;
-        max-width: 9rem;
-        border-radius: 1rem;
-    }
-
-    .subtitle_prodcourse_containerthree {
-        padding: 0rem 1rem 0rem 1rem;
-    }
-
-    .items_course_box {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .items_course_boxtwo {
-        margin-left: 0rem;
-    }
-
-    .block_prod_end {
-        flex-direction: column;
-        text-align: center;
-        padding: 0rem 1rem 0rem 1rem;
-    }
-
-    .block_prod_end img {
-        max-width: 20rem;
-        margin-right: 0rem;
-        margin-bottom: 2rem;
     }
 }

@@ -1,6 +1,6 @@
 .first_about_container {
     background-image: linear-gradient(358deg, #fff 20%, #ede8de 80%);
-    padding: 8rem 3rem 3rem 3rem;
+    padding: 8rem 6rem 2rem 6rem;
     text-align: center;
     color: #d19e78;
     font-family: 'arboria';
@@ -13,15 +13,51 @@
 }
 
 .first_about_container p {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-weight: 400;
     font-size: 1.3rem;
+}
+
+.awards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title_awards h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #d19e78;
+    font-family: 'arboria';
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.paths_awards {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.awards img {
+    max-width: 20rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.awards .path {
+    max-width: 8rem;
+}
+
+.awards .ibilogo {
+    max-width: 6rem;
 }
 
 .second_about_container {
     color: #d19e78;
     font-family: 'arboria';
     text-align: center;
+    padding: 2rem 0rem 0rem 0rem;
 }
 
 .second_about_container h1 {
@@ -181,7 +217,7 @@
 
 @media (max-width: 1023px) and (min-width: 768px) {
     .first_about_container {
-        padding: 8rem 2rem 3rem 2rem;
+        padding: 8rem 2rem 2rem 2rem;
     }
 
     .unit_one {
@@ -203,7 +239,23 @@
 
 @media (max-width: 767px) and (min-width: 590px) {
     .first_about_container {
-        padding: 8rem 2rem 3rem 2rem;
+        padding: 8rem 2rem 1rem 2rem;
+    }
+
+    .title_awards h1 {
+        font-size: 2.4rem;
+    }
+
+    .awards img {
+        max-width: 17rem;
+    }
+    
+    .awards .path {
+        max-width: 7rem;
+    }
+    
+    .awards .ibilogo {
+        max-width: 5rem;
     }
 
     .unit_one {
@@ -225,7 +277,7 @@
 @media (max-width: 589px) and (min-width: 429px) {
     .first_about_container {
         text-align: start;
-        padding: 8rem 1rem 3rem 1rem;
+        padding: 8rem 1rem 2rem 1rem;
     }
 
     .first_about_container h1 {
@@ -239,6 +291,24 @@
 
     .first_about_container p:nth-child(3) {
         display: none;
+    }
+
+    .title_awards h1 {
+        font-size: 2rem;
+    }
+
+    .awards img {
+        max-width: 13rem;
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+    }
+    
+    .awards .path {
+        max-width: 5rem;
+    }
+    
+    .awards .ibilogo {
+        max-width: 3.4rem;
     }
 
     .second_about_container h1 {
@@ -289,7 +359,7 @@
 @media (max-width: 428px) and (min-width: 375px) {
     .first_about_container {
         text-align: start;
-        padding: 8rem 1rem 3rem 1rem;
+        padding: 8rem 1rem 2rem 1rem;
     }
 
     .first_about_container h1 {
@@ -302,6 +372,24 @@
 
     .first_about_container p:nth-child(3) {
         display: none;
+    }
+
+    .title_awards h1 {
+        font-size: 1.8rem;
+    }
+
+    .awards img {
+        max-width: 11rem;
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+    }
+    
+    .awards .path {
+        max-width: 4rem;
+    }
+    
+    .awards .ibilogo {
+        max-width: 3rem;
     }
 
     .second_about_container h1 {

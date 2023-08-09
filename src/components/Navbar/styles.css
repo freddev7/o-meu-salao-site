@@ -29,7 +29,6 @@
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(6, auto);
-    grid-gap:10px;
     list-style:none;
     align-items: center;
     text-align: center;
@@ -73,7 +72,7 @@
         justify-content: flex-start;
         background: linear-gradient(349.78deg, #fff -17.21%, #ede8de 116.61%);
         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .37);
-        border-radius: 13px;
+        border-radius: 13px 13px;
         width: 100%;
         height: auto;
         position: absolute;
@@ -93,19 +92,23 @@
 
     .nav-links{
         display: block;
-        widows:100%;
+        widows: 100%;
         padding: 1.6rem 0;
         color: #d19e78;
         border-radius: 0px 0px 13px 13px;
-        background: linear-gradient(350deg, #fff -7.21%, #ede8de 76.61%);
         border-bottom: 1px solid #fff;
         border-top: none;
         border-right: none;
         border-left: none; 
+        box-shadow: 0px 1px 0px #c9c5bd, 0px 0px 0px #ffffff;
+    }
+
+    .nav-links:nth-child(6){
+        box-shadow: none;
     }
 
     .nav-links:hover {
-        background: rgba(255,255,255, 0.25);
+        background: rgba(255,255,255, 0.35);
         backdrop-filter: blur(20px);
     }
 

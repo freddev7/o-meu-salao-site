@@ -18,7 +18,7 @@
     color: #d19e78;
     font-family: 'arboria';
     display: flow-root;
-    padding: 2rem 3rem 0rem 3rem;
+    padding: 2rem 6rem 0rem 3rem;
     background-image: linear-gradient(12deg, #ede8de, #fff 36%);
 }
 
@@ -39,11 +39,16 @@
     font-weight: 700;
 }
 
+.text_containeris h3 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
 .text_containeris h2 {
     text-transform: uppercase;
     margin-top: 2rem;
     font-size: 1.5rem;
-    margin-right: 1rem;
     text-decoration: underline;
 }
 
@@ -247,18 +252,17 @@
     color: #d19e78;
     font-family: 'arboria';
     text-align: center;
-    padding: 3rem 12rem;
+    padding: 2rem 12rem 2rem 12rem;
     background-image: linear-gradient(190deg, #ede8de, #fff 26%);
 }
 
-.titledreams_container h1 {
-    font-size: 2.8rem;
-    font-weight: 900;
+.titledreams_container img {
+    max-width: 10rem;
 }
 
 .titledreams_container h2 {
-    font-size: 2.4rem;
     margin-top: 1rem;
+    font-size: 2.4rem;
 }
 
 .dreams_container {
@@ -285,8 +289,7 @@
 }
 
 .dreams_container img {
-    width: 340px;
-    border-radius: 2rem;
+    width: 18rem;
 }
 
 .dreams_result {
@@ -299,6 +302,7 @@
 .dreamsresult_block {
     color: #d19e78;
     font-family: 'arboria';
+    margin-right: 3rem;
 }
 
 .dreamsresult_block h1 {
@@ -318,16 +322,64 @@
 }
 
 
+@media (max-width: 1115px) and (min-width: 1024px) {
+    .text_containeris {
+        padding: 2rem 2rem 0rem 2rem;
+    }
+
+    .text_blockis p:nth-child(5) {
+        display: none;
+    }
+
+    .curly_container {
+        padding: 0rem 0rem 0rem 2rem;
+    }
+
+    .curly_container h2 {
+        margin-top: 1rem;
+    }
+
+    .curly_container p {
+        margin-top: 1rem;
+    }
+
+    .titledreams_container {
+        padding: 2rem 6rem;
+    }
+
+    .dreams_container {
+        padding: 0rem 3rem 2rem 3rem;
+    }
+
+    .dreams_result {
+        padding: 0rem 3rem 2rem 3rem;
+    }
+}
+
 @media (max-width: 1023px) and (min-width: 768px) {
     .title_stretches {
         padding: 8rem 3rem 0rem 3rem;
+    }
+
+    .title_stretches h1 {
+        line-height: 3rem;
     }
 
     .text_containeris {
         padding: 2rem 1rem 0rem 1rem;
     }
 
-    .text_blockis p:nth-child(4) {
+    .text_containeris img {
+        max-width: 24rem;
+        shape-margin: 1rem;
+        margin-right: 1rem;
+    }
+
+    .text_containeris h3 {
+        display: none;
+    }
+
+    .text_blockis p:nth-child(5) {
         display: none;
     }
 
@@ -492,7 +544,7 @@
         line-height: 2.6rem;
     }
 
-    .text_containeris { 
+    .text_containeris {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -521,14 +573,14 @@
         margin-top: 1rem;
     }
 
-    .text_blockis p:nth-child(4) {
+    .text_blockis p:nth-child(5) {
         display: none;
     }
 
     .secondcontainer_is {
         padding: 0rem 1rem 0rem 1rem;
     }
-    
+
     .questions {
         padding: 0rem;
     }
@@ -544,13 +596,13 @@
     .third_containeris {
         padding: 3rem 1rem 2rem 1rem;
     }
-    
+
     .third_containeris h1 {
         text-align: start;
         font-size: 2.4rem;
         line-height: 2.6rem;
     }
-    
+
     .curly_container {
         padding: 0rem 1rem 0rem 1rem;
         display: flex;
@@ -602,7 +654,7 @@
         font-size: 2.4rem;
         line-height: 2.6rem;
     }
-    
+
     .dreams_result {
         flex-direction: column-reverse;
         padding: 0rem 1rem 2rem 1rem;
@@ -617,14 +669,14 @@
 @media (max-width: 428px) and (min-width: 375px) {
     .title_stretches {
         padding: 8rem 1rem 0rem 1rem;
-        text-align: start;
     }
 
     .title_stretches h1 {
         font-size: 2rem;
+        line-height: 2.2rem;
     }
 
-    .text_containeris { 
+    .text_containeris {
         display: flex;
         flex-direction: column;
         padding: 2rem 1rem 2rem 1rem;
@@ -644,26 +696,32 @@
         text-align: center;
     }
 
-    .text_containeris h2 {
+    .text_containeris h3 {
+        font-size: 1.5rem;
         margin-top: 1rem;
-        font-size: 1rem;
-        margin-right: 0rem;
+        text-align: center;
+    }
+
+    .text_containeris h2 {
+        margin-top: 1.6rem;
+        font-size: 1.2rem;
         text-align: center;
     }
 
     .text_containeris p {
-        margin-top: 1rem;
+        margin-top: 1.6rem;
         font-size: 1.2rem;
+        text-align: center;
     }
 
-    .text_blockis p:nth-child(4) {
+    .text_blockis p:nth-child(5) {
         display: none;
     }
 
     .secondcontainer_is {
         padding: 0rem 1rem 0rem 1rem;
     }
-    
+
     .questions {
         padding: 0rem;
     }
@@ -684,12 +742,12 @@
     .third_containeris {
         padding: 3rem 1rem 2rem 1rem;
     }
-    
+
     .third_containeris h1 {
-        text-align: start;
         font-size: 2rem;
+        line-height: 2.2rem;
     }
-    
+
     .curly_container {
         padding: 0rem 1rem 0rem 1rem;
         display: flex;
@@ -700,11 +758,12 @@
 
     .block_curly {
         padding: 2rem 0rem 0rem 0rem;
+        text-align: center;
     }
 
     .curly_container h1 {
         font-size: 2.6rem;
-    }    
+    }
 
     .curly_container h2 {
         font-size: 2rem;
@@ -726,12 +785,11 @@
     }
 
     .titledreams_container {
-        padding: 1rem;
+        padding: 2rem 1rem 0rem 1rem;
     }
 
     .titledreams_container h2 {
         font-size: 2rem;
-        text-align: start;
     }
 
     .dreams_container {
@@ -740,36 +798,44 @@
     }
 
     .block_dreams {
-        padding: 1rem 0rem 0rem 0rem;
+        padding: 0.6rem 0rem 0rem 0rem;
+        text-align: center;
     }
 
     .block_dreams h1 {
         font-size: 2rem;
+        line-height: 2.2rem;
     }
 
     .block_dreams p {
         font-size: 1.2rem;
     }
-    
+
+    .block_dreams p:nth-child(3) {
+        display: none;
+    }
+
     .dreams_result {
         flex-direction: column-reverse;
         padding: 0rem 1rem 2rem 1rem;
-        text-align: start;
     }
 
     .dreamsresult_block {
         margin-top: 1rem;
+        text-align: center;
+        margin-right: 0rem;
     }
 
     .dreamsresult_block h1 {
         font-size: 2rem;
+        line-height: 2.2rem;
     }
-    
+
     .dreamsresult_block p {
         font-size: 1.2rem;
         margin-top: 2rem;
     }
-    
+
     .dreams_result img {
         width: 360px;
     }

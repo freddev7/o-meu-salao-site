@@ -26,6 +26,9 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, EffectCoverflow, Pagination, Navigation } from "swiper";
+import laqilogo from '../../assets/img/laqilogo.png'
+import laqipath from '../../assets/img/laqipath.png'
+import ibilogo from '../../assets/img/ibilogo.png'
 
 function About() {
 
@@ -41,6 +44,16 @@ function About() {
                 <h1>O Meu Salão</h1>
                 <p>Fundado em 2019 por Camila Rodrigues, profissional atuante no mercado desde 2003. Sempre buscando por inovações, tecnologias e contribuições diretas com o mercado da beleza. Vinda de uma tradicional e consagrada família de cabeleireiros e artistas do meio. Sempre com muita paixão pelo aprendizado concebeu o inédito método de mega hair denominado Invisible, técnica esta que obteve destaque em premiações internacionais no ano de 2022 em países da América e Oriente Médio.</p>
                 <p>Contamos com uma equipe de profissionais altamente qualificadas, que está sempre pronta para atender às suas necessidades e desejos, proporcionando um elegante, sutil e perspicaz ambiente para que você possa relaxar e cuidar de si.</p>
+            </div>
+            <div className='awards'>
+                <div className='title_awards'>
+                    <h1>Premiações:</h1>
+                </div>
+                <div className='paths_awards'>
+                    <img src={laqipath} alt="laqipath" className="path" />
+                    <img src={laqilogo} alt="laqilogo" />
+                    <img src={ibilogo} alt="ibilogo" className='ibilogo' />
+                </div>
             </div>
             <div className='second_about_container'>
                 <h1>Conheça as nossas unidades:</h1>
@@ -68,7 +81,7 @@ function About() {
                     </div>
                 </div>
                 <div className='map'>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.782462713408!2d-43.97467732547753!3d-19.97564873973023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bd291d9ea46d%3A0x162be66b6b7c42e0!2sO%20Meu%20Sal%C3%A3o%20por%20Camila%20Rodrigues!5e0!3m2!1spt-PT!2sbr!4v1691166694600!5m2!1spt-PT!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='Responsive Google Map'></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.782462713408!2d-43.97467732547753!3d-19.97564873973023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bd291d9ea46d%3A0x162be66b6b7c42e0!2sO%20Meu%20Sal%C3%A3o%20por%20Camila%20Rodrigues!5e0!3m2!1spt-PT!2sbr!4v1691166694600!5m2!1spt-PT!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='Responsive Google Map'></iframe>
                 </div>
             </div>
             <div className='container_slider'>
