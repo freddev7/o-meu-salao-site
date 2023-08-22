@@ -169,8 +169,8 @@ function Invisible() {
                 <img src={hairtwophoto} alt='dreams' data-aos="fade-right" />
                 <div className='block_dreams'>
                     <h1>Transforme o seu visual com o <span className='word'>Hair 2</span> e desfrute de um cabelo longo, volumoso e saúdavel.</h1>
-                    <p>O <span className='word'>Hair 2</span> é a maneira mais acessível que eu Camila encontrei para realizar o sonho de muitas mulheres que querem colocar o tão sonhado <span className='word'>Invisible</span>. O HAIR 2 ele é um cabelo que já foi de uma cliente e agora passou a ser do salão, antes de ficar disponível ele passa por todos os cuidados necessários, e depois, SIM está apto para instalação, devolvendo a sua autoestima</p>
-                    <p>O HAIR 2 não apenas transforma cabelos, ele transforma vidas, tornando visível o poder interior que todas as mulheres possuem. Juntos, estamos construindo mais do que um visual deslumbrante, estamos construindo autoconfiança, amor-próprio e conexões profundas. No mundo do HAIR 2, todas podem brilhar.</p>
+                    <p>O <span className='word'>Hair 2</span> é a maneira mais acessível que eu Camila encontrei para realizar o sonho de muitas mulheres que querem colocar o tão sonhado INVISIBLE. O <span className='word'>HAIR 2</span> ele é um cabelo que já foi de uma cliente e agora passou a ser do salão, antes de ficar disponível ele passa por todos os cuidados necessários, e depois, SIM está apto para instalação, devolvendo a sua autoestima</p>
+                    <p>O <span className='word'>HAIR 2</span> não apenas transforma cabelos, ele transforma vidas, tornando visível o poder interior que todas as mulheres possuem. Juntos, estamos construindo mais do que um visual deslumbrante, estamos construindo autoconfiança, amor-próprio e conexões profundas. No mundo do <span className='word'>HAIR 2</span>, todas podem brilhar.</p>
                 </div>
             </div>
             <div className='dreams_result'>

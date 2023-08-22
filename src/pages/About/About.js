@@ -210,14 +210,14 @@ function About() {
             <div className='unit_one'>
                 <div className='unit_textblock'>
                     <h1>CENTRAL PARK II - BETÂNIA</h1>
-                    <p>Nossa segunda unidade, O meu Salão For Men é uma barbearia, exclusiva para eles.</p>
-                    <p>Um espaço super moderno e completo, que possui uma loja de roupas, acessórios e calçados integrada. Disponibilizamos de frigobar e TV, proporcionando a você um conforto maior enquanto você aguarda!</p>
-                    <p>Contamos com profissionais super qualificados que entregam um serviço de excelência, possuímos equipamentos de ponta, para garantir uma finalização com grande estilo.</p>
+                    <p>Na terceira unidade O Meu Salão temos uma ampla variedade de serviços à sua disposição.</p>
+                    <p>Para você desfrutar de tratamentos de beleza excepcionais, cuidadosamente projetados para realçar sua beleza única e proporcionar momentos de relaxamento e renovação.</p>
+                    <p>Um ambiente agradável com toda comodidade que você merece, oferecendo atendimento personalizado e uma experiência incomparável.</p>
                     <div className='hour_phone'>
                         <p><strong>TELEFONE</strong></p>
                         <div className='icon_wpp'>
                             <div className='wpp'><i className='fab fa-whatsapp'></i></div>
-                            <h1>(31) 9 9828-1212</h1>
+                            <h1>(31) 9 9967-7098</h1>
                         </div>
                         <p><strong>SEGUNDA A SÁBADO</strong></p>
                         <div className='icon_clock'>
