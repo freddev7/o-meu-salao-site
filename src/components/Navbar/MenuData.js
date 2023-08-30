@@ -1,7 +1,7 @@
 export const MenuData = [
     {
-        title: "SOBRE",
-        url:"/About",
+        title: "O INVISIBLE",
+        url:"/Invisible",
         cName:"nav-links",
     },
     {
@@ -10,8 +10,8 @@ export const MenuData = [
         cName:"nav-links",
     },
     {
-        title: "ALONGAMENTOS",
-        url:"/Invisible",
+        title: "PRODUTOS",
+        url:"/Products",
         cName:"nav-links",
     },
     {
@@ -20,8 +20,8 @@ export const MenuData = [
         cName:"nav-links",
     },
     {
-        title: "PRODUTOS",
-        url:"/Products",
+        title: "SOBRE",
+        url:"/About",
         cName:"nav-links",
     },
     {

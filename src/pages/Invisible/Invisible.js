@@ -28,7 +28,7 @@ function Invisible() {
     return (
         <div>
             <div className='title_stretches'>
-                <h1>Conheça os métodos de alongamento mais seguros e eficazes do mercado!</h1>
+                <h1>Conheça o método de alongamento mais seguro e eficaz do mercado!</h1>
             </div>
             <div className='text_containeris'>
                 <img src={layer} alt='layer' data-aos="fade-right" />
