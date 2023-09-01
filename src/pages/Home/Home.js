@@ -63,12 +63,12 @@ function Home() {
                         <div className='home_block_links'>
                             <div className='home_first_btn'>
                                 <Link to='/About'>
-                                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>Sobre</button>
+                                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>SOBRE</button>
                                 </Link>
                             </div>
                             <div className='home_second_btn'>
                                 <Link to='/Courses'>
-                                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>Cursos</button>
+                                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>CURSOS</button>
                                 </Link>
                             </div>
                         </div>
@@ -132,7 +132,7 @@ function Home() {
                         <div className='item_list' data-aos="flip-left" data-aos-duration="1500">
                             <h2>1</h2>
                             <h3>AVALIAÇÃO</h3>
-                            <p>Na avaliação, fazemos uma melhor apresentação do método, auxiliamos na escolha do cabelo, cor, tipo e comprimento desejado. Somente atráves da avaliação presencial informamos o valor. Lembrando que a primeira avaliação é gratuita.</p>
+                            <p>Na avaliação, fazemos uma melhor apresentação do método, auxiliamos na escolha do cabelo, cor, tipo e comprimento desejado. Somente atráves da avaliação presencial informamos o valor.</p>
                         </div>
                         <div className='item_list' data-aos="flip-right" data-aos-duration="1500">
                             <h2>2</h2>
@@ -144,18 +144,18 @@ function Home() {
                         <div className='item_list' data-aos="flip-left" data-aos-duration="1500">
                             <h2>3</h2>
                             <h3>APLICAÇÃO</h3>
-                            <p>O procedimento é totalmente indolor e imperceptível. A duração da colocação é de 40 minutos. Utilizamos uma película adesiva que é fabricada por nós e colocada em você de acordo com suas medidas. Não danifica em absolutamente nada o seu cabelo.</p>
+                            <p>O procedimento é totalmente indolor e imperceptível. A duração da colocação é de 40 minutos. Utilizamos uma película adesiva que é fabricada por nós e colocada em você de acordo com suas medidas.</p>
                         </div>
                         <div className='item_list' data-aos="flip-right" data-aos-duration="1500">
                             <h2>4</h2>
                             <h3>MANUTENÇÃO</h3>
-                            <p>A manutenção do Mega Hair é importante para garantir a durabilidade e a qualidade do alongamento. É recomendado agendar a manutenção até 90 dias, dependendo do crescimento do seu cabelo e dos cuidados que devemos ter com ele.</p>
+                            <p>A manutenção é importante para garantir a durabilidade e a qualidade do Invisible. Recomenda-se fazer a manutenção em até 90 dias, dependendo do crescimento do seu cabelo e dos cuidados que deve ter com ele.</p>
                         </div>
                     </div>
                 </div>
                 <div className='buttoninvisible'>
                     <Link to='/Invisible'>
-                        <button onClick={() => { window.scrollTo({ top: 0, }); }}>Saiba Mais</button>
+                        <button onClick={() => { window.scrollTo({ top: 0, }); }}>SAIBA MAIS</button>
                     </Link>
                 </div>
             </div>
@@ -176,7 +176,7 @@ function Home() {
                         <p data-aos="fade-left" data-aos-duration="1000"><strong>Experimente os nossos produtos profissionais e sinta a diferença com cabelos sempre mais bonitos e saudáveis.</strong></p>
                         <div className='third_button'>
                             <Link to='/Products'>
-                                <button onClick={() => { window.scrollTo({ top: 0, }); }}>Produtos</button>
+                                <button onClick={() => { window.scrollTo({ top: 0, }); }}>PRODUTOS</button>
                             </Link>
                         </div>
                     </div>
@@ -264,7 +264,7 @@ function Home() {
             </div>
             <div className='buttonservice'>
                 <Link to='/Services'>
-                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>Ver todos Serviços</button>
+                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>VER TODOS SERVIÇOS</button>
                 </Link>
             </div>
             <div className='footer'>

@@ -219,7 +219,7 @@ function Services() {
             </div>
             <div className='buttonscheduling'>
                 <Link to='/Contact'>
-                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>Agendar Procedimento</button>
+                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>AGENDAR PROCEDIMENTO</button>
                 </Link>
             </div>
             <div className='footer'>

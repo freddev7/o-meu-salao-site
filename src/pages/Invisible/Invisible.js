@@ -10,7 +10,6 @@ import invisibleslimlogo from '../../assets/img/invisibleslimlogo.svg'
 import dreamsresult from '../../assets/img/dreamsresult.jpg'
 import './styles.css'
 import layer from '../../assets/img/layer.png'
-import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -26,7 +25,7 @@ function Invisible() {
     }, [])
 
     return (
-        <div>
+        <div className='rootInvisible'>
             <div className='title_stretches'>
                 <h1>Conheça o método de alongamento mais seguro e eficaz do mercado!</h1>
             </div>
@@ -146,10 +145,14 @@ function Invisible() {
                 </div>
             </div>
             <div className='curly_title_container'>
-                <div className='buttonscheduling'>
-                    <Link to='/Contact'>
-                        <button onClick={() => { window.scrollTo({ top: 0, }); }}>Agendar Avaliação</button>
-                    </Link>
+                <div className='buttonschedulingtwo'>
+                <a href="https://api.whatsapp.com/send/?phone=5531992932844&text=Ol%C3%A1,quero+saber+mais+sobre+o+INVISIBLE+e+sobre+o+HAIR2.+Pode+me+explicar?" target="_blank" rel="noopener noreferrer">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    Agendar Avaliação
+                </a>
                 </div>
             </div>
             <div className='curly_container'>
@@ -176,14 +179,18 @@ function Invisible() {
             <div className='dreams_result'>
                 <div className='dreamsresult_block'>
                     <h1>Resultados incríveis e surpreendentes para todos os tipos de cabelo.</h1>
-                    <p>Essa técnica de alongamento capilar é uma alternativa eficiente e saudável para quem deseja ter um cabelo mais longo e volumoso sem precisar recorrer a produtos químicos. Ao contrário de outras técnicas de alongamento, essa é totalmente imperceptível, o que significa que ninguém perceberá que você está usando mechas adicionais. O método é completamente seguro e não danifica o cabelo, já que não possui ponto de tração.</p>
+                    <p>Uma alternativa eficiente e saudável para quem deseja ter um cabelo mais longo e volumoso sem precisar recorrer a produtos químicos. Ao contrário de outras técnicas de alongamento, essa é totalmente imperceptível, o que significa que ninguém perceberá que você está usando mechas adicionais. O método é completamente seguro e não danifica o cabelo, já que não possui ponto de tração.</p>
                 </div>
                 <img src={dreamsresult} alt='dreamsresult' data-aos="zoom-in" />
             </div>
-            <div className='buttonscheduling'>
-                <Link to='/Contact'>
-                    <button onClick={() => { window.scrollTo({ top: 0, }); }}>Agendar Avaliação</button>
-                </Link>
+            <div className='buttonschedulingtwo'>
+                <a href="https://api.whatsapp.com/send/?phone=5531992932844&text=Ol%C3%A1,quero+saber+mais+sobre+o+INVISIBLE+e+sobre+o+HAIR2.+Pode+me+explicar?" target="_blank" rel="noopener noreferrer">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    Agendar Avaliação
+                </a>
             </div>
             <div className='footer'>
                 <div className='footer_icon'>
