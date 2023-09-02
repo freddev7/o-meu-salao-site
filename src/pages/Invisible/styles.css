@@ -352,10 +352,10 @@
 .buttonschedulingtwo a div:nth-child(1) {
 	position: absolute;
     width: 100%;
-	height: 7px;
+	height: 3px;
 	top: 0;
 	left: 0;
-	background: linear-gradient(-149.78deg, #fff 17.21%, #ede8de 116.61%);
+	background: linear-gradient(to right, #d19e78 10%, #ede8de, #fff);
     animation: animate1 2s linear infinite;
     overflow: hidden;
 }
@@ -371,11 +371,11 @@
 
 a div:nth-child(2) {
 	position: absolute;
-	width: 7px;
+	width: 3px;
 	height: 100%;
 	top: 0;
 	right: 0;
-	background: linear-gradient(-149.78deg, #fff 17.21%, #ede8de 116.61%);
+	background: linear-gradient(160deg, #d19e78 10%, #ede8de, #fff);
 	animation: animate2 2s linear infinite;
 	animation-delay: 1s;
     overflow: hidden;
@@ -393,10 +393,10 @@ a div:nth-child(2) {
 a div:nth-child(3) {
 	position: absolute;
 	width: 100%;
-	height: 7px;
+	height: 3px;
 	left: 0;
 	bottom: 0;
-	background: linear-gradient(-149.78deg, #fff 17.21%, #ede8de 116.61%);
+	background: linear-gradient(160deg, #d19e78 10%, #ede8de, #fff);
 	animation: animate3 2s linear infinite;
     overflow: hidden;
 }
@@ -410,11 +410,11 @@ a div:nth-child(3) {
 }
 a div:nth-child(4) {
 	position: absolute;
-	width: 7px;
+	width: 3px;
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: linear-gradient(-149.78deg, #fff 17.21%, #ede8de 116.61%);
+	background: linear-gradient(160deg, #d19e78 10%, #ede8de, #fff);
 	animation: animate4 2s linear infinite;
 	animation-delay: 1s;
     overflow: hidden;
