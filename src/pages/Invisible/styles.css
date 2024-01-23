@@ -330,8 +330,8 @@
 
 .buttonschedulingtwo a {
     position: absolute;
-    background: linear-gradient(349.78deg, #fff -17.21%, #ede8de 116.61%);
-    color: #d19e78;
+    background: linear-gradient(349.78deg,  rgb(2, 196, 73)  -17.21%, rgb(0, 255, 94) 116.61%);
+    color: #fff;
     font-family: 'arboria';
     border: 1px solid #fff;
     font-size: 1.4rem;
@@ -345,7 +345,7 @@
 }
 
 .buttonschedulingtwo a:hover {
-    background: linear-gradient(-149.78deg, #fff 17.21%, #ede8de 116.61%);
+    background: linear-gradient(-149.78deg, rgb(0, 255, 94) 17.21%, rgb(2, 196, 73) 116.61%);
     transition: all 0.2s ease-in-out;
 }
 
@@ -355,7 +355,7 @@
 	height: 3px;
 	top: 0;
 	left: 0;
-	background: linear-gradient(to right, #d19e78 10%, #ede8de, #fff);
+	background: linear-gradient(to right, rgb(0, 255, 94) 10%, rgb(2, 196, 73) , #fff);
     animation: animate1 2s linear infinite;
     overflow: hidden;
 }
@@ -375,7 +375,7 @@ a div:nth-child(2) {
 	height: 100%;
 	top: 0;
 	right: 0;
-	background: linear-gradient(160deg, #d19e78 10%, #ede8de, #fff);
+	background: linear-gradient(160deg, rgb(2, 196, 73) 10%, rgb(0, 255, 94), #fff);
 	animation: animate2 2s linear infinite;
 	animation-delay: 1s;
     overflow: hidden;
@@ -396,7 +396,7 @@ a div:nth-child(3) {
 	height: 3px;
 	left: 0;
 	bottom: 0;
-	background: linear-gradient(160deg, #d19e78 10%, #ede8de, #fff);
+	background: linear-gradient(160deg, rgb(0, 255, 94) 10%, rgb(2, 196, 73) , #fff);
 	animation: animate3 2s linear infinite;
     overflow: hidden;
 }
@@ -414,7 +414,7 @@ a div:nth-child(4) {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: linear-gradient(160deg, #d19e78 10%, #ede8de, #fff);
+	background: linear-gradient(160deg, rgb(2, 196, 73)  10%, rgb(0, 255, 94) , #fff);
 	animation: animate4 2s linear infinite;
 	animation-delay: 1s;
     overflow: hidden;

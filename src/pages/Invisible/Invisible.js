@@ -146,7 +146,7 @@ function Invisible() {
             </div>
             <div className='curly_title_container'>
                 <div className='buttonschedulingtwo'>
-                <a href="https://bit.ly/METODOINVISIBLE" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5531991021509?text=Ol%C3%A1+venho+do+site+e+desejo+atendimento+para+o+Invisible%2C+pode+me+ajudar%3F" target="_blank" rel="noopener noreferrer">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -184,7 +184,7 @@ function Invisible() {
                 <img src={dreamsresult} alt='dreamsresult' data-aos="zoom-in" />
             </div>
             <div className='buttonschedulingtwo'>
-                <a href="https://bit.ly/CAMILARODRIGUESHAIR2" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5531991021509?text=Ol%C3%A1+venho+do+site+e+desejo+atendimento+para+o+Invisible%2C+pode+me+ajudar%3F" target="_blank" rel="noopener noreferrer">
                     <div></div>
                     <div></div>
                     <div></div>

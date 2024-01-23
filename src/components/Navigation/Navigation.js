@@ -7,7 +7,7 @@ function Navigation() {
                 <i className='fas fa-caret-up' onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }}></i>
             </div>
             <div className='wpp_icon'>
-                <a href="https://bit.ly/PROCEDIMENTOSMEUSALAO" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/5531991021509?text=Ol%C3%A1+venho+do+site+e+desejo+atendimento+para+o+Invisible%2C+pode+me+ajudar%3F" target="_blank" rel="noopener noreferrer">
                     <i className='fab fa-whatsapp'></i>
                 </a>
             </div>
