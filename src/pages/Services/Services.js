@@ -22,7 +22,6 @@ import pht_seventh from '../../assets/img/pht_seventh.jpg'
 import pht_tenth from '../../assets/img/pht_tenth.jpg'
 import pht_ninth from '../../assets/img/pht_ninth.png'
 import acessibilitycardsicon from '../../assets/img/acessibilitycardsicon.svg'
-import logodf from '../../assets/img/logodf.svg'
 import pht_ten from '../../assets/img/pht_ten.jpg'
 import pht_eleven from '../../assets/img/pht_eleven.jpg'
 
@@ -226,12 +225,6 @@ function Services() {
                 <div className='footer_icon'>
                     <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
                         <i className='fab fa-instagram'></i>
-                    </a>
-                </div>
-                <div className='auth_prod'>
-                    <h1>Powered by</h1>
-                    <a href="https://www.designfactoryweb.com.br" target="_blank" rel="noopener noreferrer">
-                        <img src={logodf} alt="logodf"></img>
                     </a>
                 </div>
             </div>

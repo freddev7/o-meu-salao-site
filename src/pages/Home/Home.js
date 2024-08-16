@@ -30,7 +30,6 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import invisibleslimlogo from '../../assets/img/invisibleslimlogo.svg'
 import slide from '../../assets/img/slide.svg'
-import logodf from '../../assets/img/logodf.svg'
 import slideiconacess from '../../assets/img/slideiconacess.svg'
 
 
@@ -271,12 +270,6 @@ function Home() {
                 <div className='footer_icon'>
                     <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
                         <i className='fab fa-instagram'></i>
-                    </a>
-                </div>
-                <div className='auth_prod'>
-                    <h1>Powered by</h1>
-                    <a href="https://www.designfactoryweb.com.br" target="_blank" rel="noopener noreferrer">
-                        <img src={logodf} alt="logodf"></img>
                     </a>
                 </div>
             </div>

@@ -8,7 +8,6 @@ import class02 from '../../assets/img/class02.png'
 import class03 from '../../assets/img/class03.png'
 import class04 from '../../assets/img/class04.png'
 import courseend from '../../assets/img/courseend.jpeg'
-import logodf from '../../assets/img/logodf.svg'
 import './styles.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -163,12 +162,6 @@ function Courses() {
                 <div className='footer_icon'>
                     <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
                         <i className='fab fa-instagram'></i>
-                    </a>
-                </div>
-                <div className='auth_prod'>
-                    <h1>Powered by</h1>
-                    <a href="https://www.designfactoryweb.com.br" target="_blank" rel="noopener noreferrer">
-                        <img src={logodf} alt="logodf"></img>
                     </a>
                 </div>
             </div>

@@ -481,7 +481,7 @@
 
 .footer {
     background-image: linear-gradient(to top, #ede8de, #fff 75%);
-    padding: 3rem 0 1rem 0;
+    padding: 3rem 0 2rem 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -508,27 +508,6 @@
 .footer_icon i {
     font-size: 3.4rem;
     color: #d19e78;
-}
-
-.auth_prod {
-    font-family: 'arboria';
-    color: #d19e78;
-    display: flex;
-    margin-top: 2rem;
-    align-items: center;
-    justify-content: center;
-}
-
-.auth_prod h1 {
-    font-weight: 300;
-    font-size: 1rem;
-    position: relative;
-    bottom: 0.5rem;
-}
-
-.auth_prod img {
-    width: 3.2rem;
-    margin-left: 0.3rem;
 }
 
 @media (max-width: 1440px) and (min-width: 1376px) {

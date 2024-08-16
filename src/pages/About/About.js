@@ -19,7 +19,6 @@ import centralparkfive from '../../assets/img/centralparkfive.jpeg'
 import centralparkseven from '../../assets/img/centralparkseven.jpeg'
 import logosign from '../../assets/img/logosign.svg'
 import logoomsformen from '../../assets/img/logoomsformen.svg'
-import logodf from '../../assets/img/logodf.svg'
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -279,12 +278,6 @@ function About() {
                 <div className='footer_icon'>
                     <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
                         <i className='fab fa-instagram'></i>
-                    </a>
-                </div>
-                <div className='auth_prod'>
-                    <h1>Powered by</h1>
-                    <a href="https://www.designfactoryweb.com.br" target="_blank" rel="noopener noreferrer">
-                        <img src={logodf} alt="logodf"></img>
                     </a>
                 </div>
             </div>

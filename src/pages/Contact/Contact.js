@@ -1,5 +1,4 @@
 import './styles.css'
-import logodf from '../../assets/img/logodf.svg'
 
 function Contact() {
     return (
@@ -43,12 +42,6 @@ function Contact() {
                 <div className='footer_icon'>
                     <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
                         <i className='fab fa-instagram'></i>
-                    </a>
-                </div>
-                <div className='auth_prod'>
-                    <h1>Powered by</h1>
-                    <a href="https://www.designfactoryweb.com.br" target="_blank" rel="noopener noreferrer">
-                        <img src={logodf} alt="logodf"></img>
                     </a>
                 </div>
             </div>

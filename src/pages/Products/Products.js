@@ -10,7 +10,6 @@ import product8 from '../../assets/img/product8.png'
 import product9 from '../../assets/img/product9.png'
 import mdlogogold from '../../assets/img/mydream_logogold.svg'
 import mydreamformenlogo from '../../assets/img/mydreamformenlogo.svg'
-import logodf from '../../assets/img/logodf.svg'
 
 function Products() {
     return (
@@ -158,12 +157,6 @@ function Products() {
                 <div className='footer_icon'>
                     <a href="https://www.instagram.com/omeusalaoburitis" target="_blank" rel="noopener noreferrer">
                         <i className='fab fa-instagram'></i>
-                    </a>
-                </div>
-                <div className='auth_prod'>
-                    <h1>Powered by</h1>
-                    <a href="https://www.designfactoryweb.com.br" target="_blank" rel="noopener noreferrer">
-                        <img src={logodf} alt="logodf"></img>
                     </a>
                 </div>
             </div>
